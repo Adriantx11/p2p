@@ -1,0 +1,14 @@
+# Response Data File
+# This file is used to store response data from various gateways
+# Generated automatically during bot execution
+
+# Example response format:
+# {
+#   "status": "success",
+#   "gateway": "paypal",
+#   "response": "response_data_here",
+#   "timestamp": "2024-01-01 12:00:00"
+# }
+
+# File will be populated during bot execution
+# Do not edit manually 

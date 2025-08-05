@@ -54,5 +54,5 @@ npm-debug.log*
 # Test and temporary files
 test_*.php
 migrate_*.php
-response.txt
+# response.txt (commented out since user wants it included)
 hola.txt 
