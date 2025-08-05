@@ -76,5 +76,4 @@ $config['db']['path'] = "database/siesta.db";
 |
 */
 $config['anti_spam_timer'] =  "30";
-
-?> 
+?>
