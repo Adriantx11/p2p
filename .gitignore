@@ -51,18 +51,8 @@ composer.lock
 node_modules/
 npm-debug.log*
 
-# Test files
-test_sqlite.php
-migrate_to_sqlite.php
-
-# Migration files
-MIGRATION_SUMMARY.md
-README_SQLITE_MIGRATION.md
-
-# Deployment scripts (optional - remove if you want to include them)
-install_vps.sh
-quick_deploy.sh
-setup_bot.sh
-VPS_DEPLOYMENT_GUIDE.md
-EJECUTAR_EN_VPS.md
-README_VPS.md 
+# Test and temporary files
+test_*.php
+migrate_*.php
+response.txt
+hola.txt 

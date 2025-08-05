@@ -9,7 +9,7 @@ Un bot de Telegram avanzado para verificación de tarjetas de crédito con múlt
 - 💾 **Base de Datos SQLite**: Almacenamiento ligero y eficiente
 - 🛡️ **Anti-Spam**: Protección contra spam y uso excesivo
 - 📊 **Herramientas Integradas**: BIN Lookup, Address Generator, Site Checker
-- 🔧 **Fácil Despliegue**: Scripts automáticos para VPS
+- 🔧 **Fácil Despliegue**: Configuración simple y rápida
 - 📱 **Interfaz Intuitiva**: Botones inline y navegación fácil
 
 ## 🚀 Instalación Rápida
@@ -19,26 +19,15 @@ Un bot de Telegram avanzado para verificación de tarjetas de crédito con múlt
 - Extensiones PHP: sqlite3, curl, json, mbstring, xml
 - VPS con Ubuntu/Debian (recomendado)
 
-### Instalación Automática
-```bash
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/telegram-bot.git
-cd telegram-bot
-
-# Ejecutar script de instalación
-chmod +x install_vps.sh
-./install_vps.sh
-```
-
 ### Instalación Manual
 ```bash
-# 1. Instalar dependencias
+# 1. Clonar el repositorio
+git clone https://github.com/Adriantx11/p2p.git
+cd p2p
+
+# 2. Instalar dependencias
 sudo apt update
 sudo apt install php8.2 php8.2-cli php8.2-sqlite3 php8.2-curl php8.2-mbstring php8.2-xml php8.2-json -y
-
-# 2. Clonar repositorio
-git clone https://github.com/tu-usuario/telegram-bot.git
-cd telegram-bot
 
 # 3. Configurar
 mkdir -p database
@@ -80,7 +69,7 @@ $config['anti_spam_timer'] = "30";
 ## 🏗️ Estructura del Proyecto
 
 ```
-telegram-bot/
+p2p/
 ├── Admins/           # Funciones de administración
 ├── Class/            # Clases principales
 ├── Config/           # Archivos de configuración
@@ -93,19 +82,6 @@ telegram-bot/
 ├── database/         # Base de datos SQLite
 ├── index.php         # Punto de entrada
 └── require.php       # Cargador de archivos
-```
-
-## 🔧 Despliegue en VPS
-
-### Opción 1: Script Automático
-```bash
-curl -sSL https://raw.githubusercontent.com/tu-usuario/telegram-bot/main/install_vps.sh | bash
-```
-
-### Opción 2: Despliegue Manual
-```bash
-# Ver guía completa
-cat VPS_DEPLOYMENT_GUIDE.md
 ```
 
 ## 📊 Comandos del Bot
@@ -154,32 +130,6 @@ head -1 Config/Config.php
 head -1 Config/Vars.php
 ```
 
-## 📈 Monitoreo
-
-### Verificar Estado
-```bash
-# Si usas systemd
-sudo systemctl status telegram-bot
-
-# Ver logs
-sudo journalctl -u telegram-bot -f
-```
-
-### Script de Monitoreo
-```bash
-# Crear script de monitoreo automático
-cat > monitor_bot.sh << 'EOF'
-#!/bin/bash
-if ! pgrep -f "php index.php" > /dev/null; then
-    echo "$(date): Bot no está corriendo, reiniciando..." >> /var/log/bot_monitor.log
-    cd /ruta/del/bot
-    php index.php &
-fi
-EOF
-
-chmod +x monitor_bot.sh
-```
-
 ## 🔒 Seguridad
 
 - ✅ Configuración de firewall
@@ -202,9 +152,8 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 
 ## 📞 Soporte
 
-- **Documentación**: [Wiki del proyecto](https://github.com/tu-usuario/telegram-bot/wiki)
-- **Issues**: [Reportar problemas](https://github.com/tu-usuario/telegram-bot/issues)
-- **Discusiones**: [Foro de la comunidad](https://github.com/tu-usuario/telegram-bot/discussions)
+- **Issues**: [Reportar problemas](https://github.com/Adriantx11/p2p/issues)
+- **Discusiones**: [Foro de la comunidad](https://github.com/Adriantx11/p2p/discussions)
 
 ## ⭐ Estrellas
 

@@ -84,22 +84,4 @@ $config['anti_spam_timer'] = "30";
 | API Key for CAPTCHA solving (Optional)
 |
 */
-$config['capsolver_key'] = "YOUR_CAPSOLVER_KEY_HERE";
-
-/*
-|--------------------------------------------------------------------------
-| Debug Mode
-|--------------------------------------------------------------------------
-| Enable debug mode for development
-|
-*/
-$config['debug'] = false;
-
-/*
-|--------------------------------------------------------------------------
-| Log Errors
-|--------------------------------------------------------------------------
-| Enable error logging
-|
-*/
-$config['log_errors'] = true; 
+$config['capsolver_key'] = "YOUR_CAPSOLVER_KEY_HERE"; 
