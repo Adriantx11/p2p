@@ -1,0 +1,25 @@
+{
+  "name": "siesta-checker-vercel",
+  "version": "2.0.0",
+  "description": "Siesta Checker - Serverless Web Application for Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for PHP'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "credit-card",
+    "checker",
+    "vercel",
+    "serverless",
+    "php"
+  ],
+  "author": "Siesta Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  }
+}
