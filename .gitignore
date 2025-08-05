@@ -4,9 +4,9 @@ database/
 *.sqlite
 *.sqlite3
 
-# Configuration files with sensitive data
-Config/Config.php
-Config/Vars.php
+# Configuration files with sensitive data (commented out since user wants them included)
+# Config/Config.php
+# Config/Vars.php
 
 # Log files
 *.log
