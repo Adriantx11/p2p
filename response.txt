@@ -1,0 +1,4112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--[if gt IE 9]><!-->
+<script>//common/scripts.isml</script>
+    
+<script defer type="text/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/js/vendor.js"></script>
+<script defer type="text/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/js/main.js"></script>
+
+    <script defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJPhcklmLT9aOVHfXSLnnDwlg6-pB8CLc&amp;libraries=places,marker"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/js/checkout.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/client.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/data-collector.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/hosted-fields.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/three-d-secure.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/paypal.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/paypal-checkout.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/venmo.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/apple-pay.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/local-payment.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://pay.google.com/gp/p/js/pay.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/google-payment.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/js/int_braintree.js"
+        
+        >
+    </script>
+
+
+<!--<![endif]-->
+<meta charset=UTF-8>
+
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    
+    
+        <title>Checkout - Caffe Borbone</title>
+    
+
+    <meta name="description" content="Checkout - Caffe Borbone"/>
+    <meta name="keywords" content="Caffe Borbone,Checkout"/>
+
+
+
+
+
+
+    <meta name="facebook-domain-verification" content="b2n62undm9ssro5pthktsy4lolie9m" />
+
+
+<link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+>
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+>
+<link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&family=Marcellus&display=swap"
+    rel="stylesheet"
+>
+
+
+
+    
+
+
+<link rel="icon" type="image/png" href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/default/dw04fab290/images/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/default/dw8f8715ee/images/favicons/favicon-128.png" sizes="128x128" />
+<link rel="icon" type="image/png" href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/default/dw49849470/images/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/default/dw8b84d563/images/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/default/dwe9d28513/images/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/default/dw91dbba2c/images/favicon.ico" />
+
+<link rel="stylesheet" href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/css/global.css" />
+
+    <link rel="stylesheet" href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/css/checkout.css"  />
+
+    <link rel="stylesheet" href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/css/braintree.css"  />
+
+
+
+
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2887698,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<link
+rel="stylesheet"
+href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/css/checkoutStagesStyle.css"
+/>
+<script type="application/javascript">
+window.checkoutStagesConfigs = window.checkoutStagesConfigs || {};
+window.checkoutStagesConfigs.isCheckoutStagesPluginEnabled = true;
+window.checkoutStagesConfigs.skipPlaceOrderPaymentMethodsIds = ["ApplePay","CREDIT_CARD","PayPal","ScalaPay","cashOnDelivery","sofort","wireTransfer"];
+window.checkoutStagesConfigs.jsSelectorSubmitPayment = ".btn.submit-payment";
+window.checkoutStagesConfigs.jsSelectorPlaceOrder = ".btn.place-order";
+window.checkoutStagesConfigs.jsSelectorEditPayment = ".payment-summary .edit-button";
+window.checkoutStagesConfigs.jsSelectorPaymentOptionRadio = "input[name=\"payment-option\"]";
+</script>
+<script type="application/javascript">
+window.checkoutStagesConfigs = window.checkoutStagesConfigs || {};
+window.checkoutStagesConfigs.labelPlaceOrder = "Confirm your Order";
+window.checkoutStagesConfigs.labelSubmitPayment = "Go to the summary to confirm";
+window.checkoutStagesConfigs.placeOrderGenericError = "Something went wrong. Try to change your payment";
+</script>
+<script type="application/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/js/checkoutStagesScript.js"></script>
+<script>window.Resources = {"address":{"button.confirm":"Yes"},"account":{"subscription.cancel.machine.caption":"If you cancel your subscription, you’ll be charged the amount of <span class=\"js-amount\"></span>€ for the outstanding instalments on the machine. Do you want to go ahead?","subscription.cancel.trial.caption":"Are you sure you want to cancel your subscription during your withdrawal period?","subscription.cancel.notrial.caption":"Do you want to cancel your monthly subscription?","subscription.suspend.disabled.success":"Your subscription has been suspended successfully","msg.suspend.bimonthly.confirmation.modal":"Suspend delivery of your subscription products for 2 months? Delivery of your products will restart from ","msg.cancel.confirmation.success":"<b>Your subscription has been cancelled!</b><br/><br/>Your subscription has been cancelled successfully.<br/>We’ve sent a confirmation email to your address, <b>check your email!</b>"},"common":{"global.storename":"Caffe Borbone","button.previous":"Previous","button.next":"Next","label.select":"Select","label.confirm":"ok"},"chart":{"chart.label.intensity":"Intensity","chart.label.sweetness":"Sweetness","chart.label.persistence":"Persistence","chart.label.acidity":"Acidity","chart.label.body":"Body"},"pricing":{"label.starting_from":"Starting from"},"product":{"button.choiceofbonus.remove":"Remove","button.choiceofbonus.select":"Select","button.choiceofbonus.removeAll":"Remove all"},"subscription":{"cardstep.selectedmachine.title":"Your new machine","cardstep.machine.editcta":"CHANGE MACHINE","cardstep.selectedsystem.title":"Your system","cardstep.system.editcta":"EDIT SYSTEM","cardstep.selectedplan.title":"your monthly plan","cardstep.plan.startsfrom":"starting from","cardstep.plan.machineincluded":"Machine included","cardstep.plan.monthly":"Charged every month","cardstep.plan.bimonthly":"Charged every two months","cardstep.plan.editcta":"EDIT YOUR PLAN","cardstep.plan.bimonthly.billing":"cardstep.plan.bimonthly.billing","cardstep.coffee.BE.NL.firstcharge":"cardstep.coffee.BE.NL.firstcharge","cardstep.coffee.BE.NL.aftercharge":"cardstep.coffee.BE.NL.aftercharge","common.lbl.extrasmall":"Extra small","common.lbl.small":"Small","common.lbl.medium":"Medium","common.lbl.large":"Large","common.lbl.extralarge":"Extra large","common.lbl.or":"or","price.symbol.EUR":"€","subscription.machine.BE.NL":"subscription.machine.BE.NL","subscription.machine.frequency":"Every month for 12 months","subscription.machine.frequency2":"with payment every two months","subscription.machine.planincluded":"Included in your monthly plan","subscription.plan.bonus":"Descaler included!","subscription.plan.caption":"Coffees per day","subscription.plan.pods":"Pods per month","subscription.plan.capsule":"Capsules per month","subscription.coffee.numbershelptext":"/{0} packs selected","subscription.selectedmachine.title":"subscription.selectedmachine.title","myaccount.editbilling.disclaimer":"<b>Caution:</b> once you have changed the billing address, <b>the new address entered will be used for all your current subscriptions.</b>"},"checkout":{"pudo.locator.firstName":"pudo.locator.firstName","pudo.locator.lastName":"pudo.locator.lastName","pudo.locator.noresults":"pudo.locator.noresults"},"forms":{"error.message.parse.zip":"Please enter a valid zip code","error.message.parse.vat":"Please insert a valid VAT number"}};</script>
+<script>window.Icons = {"logo":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#logo","chevron-left":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#chevron-left","chevron-right":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#chevron-right","coffeeglass24icon":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#coffeeglass24icon","capsule24icon":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#capsule24icon","pods24icon":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#pods24icon","close":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#close","search":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#search","gift-icon":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#gift-icon","add-coffee":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#add-coffee","green-check":"/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#green-check"};</script>
+<script>window.SitePreferences = {"google":{"mapAPI":null},"newsletter":{"intervalToShowModal":5},"currentCompetition":{"intervalToShowCurrentCompetitionModal":7}};</script>
+<script>window.Urls = {"cart":"/gb/en/cart"};</script>
+<script>window.CurrencyFormat = {"name":"Euro","code":"EUR","symbol":"€","fractionDigits":2};</script>
+
+<!-- Marketing Cloud Analytics -->
+<script type="text/javascript" src="//510004515.collect.igodigital.com/collect.js"></script>
+<!-- End Marketing Cloud Analytics -->
+<script type="application/javascript">
+window.lazySizesConfig = {
+init: false // Do not change this, it will be initialized via lazyLoad.js
+};
+window.lazyLoadConfig = {
+precision: 10,
+selector: '.lazy__wrapper'
+};
+</script>
+<link rel="stylesheet" href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/css/lazy-load.css" />
+<script type="application/javascript">
+window.imageTransformationConfigs = {
+sampleImageURL: "null",
+transformationBaseURL: "https://www.caffeborbone.com/dw/image/v2/BHCB_PRD"
+}
+</script>
+<script type="application/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/js/lazyLoad.js"></script>
+<link rel="alternate" hreflang="it" href="https://www.caffeborbone.com/it/it/checkout" />
+
+<link rel="alternate" hreflang="de" href="https://www.caffeborbone.com/de/de/checkout" />
+
+<link rel="alternate" hreflang="en" href="https://www.caffeborbone.com/gb/en/checkout" />
+
+<link rel="alternate" hreflang="es" href="https://www.caffeborbone.com/es/es/checkout" />
+
+<link rel="alternate" hreflang="fr" href="https://www.caffeborbone.com/fr/fr/checkout" />
+
+<link rel="canonical" href="https://www.caffeborbone.com/gb/en/checkout"/>
+
+
+
+
+
+
+
+
+
+    
+    
+    <script>
+    dataLayer = [{"pageType":"Checkout Page","loginStatus":"not logged","userID":"","country":"GB","sha256_userID":"","nuovoCliente":"si","Lingua":"EN","eventID":"e7d1ee9c0d320c3f94758ee61b","user_data":{"first_name":null,"last_name":null,"email_address":null,"email_sha256":null,"phone_number":null,"date_of_birth":null,"city":null,"region":null,"postal_code":null,"country":null}}];
+    window.basketInfo = {"currencyCode":"EUR","value":12,"coupon":""};
+    window.subsBasketInfo = null;
+</script> 
+
+    <script>
+        window.lineItemCtnrProducts = [{"price":6,"item_id":"CREMACAFFEBAILEYS","item_name":"Borbone Coffee Cream with Baileys®","coupon":"promo_shipping_eu","index":0,"item_category":"PRODUCTS","item_category2":"To better enjoy your coffee","item_category3":"","item_category4":"","item_category5":"","item_variant":"Crema baileys Caffè","item_pack_dimension":"1 brick","quantity":1,"discount":0}];
+        window.orderInfo = {};
+        window.currencyCode = "EUR";
+    </script>
+
+
+
+
+
+
+    <script>
+        window.dataLayer=window.dataLayer||[];
+        function gtag(){
+            dataLayer.push(arguments);
+        }
+        gtag("consent","default", {
+            ad_storage:"denied",
+            analytics_storage:"denied",
+            functionality_storage:"denied",
+            personalization_storage:"denied",
+            security_storage:"granted",
+			ad_user_data:"denied",
+			ad_personalization:"denied",
+            wait_for_update:2000,
+        });
+    </script>
+
+
+
+
+
+
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://ssgtm.caffeborbone.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MMBHPST');
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    <script>
+        (function (w,d) {var loader = function () {
+            var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];
+            s.src="https://cdn.iubenda.com/iubenda.js";
+            tag.parentNode.insertBefore(s,tag);};
+            if (w.addEventListener) {
+                w.addEventListener("load", loader, false);
+            } else if(w.attachEvent) {
+                w.attachEvent("onload", loader);
+            } else {
+                w.onload = loader;
+            }
+        })(window, document);
+    </script>
+
+    <script>
+        var _iub = _iub || [];
+
+        _iub.csConfiguration = {
+"askConsentAtCookiePolicyUpdate":true,
+"floatingPreferencesButtonDisplay":"bottom-right",
+"perPurposeConsent":true,
+"siteId":3333576,
+"whitelabel":false,
+"cookiePolicyId":77863493,
+"lang":"it", 
+"banner":{ "acceptButtonCaptionColor":"#FFFFFF",
+"acceptButtonColor":"#0073CE",
+"acceptButtonDisplay":true,
+"backgroundColor":"#FFFFFF",
+"brandBackgroundColor":"#FFFFFF",
+"brandTextColor":"#002855",
+"closeButtonRejects":true,
+"customizeButtonCaptionColor":"#4D4D4D",
+"customizeButtonColor":"#DADADA",
+"customizeButtonDisplay":true,
+"explicitWithdrawal":true,
+"listPurposes":true,
+"logo":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAABDCAYAAACVxUd9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAECWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEzLTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InV1aWQ6NUQyMDg5MjQ5M0JGREIxMTkxNEE4NTkwRDMxNTA4QzgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEQ1MEZCNkQwOUYyMTFFQUFCREY4NTU2MTEyREUzRUUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEQ1MEZCNkMwOUYyMTFFQUFCREY4NTU2MTEyREUzRUUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgSWxsdXN0cmF0b3IgQ0MgMjMuMCAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0idXVpZDoxZDVjODE1My1iMmJiLTRi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",
+"position":"float-top-center",
+"textColor":"#000000" },
+"callback": {
+        onPreferenceExpressedOrNotNeeded: function (preference) {
+            dataLayer.push({
+                iubenda_ccpa_opted_out: _iub.cs.api.isCcpaOptedOut()
+      });
+            if (!preference) {
+                dataLayer.push({
+                    event: "iubenda_preference_not_needed"
+        });
+      } else {
+                if (preference.consent === true) {
+                    dataLayer.push({
+                        event: "iubenda_consent_given"
+          });
+        } else if (preference.consent === false) {
+                    dataLayer.push({
+                        event: "iubenda_consent_rejected"
+          });
+        } else if (preference.purposes) {
+                    for (var purposeId in preference.purposes) {
+                        if (preference.purposes[purposeId
+            ]) {
+                            dataLayer.push({
+                                event: "iubenda_consent_given_purpose_" + purposeId
+              });
+            }
+          }
+        }
+      }
+    }
+  }
+};
+        _iub.csConfiguration.lang = "en";
+    </script>
+
+    <script src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async="async"></script>
+
+
+
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-active_data.js) */
+var dw = (window.dw || {});
+dw.ac = {
+    _analytics: null,
+    _events: [],
+    _category: "",
+    _searchData: "",
+    _anact: "",
+    _anact_nohit_tag: "",
+    _analytics_enabled: "true",
+    _timeZone: "Europe/Rome",
+    _capture: function(configs) {
+        if (Object.prototype.toString.call(configs) === "[object Array]") {
+            configs.forEach(captureObject);
+            return;
+        }
+        dw.ac._events.push(configs);
+    },
+	capture: function() { 
+		dw.ac._capture(arguments);
+		// send to CQ as well:
+		if (window.CQuotient) {
+			window.CQuotient.trackEventsFromAC(arguments);
+		}
+	},
+    EV_PRD_SEARCHHIT: "searchhit",
+    EV_PRD_DETAIL: "detail",
+    EV_PRD_RECOMMENDATION: "recommendation",
+    EV_PRD_SETPRODUCT: "setproduct",
+    applyContext: function(context) {
+        if (typeof context === "object" && context.hasOwnProperty("category")) {
+        	dw.ac._category = context.category;
+        }
+        if (typeof context === "object" && context.hasOwnProperty("searchData")) {
+        	dw.ac._searchData = context.searchData;
+        }
+    },
+    setDWAnalytics: function(analytics) {
+        dw.ac._analytics = analytics;
+    },
+    eventsIsEmpty: function() {
+        return 0 == dw.ac._events.length;
+    }
+};
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-cquotient.js) */
+var CQuotient = window.CQuotient = {};
+CQuotient.clientId = 'bhcb-caffeborbone-eu';
+CQuotient.realm = 'BHCB';
+CQuotient.siteId = 'caffeborbone-eu';
+CQuotient.instanceType = 'prd';
+CQuotient.locale = 'en_GB';
+CQuotient.fbPixelId = '__UNKNOWN__';
+CQuotient.activities = [];
+CQuotient.cqcid='';
+CQuotient.cquid='';
+CQuotient.cqeid='';
+CQuotient.cqlid='';
+CQuotient.apiHost='api.cquotient.com';
+/* Turn this on to test against Staging Einstein */
+/* CQuotient.useTest= true; */
+CQuotient.useTest = ('true' === 'false');
+CQuotient.initFromCookies = function () {
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+	  var c = ca[i];
+	  while (c.charAt(0)==' ') c = c.substring(1,c.length);
+	  if (c.indexOf('cqcid=') == 0) {
+		CQuotient.cqcid=c.substring('cqcid='.length,c.length);
+	  } else if (c.indexOf('cquid=') == 0) {
+		  var value = c.substring('cquid='.length,c.length);
+		  if (value) {
+		  	var split_value = value.split("|", 3);
+		  	if (split_value.length > 0) {
+			  CQuotient.cquid=split_value[0];
+		  	}
+		  	if (split_value.length > 1) {
+			  CQuotient.cqeid=split_value[1];
+		  	}
+		  	if (split_value.length > 2) {
+			  CQuotient.cqlid=split_value[2];
+		  	}
+		  }
+	  }
+	}
+}
+CQuotient.getCQCookieId = function () {
+	if(window.CQuotient.cqcid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqcid;
+};
+CQuotient.getCQUserId = function () {
+	if(window.CQuotient.cquid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cquid;
+};
+CQuotient.getCQHashedEmail = function () {
+	if(window.CQuotient.cqeid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqeid;
+};
+CQuotient.getCQHashedLogin = function () {
+	if(window.CQuotient.cqlid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqlid;
+};
+CQuotient.trackEventsFromAC = function (/* Object or Array */ events) {
+try {
+	if (Object.prototype.toString.call(events) === "[object Array]") {
+		events.forEach(_trackASingleCQEvent);
+	} else {
+		CQuotient._trackASingleCQEvent(events);
+	}
+} catch(err) {}
+};
+CQuotient._trackASingleCQEvent = function ( /* Object */ event) {
+	if (event && event.id) {
+		if (event.type === dw.ac.EV_PRD_DETAIL) {
+			CQuotient.trackViewProduct( {id:'', alt_id: event.id, type: 'raw_sku'} );
+		} // not handling the other dw.ac.* events currently
+	}
+};
+CQuotient.trackViewProduct = function(/* Object */ cqParamData){
+	var cq_params = {};
+	cq_params.cookieId = CQuotient.getCQCookieId();
+	cq_params.userId = CQuotient.getCQUserId();
+	cq_params.emailId = CQuotient.getCQHashedEmail();
+	cq_params.loginId = CQuotient.getCQHashedLogin();
+	cq_params.product = cqParamData.product;
+	cq_params.realm = cqParamData.realm;
+	cq_params.siteId = cqParamData.siteId;
+	cq_params.instanceType = cqParamData.instanceType;
+	cq_params.locale = CQuotient.locale;
+	
+	if(CQuotient.sendActivity) {
+		CQuotient.sendActivity(CQuotient.clientId, 'viewProduct', cq_params);
+	} else {
+		CQuotient.activities.push({activityType: 'viewProduct', parameters: cq_params});
+	}
+};
+/* ]]> */
+// -->
+</script>
+
+</head>
+<body>
+
+<div class="page page-checkout-begin">
+<header class="header-navigation header-navigation--checkout">
+    <a href="#maincontent" class="skip sr-only" aria-label="Skip to main content">Skip to main content</a>
+<a href="#footercontent" class="skip sr-only" aria-label="Skip to footer content">Skip to footer content</a>
+
+
+    <div class="header-navigation__main bg-header-menu">
+
+        <div class="container">
+            <nav class="navbar-expand justify-content-center align-items-center row">
+                <ul
+                    class="navbar-nav col-3 position-static justify-content-start navbar-nav--left"
+                    role="menu"
+                >
+                    <li class="nav-item nav-item--top-level d-inline-flex" role="presentation">
+                        <a href="/gb/en/cart" class="nav-item--back">
+                            <i class="isicon isicon--chevron-left " style="width: 20px; height: 20px; line-height: 20px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#chevron-left"></use>
+    </svg>
+</i>
+ Back
+                        </a>
+                    </li>
+                </ul>
+
+                <ul
+                    class="navbar-nav col-6 position-static justify-content-center navbar-nav--center"
+                    role="menu"
+                >
+                    
+                    <li class="nav-item nav-item--logo">
+                        <a
+                            href="/gb/en/"
+                            title="Caffe Borbone"
+                        >
+                            <i class="isicon isicon--logo-new " style="width: 180px; height: 44px; line-height: 44px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#logo-new"></use>
+    </svg>
+</i>
+
+                        </a>
+                    </li>
+                </ul>
+
+                <ul
+                    class="navbar-nav col-3 position-static justify-content-center navbar-nav--right"
+                    role="menu"
+                >
+                </ul>
+
+            </nav>
+        </div>
+
+    </div>
+</header>
+
+<div role="main" id="maincontent">
+
+
+    
+    <!-- Load Static Assets -->
+    
+     
+    
+
+    
+        
+    
+
+
+
+    
+
+    <div
+        id="checkout-main"
+        class="container data-checkout-stage mt-12 mt-lg-32 mb-24 mb-lg-32 "
+        data-customer-type="guest"
+        data-checkout-stage="customer"
+        data-checkout-get-url="https://www.caffeborbone.com/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/CheckoutServices-Get"
+    >
+        
+        <!-- Help and Phone -->
+        
+
+        
+        
+
+        
+        <div class="checkout-area checkout-area--customer">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    
+                    
+
+                        <div class="card customer-section">
+    
+    <div class="row">
+        <div class="col-12">
+            <div class="customer-error"></div>
+        </div>
+    </div>
+
+    
+    <div class="row justify-content-center">
+
+        
+        <div class="col-md-4">
+            <div class="card-body mb-8">
+
+    <h2 class="h4 customer-card-title text-primary mb-4">Log in</h2>
+    <p class="text-primary-750 mb-6 text-small d-md-none">Access to your personal area to manage your purchases</p>
+    <p class="text-primary-750 mb-6 d-none d-md-block">Access to your personal area to manage your purchases</p>
+
+    
+</div>
+
+
+            <div class="card-body">
+    
+
+    <form autocomplete="on" id="registered-customer" method="POST" class="registered-form" action="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/CheckoutServices-LoginCustomer"
+    name = "dwfrm_coRegisteredCustomer" id = "dwfrm_coRegisteredCustomer" novalidate>
+    <fieldset class="customer-information-block">
+        <div class="row">
+            <div class="col-sm-12">
+
+                
+                <div class="form-group position-relative">
+                    <input
+                        type="text"
+                        id="email"
+                        class="form-control email"
+                        placeholder="Email"
+                        aria-describedby="emailInvalidMessage"
+                        value=""
+                        name="dwfrm_coRegisteredCustomer_email" required aria-required="true" value="" maxLength="50" pattern="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$"
+                    />
+                    <label class="form-control-label">
+                        Email
+                    </label>
+                    <div class="invalid-feedback" id="emailInvalidMessage"></div>
+                </div>
+
+                
+                <div class="form-group password-form position-relative">
+                    <input
+                        type="password"
+                        id="password"
+                        class="form-control password"
+                        placeholder="Password"
+                        aria-describedby="passwordInvalidMessage"
+                        name="dwfrm_coRegisteredCustomer_password" required aria-required="true" value="" maxLength="255" minLength="8"
+                    />
+                    <label class="form-control-label">
+                        Password
+                    </label>
+                    <div class="invalid-feedback" id="passwordInvalidMessage"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="forgot-password-wrapper">
+            <div class="forgot-password">
+                <a
+                    class="text-primary-750"
+                    href="/gb/en/account/resetpassword"
+                    title="forgot password?"
+                >
+                    forgot password?
+                </a>
+            </div>
+            <div class="form-group custom-control custom-checkbox pull-left remember-me text-black">
+                <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="rememberMe"
+                    name="loginRememberMe"
+                    value="true"
+                    
+                >
+                <label
+                    class="custom-control-label"
+                    for="rememberMe"
+                >
+                    Remember me
+                </label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="mb-sm-3">
+                    <button class="btn btn-primary px-12 submit-customer-login" type="submit" name="submit" value="submit-login">
+                        Login
+                    </button>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <input type="hidden" name="csrf_token" value="Y3VMJcp8GPWNKF-OuJ6I6RmoadRImM4IzOh57IHImAIzFO9IesaZFcWltEdZF_SFT1xtL4UVbORukdy6pUUGdiTL3j6BAXHIUwJoIve8p29qdAZkwy4rhsaLFE0y-f3YcwDwZWjPsHRykMVzXUNTMXlh2pXlNsRkG--5vKVXGkXnQkwe66c="/>
+</form>
+
+</div>
+
+        </div>
+
+        
+        <div class="col-md-2">
+            <div class="divider divider--vertical d-none d-md-flex"></div>
+            <div class="divider divider--horizontal my-8 d-md-none"></div>
+        </div>
+
+        
+        <div class="col-md-4">
+
+            <h2 class="h4 text-primary mb-6 mb-lg-8">
+    Continue as a guest
+</h2>
+
+<form autocomplete="on" id="guest-customer" class="guest-form mb-md-12" method="POST" action="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/CheckoutServices-SubmitCustomer"
+    name = "dwfrm_coCustomer" id = "dwfrm_coCustomer" novalidate>
+    <fieldset class="customer-information-block">
+        <div class="row">
+            <div class="col-sm-12">
+
+                
+                <div class="form-group position-relative">
+                    <input
+                        type="text"
+                        id="email-guest"
+                        class="form-control email"
+                        placeholder="Email"
+                        value=""
+                        aria-describedby="guestEmailInvalidMessage"
+                        name="dwfrm_coCustomer_email" required aria-required="true" value="" maxLength="50" pattern="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$"
+                    />
+                    <label class="form-control-label">
+                        Email
+                    </label>
+                    <div class="invalid-feedback" id="guestEmailInvalidMessage"></div>
+                </div>
+
+            </div>
+        </div>
+        
+            <button class="btn btn-primary btn--lg-large submit-customer" type="submit" name="submit" value="submit-customer">
+                Continue as a guest
+            </button>
+        
+    </fieldset>
+    <input type="hidden" name="csrf_token" value="Y3VMJcp8GPWNKF-OuJ6I6RmoadRImM4IzOh57IHImAIzFO9IesaZFcWltEdZF_SFT1xtL4UVbORukdy6pUUGdiTL3j6BAXHIUwJoIve8p29qdAZkwy4rhsaLFE0y-f3YcwDwZWjPsHRykMVzXUNTMXlh2pXlNsRkG--5vKVXGkXnQkwe66c="/>
+</form>
+
+
+            
+            <div class="divider divider--horizontal my-8 d-md-none"></div>
+
+            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="17c698a1edffb20c1705f1193b" -->
+        <div class="info-box">
+    <div class="info-box__text">
+        <h2>Do you need help?</h2>
+        <p>For Information and telephone orders call us at the toll-free <a href="tel:800.811.137">800.811.137</a> available from Italy. From abroad you can contact us at <a href="tel:003908118920046">+39 081 18 92 00 46</a>.</p>
+    </div>
+
+    <div class="divider divider--horizontal bg-gray-200"></div>
+
+    <!-- Icon and text -->
+    <div class="info-box__icon-text">
+        <div class="info-box__icon-text--icon">
+            <i class="isicon isicon--box " style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#box"></use>
+    </svg>
+</i>
+
+        </div>
+        <div class="info-box__icon-text--text">
+            <h2>We will ship in 1/2 working days</h2>
+            <p>
+               <strong>PROMO LIVE: Free</strong> Shipping promotion ordering at least 40€ for Italy and 55€ for abroad
+            </p>
+        </div>
+    </div>
+
+    <!-- Icon and text -->
+    <div class="info-box__icon-text">
+        <div class="info-box__icon-text--icon">
+            <i class="isicon isicon--security " style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#security"></use>
+    </svg>
+</i>
+
+        </div>
+        <div class="info-box__icon-text--text">
+            <h2>Sure Payments</h2>
+            <p>
+                Your payments and your personal data are protected by the highest security systems.
+            </p>
+        </div>
+    </div>
+
+</div>
+    </div> <!-- End content-asset -->
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
+
+                    
+                    
+                    <div class="card customer-summary d-none">
+                        <div class="card-header clearfix">
+                            <h2 class="pull-left card-header-custom">Customer</h2>
+
+
+                            
+
+                                <button
+                                    class="edit-button pull-right"
+                                    aria-label="action.edit.step.msg.customer">Edit</button>
+
+                            
+
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+
+        <div class="checkout-area checkout-area--flow">
+            <div class="row justify-content-between">
+                <div class="col-lg-7">
+
+                    
+                    <!-- Checkout Forms: Shipping, Payment, Coupons, Billing, etc -->
+                    
+                    <h1 class="h3 mb-md-12">Checkout</h1>
+
+                    <div class="alert alert-danger error-message" role="alert">
+                        <p class="error-message-text"></p>
+                    </div>
+                    
+                    
+
+                    <div class="checkout-steps">
+    <div class="checkout-step" data-highlight-on-stage="shipping">01 Shipping summary</div>
+    <div class="checkout-step" data-highlight-on-stage="payment">02 Payment summary</div>
+    <div class="checkout-step d-none" data-highlight-on-stage="placeOrder">03 Order Confirmation</div>
+</div>
+<div class="divider divider--horizontal mt-3 mb-6"></div>
+
+
+                    <div class="row">
+                        <div class="col-12 next-step-button">
+                            <div class="mb-sm-3 d-flex justify-content-center">
+                                <button class="btn btn-primary btn-block btn--sticky place-order mb-lg-6 btn--checkout"
+                                    data-action="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/CheckoutServices-PlaceOrder" type="submit"
+                                    name="submit" value="place-order">Place Order
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card ghost shipping">
+    <div class="card-header">
+        <h2 class="h5 card-header-custom">
+            Shipping address
+            <a href='#' class='country-switcher' data-toggle='modal' data-target="#changeLocaleModal">
+                (to change the country click here)
+            </a>
+        </h2>
+    </div>
+</div>
+
+<div class="shipping-container">
+    
+
+    <div class="card shipping-section shipping-address active">
+
+    
+    <div class="single-shipping">
+        
+        
+        
+        <div data-shipment-uuid="7922dc76db3546d1fbd17376a5">
+            <div class="card-header">
+                <h2 class="h5 card-header-custom">
+                    Shipping address
+                    <a href='#' class='country-switcher' data-toggle='modal' data-target="#changeLocaleModal">
+                        (to change the country click here)
+                    </a>
+                </h2>
+            </div>
+
+            <div class="shipping-error"></div>
+
+            
+
+            <div class="card-body shipping-content">
+    <form class="shipping-form" autocomplete="on" novalidate
+          action="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/CheckoutShippingServices-SubmitShipping"
+          data-address-mode="new"
+          name = "dwfrm_shipping" id = "dwfrm_shipping"
+    >
+        
+
+        <input name="originalShipmentUUID" type="hidden" value="7922dc76db3546d1fbd17376a5" />
+        <input name="shipmentUUID" type="hidden" value="7922dc76db3546d1fbd17376a5" />
+
+        <div class="shipping-address ">
+            <fieldset class="shipment-selector-block d-none ">
+                <div class="form-group">
+    <label class="form-control-label" for="shipmentSelector-default">
+        Shipping To
+    </label>
+
+    <select id="shipmentSelector-default"
+            name="shipmentSelector"
+            class="addressSelector form-control custom-select"
+            data-create-shipment-url="https://www.caffeborbone.com/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/CheckoutAddressServices-CreateNewAddress"
+    >
+        <option value="new"
+        data-first-name="" data-last-name=""
+        data-address1="" data-address2=""
+        data-city="" data-state-code=""
+        data-country-code="" data-postal-code=""
+        data-phone="" data-phone-prefix="">
+    New Address
+</option>
+
+
+
+    </select>
+
+    <div class="invalid-feedback"></div>
+    <div class="row">
+        <button class="col-6 text-center btn-show-details btn" type="button">Update Address</button>
+        <button class="col-6 text-center btn-add-new btn" type="button">Add New</button>
+    </div>
+</div>
+
+            </fieldset>
+
+            <fieldset class="shipping-address-block">
+                
+
+    
+
+
+
+
+<div class="row">
+    <div class="col-sm-6">
+
+        
+        <div class="form-group position-relative
+            required
+            dwfrm_shipping_shippingAddress_addressFields_firstName"
+        >
+            <input
+                autofocus
+                type="text"
+                id="shippingFirstNamedefault"
+                class="form-control form-data shippingFirstName"
+                placeholder="First Name"
+                aria-describedby="defaultFirstName"
+                value=""
+                autocomplete="shipping given-name"
+                name="dwfrm_shipping_shippingAddress_addressFields_firstName" required aria-required="true" value="" maxLength="50"
+            />
+            <label
+                class="form-control-label"
+                for="shippingFirstNamedefault"
+            >
+                First Name
+            </label>
+            <div class="invalid-feedback" id="defaultFirstName"></div>
+        </div>
+
+    </div>
+    <div class="col-sm-6">
+
+        
+        <div class="form-group position-relative
+            required
+            dwfrm_shipping_shippingAddress_addressFields_lastName"
+        >
+            <input
+                type="text"
+                id="shippingLastNamedefault"
+                class="form-control form-data shippingLastName"
+                placeholder="Last Name"
+                aria-describedby="defaultLastName"
+                value=""
+                autocomplete="shipping family-name"
+                name="dwfrm_shipping_shippingAddress_addressFields_lastName" required aria-required="true" value="" maxLength="50"
+            />
+            <label
+                class="form-control-label"
+                for="shippingLastNamedefault"
+            >
+                Last Name
+            </label>
+            <div class="invalid-feedback" id="defaultLastName"></div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+    
+    <div class="col-sm-12">
+        <div class="form-group position-relative
+            required
+            dwfrm_shipping_shippingAddress_addressFields_address1"
+        >
+            <input
+                type="text"
+                id="shippingAddressOnedefault"
+                class="form-control form-data shippingAddressOne"
+                placeholder="Full Address and street number"
+                aria-describedby="defaultAddressLine1"
+                  maxlength="100"
+                value=""
+                autocomplete="shipping address-line1"
+                name="dwfrm_shipping_shippingAddress_addressFields_address1" required aria-required="true" value="" maxLength="40"
+            />
+            <label class="form-control-label" for="shippingAddressOnedefault">
+                Full Address and street number
+            </label>
+            <div class="invalid-feedback" id="defaultAddressLine1"></div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="row">
+
+    
+    <div class="col-sm-12">
+        <div class="form-group position-relative
+            
+            dwfrm_shipping_shippingAddress_addressFields_address2"
+        >
+            <input
+                type="text"
+                id="shippingAddressTwodefault"
+                class="form-control form-data shippingAddressTwo"
+                placeholder="c/o (shop name / office name / name on doorbell if different from recipient)"
+                aria-describedby="defaultAddressLine2"
+                 maxlength="100"
+                value=""
+                autocomplete="shipping address-line2"
+                name="dwfrm_shipping_shippingAddress_addressFields_address2" value="" maxLength="50"
+            />
+            <label class="form-control-label" for="shippingAddressTwodefault">
+                c/o (shop name / office name / name on doorbell if different from recipient)
+            </label>
+            <div class="invalid-feedback" id="defaultAddressLine2"></div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="row">
+    
+    <div class="col-sm-6">
+                <div class="form-group position-relative
+                    required
+                    dwfrm_shipping_shippingAddress_addressFields_postalCode"
+                >
+                    <input
+                        type="text"
+                        id="shippingZipCodedefault"
+                        class="form-control form-data shippingZipCode"
+                        placeholder="ZIP Code"
+                        aria-describedby="defaultZipCode"
+                        value=""
+                        autocomplete="shipping postal-code"
+                        data-action="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Checkout-ValidateZipCode"
+                        data-zip-check="false"
+                        name="dwfrm_shipping_shippingAddress_addressFields_postalCode" required aria-required="true" value="" maxLength="10" minLength="4" pattern="^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})$"
+                    />
+                    <label class="form-control-label" for="shippingZipCodedefault">
+                        ZIP Code
+                    </label>
+                    <div class="invalid-feedback" id="defaultZipCode"></div>
+                    <span class="sr-only">Example: 12345</span>
+                </div>
+    </div>
+
+    
+    <div class="col-sm-6">
+        <div class="form-group position-relative
+            required
+            dwfrm_shipping_shippingAddress_addressFields_city"
+        >
+            <input
+                type="text"
+                id="shippingAddressCitydefault"
+                class="form-control form-data shippingAddressCity"
+                placeholder="City"
+                aria-describedby="defaultCity"
+                value=""
+                autocomplete="shipping address-level2"
+                name="dwfrm_shipping_shippingAddress_addressFields_city" required aria-required="true" value="" maxLength="50" minLength="2"
+            />
+            <label class="form-control-label" for="shippingAddressCitydefault">
+                City
+            </label>
+            <div class="invalid-feedback" id="defaultCity"></div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+    
+    
+
+    
+    <div class="col-sm-12">
+        <div class="form-group position-relative
+            required
+            dwfrm_shipping_shippingAddress_addressFields_country">
+            <select class="form-control form-data shippingCountry custom-select" id="shippingCountrydefault"
+                name="dwfrm_shipping_shippingAddress_addressFields_country" required aria-required="true"
+                autocomplete="shipping country"
+                aria-describedby="defaultCountry">
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <option id="GB" value="GB" >United Kingdom</option>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+            </select>
+            <label class="form-control-label" for="shippingCountrydefault">
+                Country
+            </label>
+            <div class="invalid-feedback" id="defaultCountry"></div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+   
+   <div class="col-sm-3">
+        <div class="form-group position-relative
+            required
+            dwfrm_shipping_shippingAddress_addressFields_prefix_phonePrefix">
+
+            <select class="form-control form-data custom-select" id="shippingPhonePrefixdefault"
+                aria-describedby="defaultPrefix"
+                name="dwfrm_shipping_shippingAddress_addressFields_prefix_phonePrefix" required aria-required="true">
+                    
+                        <option id="Albania +355" value="+355" >Albania +355</option>
+                    
+                        <option id="Austria +43" value="+43" >Austria +43</option>
+                    
+                        <option id="Belgium +32" value="+32" >Belgium +32</option>
+                    
+                        <option id="Bulgaria +359" value="+359" >Bulgaria +359</option>
+                    
+                        <option id="Canada +1" value="+1" >Canada +1</option>
+                    
+                        <option id="Croatia +385" value="+385" >Croatia +385</option>
+                    
+                        <option id="Cyprus +357" value="+357" >Cyprus +357</option>
+                    
+                        <option id="Czech Republic +420" value="+420" >Czech Republic +420</option>
+                    
+                        <option id="Denmark +45" value="+45" >Denmark +45</option>
+                    
+                        <option id="Estonia +372" value="+372" >Estonia +372</option>
+                    
+                        <option id="Finland +358" value="+358" >Finland +358</option>
+                    
+                        <option id="France +33" value="+33" >France +33</option>
+                    
+                        <option id="Germany +49" value="+49" >Germany +49</option>
+                    
+                        <option id="Greece +30" value="+30" >Greece +30</option>
+                    
+                        <option id="Hungary +36" value="+36" >Hungary +36</option>
+                    
+                        <option id="Ireland +353" value="+353" >Ireland +353</option>
+                    
+                        <option id="Italy +39" value="+39" >Italy +39</option>
+                    
+                        <option id="Latvia +371" value="+371" >Latvia +371</option>
+                    
+                        <option id="Lithuania +370" value="+370" >Lithuania +370</option>
+                    
+                        <option id="Luxembourg +352" value="+352" >Luxembourg +352</option>
+                    
+                        <option id="Malta +356" value="+356" >Malta +356</option>
+                    
+                        <option id="Netherlands +31" value="+31" >Netherlands +31</option>
+                    
+                        <option id="Poland +48" value="+48" >Poland +48</option>
+                    
+                        <option id="Portugal +351" value="+351" >Portugal +351</option>
+                    
+                        <option id="Romania +40" value="+40" >Romania +40</option>
+                    
+                        <option id="Russia +7" value="+7" >Russia +7</option>
+                    
+                        <option id="Serbia +381" value="+381" >Serbia +381</option>
+                    
+                        <option id="Slovakia +421" value="+421" >Slovakia +421</option>
+                    
+                        <option id="Slovenia +386" value="+386" >Slovenia +386</option>
+                    
+                        <option id="Spain +34" value="+34" >Spain +34</option>
+                    
+                        <option id="Sweden +46" value="+46" >Sweden +46</option>
+                    
+                        <option id="Switzerland +41" value="+41" >Switzerland +41</option>
+                    
+                        <option id="Ukraine +380" value="+380" >Ukraine +380</option>
+                    
+                        <option id="United Kingdom +44" value="+44" selected>United Kingdom +44</option>
+                    
+            </select>
+            <label class="form-control-label" for="shippingPhonePrefixdefault">
+                Prefix
+            </label>
+            <span class="sr-only" id="defaultPrefix"></span>
+        </div>
+    </div>
+
+    
+    <div class="col-sm-9">
+        <div class="form-group position-relative
+            required
+            dwfrm_shipping_shippingAddress_addressFields_phone"
+        >
+            <input
+                type="tel"
+                id="shippingPhoneNumberdefault"
+                class="form-control form-data shippingPhoneNumber"
+                placeholder="Phone Number"
+                aria-describedby="defaultTelephoneNumber"
+                value=""
+                autocomplete="shipping tel"
+                name="dwfrm_shipping_shippingAddress_addressFields_phone" required aria-required="true" value="" maxLength="20" minLength="6"
+            />
+            <label class="form-control-label" for="shippingPhoneNumberdefault">
+                Phone Number
+            </label>
+            <div class="invalid-feedback" id="defaultTelephoneNumber"></div>
+            <span class="sr-only">Example: 9234567890</span>
+        </div>
+    </div>
+    <input type="hidden"
+        id="shippingPudoIddefault"
+        class="shippingPudoId"
+        value=""
+         />
+</div>
+
+            </fieldset>
+
+            <fieldset class="shipping-method-block">
+                <h5 class="h5 mb-5">Shipping Method</h5>
+
+
+<div class="row leading-lines shipping-method-list" data-select-shipping-method-url="https://www.caffeborbone.com/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/CheckoutShippingServices-SelectShippingMethod" data-action-url="https://www.caffeborbone.com/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/CheckoutShippingServices-UpdateShippingMethodsList">
+    <input name="shipmentUUID" type="hidden" value="7922dc76db3546d1fbd17376a5" />
+
+    
+        <div class="col-12 shipping-method-container">
+            <div class="form-group">
+    <div class="custom-control custom-radio">
+        <input
+            type="radio"
+            id="shippingMethod-standard_eur-7922dc76db3546d1fbd17376a5"
+            class="form-check-input custom-control-input"
+            name="dwfrm_shipping_shippingAddress_shippingMethodID"
+            value="standard_eur"
+            
+            data-default
+            checked
+        />
+        <label
+            class="form-check-label shipping-method-option custom-control-label text-black"
+            for="shippingMethod-standard_eur-7922dc76db3546d1fbd17376a5"
+        >
+            <span class="display-name">Standard</span>
+
+            
+
+            <span class="shipping-cost">&euro;6.00</span>
+        </label>
+    </div>
+</div>
+
+        </div>
+    
+
+</div>
+
+
+<!-- Template used by client to redraw shipping methods                           -->
+
+<div id="shipping-method-template" style="display:none;" >
+    <div class="col-12 shipping-method-container">
+        <div class="form-group">
+            <div class="custom-control custom-radio">
+                <input
+                    type="radio"
+                    id="shippingMethodRadioButton"
+                    class="form-check-input custom-control-input"
+                />
+                <label
+                    class="form-check-label shipping-method-option custom-control-label text-black"
+                    for="shippingMethodRadioButton"
+                >
+                    <span class="display-name"></span>
+                    <span class="arrival-time"></span>
+                    <span class="shipping-cost"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+
+            </fieldset>
+
+            
+            <fieldset class="gift-message-block d-none">
+                <div class="row">
+    <div class="col-12">
+        <div class="form-group">
+            <div class="custom-control custom-checkbox">
+                <input class="custom-control-input gift" type="checkbox" id="isGift-default-7922dc76db3546d1fbd17376a5"
+                    
+                    name="dwfrm_shipping_shippingAddress_isGift" value="true"
+                >
+                <label for="isGift-default-7922dc76db3546d1fbd17376a5" class="custom-control-label checkout-checkbox">
+                    This is a Gift
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row gift-message d-none">
+    <div class="col-12">
+        <div class="form-group">
+            <label for="giftMessage">Message</label>
+            <textarea class="form-control gift-message-7922dc76db3546d1fbd17376a5" id="giftMessage" rows="3"
+            name="dwfrm_shipping_shippingAddress_giftMessage" value="" maxLength="250"
+            ></textarea>
+        </div>
+    </div>
+</div>
+
+            </fieldset>
+        </div>
+
+        <div class="view-address-block d-none">
+            
+
+
+    <h3>Shipping Method
+        <span>
+            
+        </span>
+    </h3>
+    <div class="row leading-lines">
+        <p class="col-8 start-lines">
+            <span class="display-name">Standard</span>
+            
+        </p>
+        <p class="col-4 end-lines text-right">
+            <span class="price">
+                &euro;6.00
+            </span>
+        </p>
+    </div>
+
+
+<div class="summary-details gift-summary d-none">
+    <p class="summary-section-label">Gift Message:</p>
+    <div class="gift-message-summary">
+        
+    </div>
+</div>
+
+
+        </div>
+
+        <div class="multi-ship-action-buttons">
+    <button class="btn btn-outline-primary col-12 btn-enter-multi-ship "
+            data-action="enter">
+        Enter Address
+    </button>
+
+    <div class="row multi-ship-address-actions d-none">
+        <button class="btn btn-outline-primary offset-1 col-5 btn-cancel-multi-ship-address" data-action="cancel">
+            Cancel
+        </button>
+        <button class="btn btn-outline-primary col-5 btn-save-multi-ship" data-action="save">
+            Save
+        </button>
+    </div>
+
+    <button class="btn btn-outline-primary col-12 btn-save-multi-ship save-shipment d-none" data-action="save">
+        Save
+    </button>
+
+    <button class="btn btn-outline-primary btn-edit-multi-ship col-12 d-none"
+            data-action="edit">
+        Edit
+    </button>
+</div>
+
+
+        <input type="hidden" name="csrf_token" value="Y3VMJcp8GPWNKF-OuJ6I6RmoadRImM4IzOh57IHImAIzFO9IesaZFcWltEdZF_SFT1xtL4UVbORukdy6pUUGdiTL3j6BAXHIUwJoIve8p29qdAZkwy4rhsaLFE0y-f3YcwDwZWjPsHRykMVzXUNTMXlh2pXlNsRkG--5vKVXGkXnQkwe66c="/>
+    </form>
+</div>
+
+        </div>
+    </div>
+
+    
+    
+    </div>
+
+    
+</div>
+
+                    <div class="card shipping-summary px-6 px-md-8 py-8 bg-secondary text-black mb-4">
+                        <div class="card-header clearfix bg-transparent mb-6">
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <h2 class="h4 title-sans-serif pull-left card-header-custom">Shipping summary</h2>
+                                <button class="btn edit-button pull-right" aria-label="Edit Shipping">Edit</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            
+
+    
+        <div
+            class="single-shipping"
+            data-shipment-summary="7922dc76db3546d1fbd17376a5"
+        >
+
+            <div class="row">
+
+                
+                <div class="col-md-6">
+                    <p class="summary-section-label shipping-addr-label">Shipping Address:</p>
+
+                    
+                        
+                    
+                    <div class="summary-details shipping">
+
+                        
+                        <div class="address-summary mb-8">
+    <div>
+        <span class="firstName">
+            
+        </span>
+        <span class="lastName">
+            
+        </span>
+    </div>
+
+    <div class="address1">
+        
+    </div>
+
+    <div class="address2">
+        
+    </div>
+    <div class="place">
+        <span class="postalCode">
+            
+        </span>
+        <span class="city">
+            
+        </span>
+        <span class="stateCode">
+            
+        </span>
+    </div>
+</div>
+
+
+                        <div class="shipping-phone">
+                             nullnull
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-6">
+                    <p class="summary-section-label shipping-method-label mt-4 mt-md-0">Shipping Method:</p>
+                    <div class="summary-details leading-lines">
+                        <div class="d-flex flex-row justify-content-start">
+                            <p class="shipping-method">
+                                <span class="shipping-method-title">Standard</span>
+                                <span class="shipping-method-arrival-time">
+                                    
+                                </span>
+                            </p>
+                            <p class="mx-2">&mdash;</p>
+                            <p class="text-right pricing shipping-method-price">
+                                &euro;6.00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                
+                <div class="col-12">
+                    <div class="summary-details gift-summary d-none">
+    <p class="summary-section-label">Gift Message:</p>
+    <div class="gift-message-summary">
+        
+    </div>
+</div>
+
+                </div>
+
+            </div>
+
+        </div>
+    
+
+
+
+                        </div>
+                    </div>
+
+                    
+                    <div class="card ghost payment">
+    <div class="card-header">
+        <h2 class="h5 card-header-custom">Payment summary</h2>
+    </div>
+</div>
+
+<div class="card payment-form mt-8">
+
+    <div class="card-header">
+        <h2 class="h4 title-sans-serif card-header-custom">Payment summary</h2>
+    </div>
+
+    <div class="card-body">
+        <form autocomplete="on" method="POST" action="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/CheckoutServices-SubmitPayment"
+            data-address-mode="new"
+            name = "dwfrm_billing" id = "dwfrm_billing" novalidate>
+
+            <fieldset class="billing-address-block">
+                
+                <!-- Billing Address Selector                                             -->
+                
+                <fieldset class="address-selector-block">
+                    <div class="form-group position-relative">
+
+                        
+
+<select id="billingAddressSelector"
+        name="addressSelector"
+        class="addressSelector form-control custom-select"
+        data-create-shipment-url="https://www.caffeborbone.com/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Checkout-SetBillingAddress">
+    
+        <option value="new"
+            data-first-name="" data-last-name=""
+            data-address1="" data-address2=""
+            data-city="" data-state-code=""
+            data-country-code="" data-postal-code=""
+            data-phone="" data-phone-prefix="">
+            New Address
+        </option>
+    
+    
+    
+</select>
+
+
+
+                        <label class="form-control-label" for="billingAddressSelector">
+                            Billing Address
+                        </label>
+
+                        <div class="invalid-feedback"></div>
+
+                        <div class="d-flex flex-row justify-content-start">
+                            <button class="btn-show-details btn py-2 pl-0 pr-2" type="button">
+                                <u>Update Address</u>
+                            </button>
+                            <button class="btn-add-new btn p-2" type="button">
+                                <u>Add New</u>
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+
+                
+                <!-- Billing Address                                                      -->
+                
+                <fieldset class="billing-address">
+                    
+<div class="row">
+
+    
+    <div class="col-sm-6">
+        <div class="form-group position-relative
+            required
+            dwfrm_billing_addressFields_firstName"
+        >
+            <input
+                autofocus
+                type="text"
+                id="billingFirstName"
+                class="form-control billingFirstName"
+                placeholder="First Name"
+                value=""
+                autocomplete="given-name"
+                name="dwfrm_billing_addressFields_firstName" required aria-required="true" value="" maxLength="50"
+            />
+            <label class="form-control-label" for="billingFirstName">First Name</label>
+            <div class="invalid-feedback"></div>
+        </div>
+    </div>
+
+    
+    <div class="col-sm-6">
+        <div class="form-group position-relative
+            required
+            dwfrm_billing_addressFields_lastName"
+        >
+            <input
+                type="text"
+                id="billingLastName"
+                class="form-control billingLastName"
+                placeholder="Last Name"
+                value=""
+                autocomplete="family-name"
+                name="dwfrm_billing_addressFields_lastName" required aria-required="true" value="" maxLength="50"
+            />
+            <label class="form-control-label" for="billingLastName">Last Name</label>
+            <div class="invalid-feedback"></div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+    
+    <div class="col-sm-12">
+        <div class="form-group position-relative
+            required
+            dwfrm_billing_addressFields_address1"
+        >
+            <input
+                type="text"
+                id="billingAddressOne"
+                class="form-control billingAddressOne"
+                placeholder="Full Address and street number"
+                value=""
+                autocomplete="billing address-line1"
+                name="dwfrm_billing_addressFields_address1" required aria-required="true" value="" maxLength="40"
+            />
+            <label class="form-control-label" for="billingAddressOne">Full Address and street number</label>
+            <div class="invalid-feedback"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    
+    <div class="col-sm-12">
+        <div class="form-group position-relative
+            
+            dwfrm_billing_addressFields_address2"
+        >
+            <input
+                type="text"
+                id="billingAddressTwo"
+                class="form-control billingAddressTwo"
+                placeholder="c/o (shop name / office name / name on doorbell if different from recipient)"
+                value=""
+                autocomplete="billing address-line2"
+                name="dwfrm_billing_addressFields_address2" value="" maxLength="50"
+            />
+            <label class="form-control-label" for="billingAddressTwo">c/o (shop name / office name / name on doorbell if different from recipient)</label>
+            <div class="invalid-feedback"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    
+    <div class="col-sm-6">
+        <div class="form-group position-relative
+            required
+            dwfrm_billing_addressFields_country">
+            <select class="billingCountry custom-select" id="billingCountry"
+                name="dwfrm_billing_addressFields_country" required aria-required="true"
+                autocomplete="billing country"
+                aria-describedby="defaultCountry">
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <option id="GB" value="GB"
+                                
+                            >
+                                United Kingdom
+                            </option>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+            </select>
+            <label class="form-control-label" for="billingCountry">Country</label>
+            <div class="invalid-feedback"></div>
+
+        </div>
+
+    </div>
+
+    
+    <div class="col-sm-6">
+        
+    </div>
+
+</div>
+
+<div class="row">
+
+    
+    <div class="col-sm-6">
+        <div class="form-group position-relative
+            required
+            dwfrm_billing_addressFields_city"
+        >
+            <input
+                type="text"
+                class="form-control billingAddressCity"
+                id="billingAddressCity"
+                placeholder="City"
+                value=""
+                autocomplete="billing address-level2"
+                name="dwfrm_billing_addressFields_city" required aria-required="true" value="" maxLength="50" minLength="2"
+            />
+            <label class="form-control-label" for="billingAddressCity">City</label>
+            <div class="invalid-feedback"></div>
+        </div>
+    </div>
+
+    
+    <div class="col-sm-6">
+        <div class="form-group position-relative
+            required
+            dwfrm_billing_addressFields_postalCode"
+        >
+            <input
+                type="text"
+                id="billingZipCode"
+                class="form-control billingZipCode"
+                placeholder="ZIP Code"
+                value=""
+                autocomplete="billing postal-code"
+                name="dwfrm_billing_addressFields_postalCode" required aria-required="true" value="" maxLength="10" minLength="4" pattern="^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\s?[0-9][A-Za-z]{2})$"
+            />
+            <label class="form-control-label" for="billingZipCode">ZIP Code</label>
+            <div class="invalid-feedback"></div>
+            <span class="d-none">Example: 12345</span>
+        </div>
+    </div>
+
+</div>
+
+                </fieldset>
+
+                <input type="hidden" name="csrf_token" value="Y3VMJcp8GPWNKF-OuJ6I6RmoadRImM4IzOh57IHImAIzFO9IesaZFcWltEdZF_SFT1xtL4UVbORukdy6pUUGdiTL3j6BAXHIUwJoIve8p29qdAZkwy4rhsaLFE0y-f3YcwDwZWjPsHRykMVzXUNTMXlh2pXlNsRkG--5vKVXGkXnQkwe66c="/>
+                <input type="hidden" name="localizedNewAddressTitle" value="New Address"/>
+            </fieldset>
+
+            
+            <!-- Contact Info (Email and Phone)                                       -->
+            
+            
+            <fieldset class="contact-info-block">
+                <select hidden class="form-control custom-select" id="billingPrefixdefault"
+                    name="dwfrm_billing_contactInfoFields_prefix_phonePrefix" required aria-required="true">
+                    <option id="phonePrefixOption" value="null" selected>null</option>
+                </select>
+                <label class="form-control-label sr-only" for="billingPrefixdefault">
+                    Prefix
+                </label>
+                <div class="invalid-feedback sr-only" id="defaultPrefix"></div>
+                <input
+                    type="tel"
+                    id="phoneNumber"
+                    hidden
+                    class="form-control phone"
+                    placeholder="Phone Number"
+                    value="null"
+                    name="dwfrm_billing_contactInfoFields_phone" value="" maxLength="20" minLength="6"
+                />
+                <label class="form-control-label sr-only" for="phoneNumber">Phone Number</label>
+                <div class="invalid-feedback sr-only" id="phoneInvalidMessage"></div>
+            </fieldset>
+
+            
+            <!-- Invoice Options                                                      -->
+            
+            <fieldset class="invoice-info-block mt-8 mb-12">
+
+                <div class="form-group custom-control custom-checkbox">
+                    <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="add-invoice-request"
+                        
+                        name="dwfrm_billing_isInvoice" value="true"
+                    />
+                    <label class="custom-control-label h5" for="add-invoice-request">
+                        <strong>I request a commercial invoice</strong>
+                    </label>
+                </div>
+
+                <div class="invoice-form">
+                    <div class="divider divider--horizontal bg-black"></div>
+
+                    
+    
+
+
+<fieldset class="invoice-request-form" data-url="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Checkout-ValidateVat">
+    
+    <div class="row">
+        <div class="col-12">
+            <div class="form-group required position-relative">
+                <input
+                    id="invoiceVatNumber"
+                    class="form-control"
+                    type="text"
+                    data-missing-error="This field is required."
+                    name="dwfrm_billing_invoiceForm_vatInvoice"
+                    placeholder="VAT Number"
+                    required
+                    data-vat-check="false"
+                    name="dwfrm_billing_invoiceForm_vatInvoice" value="" maxLength="50"
+                />
+                <label
+                    class="form-control-label"
+                    for="invoiceVatNumber"
+                >
+                    <span>VAT Number</span>
+                </label>
+                <div class="invalid-feedback"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="form-group required position-relative">
+                <input
+                    id="invoiceBusinessName"
+                    class="form-control"
+                    type="text"
+                    name="dwfrm_billing_invoiceForm_businessNameInvoice"
+                    placeholder="Business name"
+                    data-missing-error="This field is required."
+                    required=""
+                    name="dwfrm_billing_invoiceForm_businessNameInvoice" value="" maxLength="2147483647"
+                />
+                <label
+                    class="form-control-label"
+                    for="invoiceBusinessName"
+                >
+                    <span>Business name</span>
+                </label>
+                <div class="invalid-feedback"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="form-group position-relative required">
+                <input
+                    id="invoicePecAddress"
+                    class="form-control"
+                    type="text"
+                    data-missing-error="Insert PEC or SDI"
+                    data-pattern-mismatch="Please enter a valid E-Mail address"
+                    data-range-error="Must be 50 characters or less."
+                    name="dwfrm_billing_invoiceForm_pecInvoice"
+                    placeholder="PEC Address"
+                    name="dwfrm_billing_invoiceForm_pecInvoice" value="" maxLength="2147483647" pattern="\w.+@[\w.]+\.[\w]{2,6}$"
+                />
+                <label
+                    class="form-control-label"
+                    for="invoicePecAddress"
+                >
+                    <span>PEC Address</span>
+                </label>
+                <div class="invalid-feedback"></div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group position-relative required">
+                <input
+                    id="invoiceSdi"
+                    class="form-control"
+                    type="text"
+                    data-missing-error="Insert PEC or SDI"
+                    data-range-error="Must be 50 characters or less."
+                    name="dwfrm_billing_invoiceForm_sdiInvoice"
+                    placeholder="SDI"
+                    name="dwfrm_billing_invoiceForm_sdiInvoice" value="" maxLength="7" pattern="^[a-zA-Z0-9]{7}$"
+                />
+                <label
+                    class="form-control-label"
+                    for="invoiceSdi"
+                >
+                    <span>SDI</span>
+                </label>
+                <div class="invalid-feedback"></div>
+            </div>
+        </div>
+
+    </div>
+</fieldset>
+
+                </div>
+
+            </fieldset>
+
+            
+            <!-- Payment Options                                                      -->
+            
+            <fieldset class="my-4">
+                <h3 class="h4 title-sans-serif">Select Payment Method</h3>
+                <div class="divider divider--horizontal bg-black mb-0"></div>
+
+                
+
+
+<div class="nav nav-tabs nav-fill payment-options d-none" role="tablist">
+    <a href="#creditcard-content" data-toggle="tab" class="active"></a>
+</div>
+
+
+<div
+    class="form-nav billing-nav payment-information"
+    data-payment-method-id="CREDIT_CARD"
+    data-is-new-payment="true"
+>
+    
+        
+            <div class="payment-option">
+                <div class="payment-option__tab" data-method-id="CREDIT_CARD">
+    <div class="custom-control custom-radio">
+        <input
+            type="radio"
+            name="payment-option"
+            id="paymentOptionCreditCard"
+            class="custom-control-input"
+            value="#creditcard-content"
+            data-method-id="CREDIT_CARD"
+            checked
+        />
+        <label class="custom-control-label" for="paymentOptionCreditCard">
+            <i class="isicon isicon--visa mr-2" style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#visa"></use>
+    </svg>
+</i>
+
+            <i class="isicon isicon--mastercard mr-2" style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#mastercard"></use>
+    </svg>
+</i>
+
+            <i class="isicon isicon--maestro " style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#maestro"></use>
+    </svg>
+</i>
+
+        </label>
+    </div>
+
+    
+    
+</div>
+
+                
+<div class="payment-option__content tab-pane active creditcard-content braintree-creditcard-content js_braintree_creditCardContent" id="creditcard-content" role="tabpanel" data-paypal-is-hide-continue-button="false">
+    <fieldset class="payment-form-fields">
+        
+        <div class="form-group position-relative">
+            <input type="text" class="cardNumber form-control" id="cardNumber" name="cardNumber" />
+        </div>
+
+        <input type="hidden" class="form-control" name="isBraintree" value="true" disabled="disabled" />
+        <input type="hidden" class="form-control" name="dwfrm_billing_paymentMethod" value="CREDIT_CARD" >
+
+        <input type="hidden" class="js_braintree_getOrderInfoUrl" value="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Braintree-GetOrderInfo" />
+
+        
+
+        <div class="js_braintree_creditCardFields payment-method-braintree" data-braintree-config="{&quot;paymentMethodName&quot;:&quot;CREDIT_CARD&quot;,&quot;is3dSecureEnabled&quot;:true,&quot;isFraudToolsEnabled&quot;:true,&quot;isSkip3dSecureLiabilityResult&quot;:false,&quot;clientToken&quot;:&quot;eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpGVXpJMU5pSXNJbXRwWkNJNklqSXdNVGd3TkRJMk1UWXRjSEp2WkhWamRHbHZiaUlzSW1semN5STZJbWgwZEhCek9pOHZZWEJwTG1KeVlXbHVkSEpsWldkaGRHVjNZWGt1WTI5dEluMC5leUpsZUhBaU9qRTNNemMzTlRBeU5UTXNJbXAwYVNJNkltVmlNR013T0RBMExUWTBNREF0TkRZd09TMWlaV0V6TFRZNE9HVTJNbVU1TURNd09TSXNJbk4xWWlJNkltNTVhR1IyYTJKclp6YzFaamN6WjNBaUxDSnBjM01pT2lKb2RIUndjem92TDJGd2FTNWljbUZwYm5SeVpXVm5ZWFJsZDJGNUxtTnZiU0lzSW0xbGNtTm9ZVzUwSWpwN0luQjFZbXhwWTE5cFpDSTZJbTU1YUdSMmEySnJaemMxWmpjelozQWlMQ0oyWlhKcFpubGZZMkZ5WkY5aWVWOWtaV1poZFd4MElqcG1ZV3h6Wlgwc0luSnBaMmgwY3lJNld5SnRZVzVoWjJWZmRtRjFiSFFpWFN3aWMyTnZjR1VpT2xzaVFuSmhhVzUwY21WbE9sWmhkV3gwSWwwc0ltOXdkR2x2Ym5NaU9uc2liV1Z5WTJoaGJuUmZZV05qYjNWdWRGOXBaQ0k2SW1OaFptWmxZbTl5WW05dVpXTmhabVpsWW05eVltOXVaV2wwSW4xOS5LYzNvNVktTnVTUXFmVUNONnlzTmp6dUg2OHNPVXJOTDZ6ampGT0tuRzF4SjBYTnE0Q1VGYUdZZFJyQzVfRTMxQ19RYUh5aHlNV0UtNXh2VHdSak14USIsImNvbmZpZ1VybCI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvbnloZHZrYmtnNzVmNzNncC9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJtZXJjaGFudEFjY291bnRJZCI6ImNhZmZlYm9yYm9uZWNhZmZlYm9yYm9uZWl0IiwiZ3JhcGhRTCI6eyJ1cmwiOiJodHRwczovL3BheW1lbnRzLmJyYWludHJlZS1hcGkuY29tL2dyYXBocWwiLCJkYXRlIjoiMjAxOC0wNS0wOCIsImZlYXR1cmVzIjpbInRva2VuaXplX2NyZWRpdF9jYXJkcyJdfSwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuYnJhaW50cmVlZ2F0ZXdheS5jb206NDQzL21lcmNoYW50cy9ueWhkdmtia2c3NWY3M2dwL2NsaWVudF9hcGkiLCJlbnZpcm9ubWVudCI6InByb2R1Y3Rpb24iLCJtZXJjaGFudElkIjoibnloZHZrYmtnNzVmNzNncCIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5jb20iLCJ2ZW5tbyI6Im9mZiIsImNoYWxsZW5nZXMiOltdLCJ0aHJlZURTZWN1cmVFbmFibGVkIjp0cnVlLCJhbmFseXRpY3MiOnsidXJsIjoiaHR0cHM6Ly9jbGllbnQtYW5hbHl0aWNzLmJyYWludHJlZWdhdGV3YXkuY29tL255aGR2a2JrZzc1ZjczZ3AifSwiYXBwbGVQYXkiOnsiY291bnRyeUNvZGUiOiJJRSIsImN1cnJlbmN5Q29kZSI6IkVVUiIsIm1lcmNoYW50SWRlbnRpZmllciI6Im1lcmNoYW50LmNvbS5jYWZmZWJvcmJvbmUiLCJzdGF0dXMiOiJwcm9kdWN0aW9uIiwic3VwcG9ydGVkTmV0d29ya3MiOlsidmlzYSIsIm1hc3RlcmNhcmQiLCJhbWV4Il19LCJwYXlwYWxFbmFibGVkIjp0cnVlLCJwYXlwYWwiOnsiYmlsbGluZ0FncmVlbWVudHNFbmFibGVkIjp0cnVlLCJlbnZpcm9ubWVudE5vTmV0d29yayI6ZmFsc2UsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJhbGxvd0h0dHAiOmZhbHNlLCJkaXNwbGF5TmFtZSI6IkNhZmbDqCBCb3Jib25lIFNob3AiLCJjbGllbnRJZCI6IkFmWGg2X0QxUG5tV0hFeFVxOU84b19ldjh2UUZjRVB1SEVzNklSVWlCNjhMZ1BvdS12eFV3dXE2dGxOOThzRWprUDdFR0NxR0ZzNVJXNFZQIiwiYmFzZVVybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9jaGVja291dC5wYXlwYWwuY29tIiwiZGlyZWN0QmFzZVVybCI6bnVsbCwiZW52aXJvbm1lbnQiOiJsaXZlIiwiYnJhaW50cmVlQ2xpZW50SWQiOiJBUktyWVJEaDNBR1hEelc3c09fM2JTa3EtVTFDN0hHX3VXTkMtejU3TGpZU0ROVU9TYU90SWE5cTZWcFciLCJtZXJjaGFudEFjY291bnRJZCI6ImNhZmZlYm9yYm9uZWNhZmZlYm9yYm9uZWl0IiwiY3VycmVuY3lJc29Db2RlIjoiRVVSIn19&quot;,&quot;messages&quot;:{&quot;validation&quot;:&quot;Some payment method input fields are invalid.&quot;,&quot;secure3DFailed&quot;:&quot;Credit Card Verification Failed.&quot;,&quot;HOSTED_FIELDS_FIELDS_EMPTY&quot;:&quot;All fields are empty.&quot;,&quot;HOSTED_FIELDS_FIELDS_INVALID&quot;:&quot;Some payment input fields are invalid.&quot;,&quot;HOSTED_FIELDS_FAILED_TOKENIZATION&quot;:&quot;Tokenization failed server side. Is the card valid?'&quot;,&quot;HOSTED_FIELDS_TOKENIZATION_NETWORK_ERROR&quot;:&quot;Network error occurred when tokenizing.&quot;,&quot;CLIENT_REQUEST_TIMEOUT&quot;:&quot;Request timed out waiting for a reply.&quot;,&quot;CLIENT_GATEWAY_NETWORK&quot;:&quot;Cannot contact the gateway at this time.&quot;,&quot;CLIENT_REQUEST_ERROR&quot;:&quot;There was a problem with your request.&quot;,&quot;CLIENT_MISSING_GATEWAY_CONFIGURATION&quot;:&quot;Missing gatewayConfiguration.&quot;},&quot;amount&quot;:0,&quot;fieldsConfig&quot;:{&quot;initOwnerValue&quot;:&quot;&quot;,&quot;ownerHtmlName&quot;:&quot;dwfrm_billing_creditCardFields_cardOwner&quot;,&quot;typeHtmlName&quot;:&quot;dwfrm_billing_creditCardFields_cardType&quot;,&quot;numberHtmlName&quot;:&quot;dwfrm_billing_creditCardFields_cardNumber&quot;}}">
+
+    <div id="braintreeCreditCardFieldsContainer">
+
+        <div class="form-group required">
+            <div class="braintree-field-wrap">
+                <div class="braintree-text-input position-relative">
+                    <input id="braintreeCardOwner" class="form-control" type="text" name="dwfrm_billing_creditCardFields_cardOwner" maxlength="40" data-new-cart-value="" data-init-value="" />
+                    <label class="form-control-label" for="braintreeCardOwner">
+                        <span>Name on Card</span>
+                    </label>
+                </div>
+                <div id="braintreeCardOwnerPh" class="braintree-hosted-fields-ph"></div>
+            </div>
+        </div>
+
+        <div class="form-group required">
+            <label class="form-control-label" for="braintreeCardNumber">
+                <span>Card Number</span>
+            </label>
+
+            <div class="braintree-field-wrap">
+                <div id="braintreeCardNumber" class="braintree-hosted-fields-iframe-container"></div>
+                <div id="braintreeCardNumberPh" class="braintree-hosted-fields-ph"></div>
+            </div>
+
+            <button type="button" class="btn btn-icon btn-icon--info p-0 text-gray-500 rounded-0" data-toggle="tooltip" data-placement="top" title="Example: 4111111111111111">
+                <i class="isicon isicon--info " style="width: 22px; height: 22px; line-height: 22px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#info"></use>
+    </svg>
+</i>
+
+                <span class="sr-only">Example: 4111111111111111</span>
+            </button>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="form-group mb-md-0 required">
+                    <label class="form-control-label" for="braintreeCvv">
+                        <span>Card's security code</span>
+                    </label>
+
+                    <div class="braintree-field-wrap">
+                        <div id="braintreeCvv" class="braintree-hosted-fields-iframe-container"></div>
+                        <div id="braintreeCvvPh" class="braintree-hosted-fields-ph"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group mb-0 required">
+
+                    <label class="form-control-label" for="braintreeExpirationDate">
+                        <span>Expiration Date</span>
+                    </label>
+
+                    <div class="braintree-field-wrap">
+                        <div id="braintreeExpirationDate" class="braintree-hosted-fields-iframe-container"></div>
+                        <div id="braintreeExpirationPh" class="braintree-hosted-fields-ph"></div>
+                    </div>
+
+                    <button type="button" class="btn btn-icon btn-icon--info p-0 text-gray-500 rounded-0" data-toggle="tooltip" data-placement="top" title="Esempio: MM/YY">
+                        <i class="isicon isicon--info " style="width: 22px; height: 22px; line-height: 22px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#info"></use>
+    </svg>
+</i>
+
+                        <span class="sr-only">Esempio: MM/YY</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="braintree3DSecureContainer">
+        <div id="braintree3DSecureIframe"></div>
+    </div>
+
+    <input id="braintreeCardType" type="hidden" name="dwfrm_billing_creditCardFields_cardType" value="Visa" />
+    <input type="hidden" name="dwfrm_billing_creditCardFields_cardNumber" value="" />
+    <input id="braintreeCardMaskNumber" type="hidden" name="braintreeCardMaskNumber" value="" />
+    <input id="braintreePaymentMethodNonce" type="hidden" name="braintreePaymentMethodNonce" value="" />
+    <input id="braintreeIs3dSecureRequired" type="hidden" name="braintreeIs3dSecureRequired" value="false" />
+    <input id="braintreeDeviceData" type="hidden" name="braintreeDeviceData" value="" />
+
+    <div id="braintreeCreditCardErrorContainer" class="error"></div>
+    <div id="braintreeCreditCardLoader" class="braintree-loader-container">
+        <i class="braintree-loader"></i>
+    </div>
+</div>
+
+
+        
+    </fieldset>
+</div>
+
+
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+            <div class="payment-option">
+                <div class="payment-option__tab" data-method-id="PayPal">
+    <div class="custom-control custom-radio">
+        <input
+            type="radio"
+            name="payment-option"
+            id="paymentOptionPaypal"
+            class="custom-control-input"
+            value="#paypal-content"
+            data-method-id="PayPal"
+        />
+        <label class="custom-control-label" for="paymentOptionPaypal">
+            <i class="isicon isicon--paypal " style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#paypal"></use>
+    </svg>
+</i>
+
+        </label>
+    </div>
+
+    
+    
+</div>
+
+                
+
+
+
+
+<div class="payment-option__content tab-pane paypal-content js_braintree_paypalContent" id="paypal-content" role="tabpanel" data-paypal-is-hide-continue-button="true">
+   <fieldset class="payment-form-fields">
+        <input type="hidden" class="form-control" name="isBraintree" value="true" disabled="disabled" />
+        <input type="hidden" class="form-control" name="dwfrm_billing_paymentMethod" value="PayPal" />
+
+        
+        <p class="my-2 bg-transparent text-black alert-info">
+            Your billing address and phone number will be changed according to the chosen payment method on PayPal side
+        </p>
+
+        <div class="form-group braintree_used_paypal_account used-paypal-account-hide ">
+            <label class="form-control-label" for="braintreePaypalAccountsList">Select a PayPal account</label>
+            <select name="braintreePaypalAccountList"
+                    id="braintreePaypalAccountsList"
+                    class="form-control"
+                    data-customer-authenticated="false"
+                    data-customer-has-saved-pp-account="false">
+                <option
+                    id="newPPAccount"
+                    value="newaccount"
+                    selected
+                >
+                    New PayPal account
+                </option>
+                
+                <option id="braintreePaypalAccount"
+                        value="PayPal"
+                        data-session-account="false"
+                        
+                        class="form-account used-paypal-account-hide"
+                >
+                    PayPal
+                </option>
+                
+                
+            </select>
+        </div>
+
+        
+        <div class="form-row form-indent">
+            <div class="js_braintree_paypal_billing_button d-block w-100" data-braintree-config="{&quot;clientToken&quot;:&quot;eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpGVXpJMU5pSXNJbXRwWkNJNklqSXdNVGd3TkRJMk1UWXRjSEp2WkhWamRHbHZiaUlzSW1semN5STZJbWgwZEhCek9pOHZZWEJwTG1KeVlXbHVkSEpsWldkaGRHVjNZWGt1WTI5dEluMC5leUpsZUhBaU9qRTNNemMzTlRBeU5UTXNJbXAwYVNJNkltVmlNR013T0RBMExUWTBNREF0TkRZd09TMWlaV0V6TFRZNE9HVTJNbVU1TURNd09TSXNJbk4xWWlJNkltNTVhR1IyYTJKclp6YzFaamN6WjNBaUxDSnBjM01pT2lKb2RIUndjem92TDJGd2FTNWljbUZwYm5SeVpXVm5ZWFJsZDJGNUxtTnZiU0lzSW0xbGNtTm9ZVzUwSWpwN0luQjFZbXhwWTE5cFpDSTZJbTU1YUdSMmEySnJaemMxWmpjelozQWlMQ0oyWlhKcFpubGZZMkZ5WkY5aWVWOWtaV1poZFd4MElqcG1ZV3h6Wlgwc0luSnBaMmgwY3lJNld5SnRZVzVoWjJWZmRtRjFiSFFpWFN3aWMyTnZjR1VpT2xzaVFuSmhhVzUwY21WbE9sWmhkV3gwSWwwc0ltOXdkR2x2Ym5NaU9uc2liV1Z5WTJoaGJuUmZZV05qYjNWdWRGOXBaQ0k2SW1OaFptWmxZbTl5WW05dVpXTmhabVpsWW05eVltOXVaV2wwSW4xOS5LYzNvNVktTnVTUXFmVUNONnlzTmp6dUg2OHNPVXJOTDZ6ampGT0tuRzF4SjBYTnE0Q1VGYUdZZFJyQzVfRTMxQ19RYUh5aHlNV0UtNXh2VHdSak14USIsImNvbmZpZ1VybCI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvbnloZHZrYmtnNzVmNzNncC9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJtZXJjaGFudEFjY291bnRJZCI6ImNhZmZlYm9yYm9uZWNhZmZlYm9yYm9uZWl0IiwiZ3JhcGhRTCI6eyJ1cmwiOiJodHRwczovL3BheW1lbnRzLmJyYWludHJlZS1hcGkuY29tL2dyYXBocWwiLCJkYXRlIjoiMjAxOC0wNS0wOCIsImZlYXR1cmVzIjpbInRva2VuaXplX2NyZWRpdF9jYXJkcyJdfSwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuYnJhaW50cmVlZ2F0ZXdheS5jb206NDQzL21lcmNoYW50cy9ueWhkdmtia2c3NWY3M2dwL2NsaWVudF9hcGkiLCJlbnZpcm9ubWVudCI6InByb2R1Y3Rpb24iLCJtZXJjaGFudElkIjoibnloZHZrYmtnNzVmNzNncCIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5jb20iLCJ2ZW5tbyI6Im9mZiIsImNoYWxsZW5nZXMiOltdLCJ0aHJlZURTZWN1cmVFbmFibGVkIjp0cnVlLCJhbmFseXRpY3MiOnsidXJsIjoiaHR0cHM6Ly9jbGllbnQtYW5hbHl0aWNzLmJyYWludHJlZWdhdGV3YXkuY29tL255aGR2a2JrZzc1ZjczZ3AifSwiYXBwbGVQYXkiOnsiY291bnRyeUNvZGUiOiJJRSIsImN1cnJlbmN5Q29kZSI6IkVVUiIsIm1lcmNoYW50SWRlbnRpZmllciI6Im1lcmNoYW50LmNvbS5jYWZmZWJvcmJvbmUiLCJzdGF0dXMiOiJwcm9kdWN0aW9uIiwic3VwcG9ydGVkTmV0d29ya3MiOlsidmlzYSIsIm1hc3RlcmNhcmQiLCJhbWV4Il19LCJwYXlwYWxFbmFibGVkIjp0cnVlLCJwYXlwYWwiOnsiYmlsbGluZ0FncmVlbWVudHNFbmFibGVkIjp0cnVlLCJlbnZpcm9ubWVudE5vTmV0d29yayI6ZmFsc2UsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJhbGxvd0h0dHAiOmZhbHNlLCJkaXNwbGF5TmFtZSI6IkNhZmbDqCBCb3Jib25lIFNob3AiLCJjbGllbnRJZCI6IkFmWGg2X0QxUG5tV0hFeFVxOU84b19ldjh2UUZjRVB1SEVzNklSVWlCNjhMZ1BvdS12eFV3dXE2dGxOOThzRWprUDdFR0NxR0ZzNVJXNFZQIiwiYmFzZVVybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9jaGVja291dC5wYXlwYWwuY29tIiwiZGlyZWN0QmFzZVVybCI6bnVsbCwiZW52aXJvbm1lbnQiOiJsaXZlIiwiYnJhaW50cmVlQ2xpZW50SWQiOiJBUktyWVJEaDNBR1hEelc3c09fM2JTa3EtVTFDN0hHX3VXTkMtejU3TGpZU0ROVU9TYU90SWE5cTZWcFciLCJtZXJjaGFudEFjY291bnRJZCI6ImNhZmZlYm9yYm9uZWNhZmZlYm9yYm9uZWl0IiwiY3VycmVuY3lJc29Db2RlIjoiRVVSIn19&quot;,&quot;paymentMethodName&quot;:&quot;PayPal&quot;,&quot;isFraudToolsEnabled&quot;:true,&quot;messages&quot;:{&quot;CLIENT_REQUEST_TIMEOUT&quot;:&quot;Request timed out waiting for a reply.&quot;,&quot;CLIENT_GATEWAY_NETWORK&quot;:&quot;Cannot contact the gateway at this time.&quot;,&quot;CLIENT_REQUEST_ERROR&quot;:&quot;There was a problem with your request.&quot;,&quot;CLIENT_MISSING_GATEWAY_CONFIGURATION&quot;:&quot;Missing gatewayConfiguration.&quot;,&quot;PAYPAL_ACCOUNT_TOKENIZATION_FAILED&quot;:&quot;PayPal tokenization failed.&quot;,&quot;PAYPAL_INVALID_PAYMENT_OPTION&quot;:&quot;PayPal payment options are invalid.&quot;,&quot;PAYPAL_FLOW_FAILED&quot;:&quot;Unable to initialize PayPal flow. Are your options correct?&quot;,&quot;PAYPAL_BROWSER_NOT_SUPPORTED&quot;:&quot;Browser is not supported.&quot;},&quot;options&quot;:{&quot;flow&quot;:&quot;vault&quot;,&quot;intent&quot;:&quot;capture&quot;,&quot;amount&quot;:12,&quot;currency&quot;:&quot;EUR&quot;,&quot;locale&quot;:&quot;default&quot;,&quot;enableShippingAddress&quot;:true,&quot;displayName&quot;:&quot;&quot;,&quot;billingAgreementDescription&quot;:&quot;&quot;,&quot;useraction&quot;:&quot;commit&quot;},&quot;paypalConfig&quot;:{&quot;style&quot;:{&quot;height&quot;:35,&quot;color&quot;:&quot;gold&quot;,&quot;shape&quot;:&quot;rect&quot;,&quot;layout&quot;:&quot;vertical&quot;,&quot;label&quot;:&quot;checkout&quot;,&quot;tagline&quot;:false}},&quot;getOrderInfoUrl&quot;:&quot;/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Braintree-GetOrderInfo&quot;}"></div>
+            <div class="braintreePayPalLoader braintree-loader-container">
+                <i class="braintree-loader"></i>
+            </div>
+        </div>
+
+        
+        
+
+        <input id="braintreePaypalEmail" type="hidden" name="braintreePaypalEmail" value="PayPal"/>
+        <input id="braintreePaypalNonce" type="hidden" name="braintreePaypalNonce" value=""/>
+        <input type="hidden" name="braintreePaypalShippingAddress" value=""/>
+        <input type="hidden" name="braintreePaypalBillingAddress" value=""/>
+        <input type="hidden" name="braintreePaypalRiskData" value=""/>
+    <fieldset class="payment-form-fields">
+</div>
+
+            </div>
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+            <div class="payment-option js-applepay-option">
+                <div class="payment-option__tab" data-method-id="ApplePay">
+    <div class="custom-control custom-radio">
+        <input
+            type="radio"
+            name="payment-option"
+            id="paymentOptionApplePay"
+            class="custom-control-input"
+            value="#applepay-content"
+            data-method-id="ApplePay"
+        />
+        <label class="custom-control-label" for="paymentOptionApplePay">
+            <img class="credit-card-option"
+                src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/default/dw832bb2c5/images/braintree_applepay.png"
+                height="40"
+                alt="ApplePay"
+                title="ApplePay"
+            />
+        </label>
+    </div>
+
+    
+    
+</div>
+
+                
+
+<div class="payment-option__content tab-pane applepay-content js_custom_applepayContent" id="applepay-content" role="tabpanel" data-paypal-is-hide-continue-button="false">
+    <fieldset class="payment-form-fields">
+        <input type="hidden" class="form-control" name="isBraintree" value="true" disabled="disabled" />
+        <input type="hidden" class="form-control" name="dwfrm_billing_paymentMethod" value="ApplePay" >
+        <div class="alert alert-info" role="alert">
+            Your billing address info will be pulled from Apple Pay.
+        </div>
+        <div class="braintree-billingpage-apple-buttons-wrap js_braintree_applepayButtonsWrap">
+            <div class="braintree-billingpage-apple-button-wrap">
+                <div class="braintree-billingpage-apple-button js_custom_applepay_button" data-url="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/CheckoutServices-CheckBillingApplePay" data-braintree-config="{&quot;clientToken&quot;:&quot;eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpGVXpJMU5pSXNJbXRwWkNJNklqSXdNVGd3TkRJMk1UWXRjSEp2WkhWamRHbHZiaUlzSW1semN5STZJbWgwZEhCek9pOHZZWEJwTG1KeVlXbHVkSEpsWldkaGRHVjNZWGt1WTI5dEluMC5leUpsZUhBaU9qRTNNemMzTlRBeU5UTXNJbXAwYVNJNkltVmlNR013T0RBMExUWTBNREF0TkRZd09TMWlaV0V6TFRZNE9HVTJNbVU1TURNd09TSXNJbk4xWWlJNkltNTVhR1IyYTJKclp6YzFaamN6WjNBaUxDSnBjM01pT2lKb2RIUndjem92TDJGd2FTNWljbUZwYm5SeVpXVm5ZWFJsZDJGNUxtTnZiU0lzSW0xbGNtTm9ZVzUwSWpwN0luQjFZbXhwWTE5cFpDSTZJbTU1YUdSMmEySnJaemMxWmpjelozQWlMQ0oyWlhKcFpubGZZMkZ5WkY5aWVWOWtaV1poZFd4MElqcG1ZV3h6Wlgwc0luSnBaMmgwY3lJNld5SnRZVzVoWjJWZmRtRjFiSFFpWFN3aWMyTnZjR1VpT2xzaVFuSmhhVzUwY21WbE9sWmhkV3gwSWwwc0ltOXdkR2x2Ym5NaU9uc2liV1Z5WTJoaGJuUmZZV05qYjNWdWRGOXBaQ0k2SW1OaFptWmxZbTl5WW05dVpXTmhabVpsWW05eVltOXVaV2wwSW4xOS5LYzNvNVktTnVTUXFmVUNONnlzTmp6dUg2OHNPVXJOTDZ6ampGT0tuRzF4SjBYTnE0Q1VGYUdZZFJyQzVfRTMxQ19RYUh5aHlNV0UtNXh2VHdSak14USIsImNvbmZpZ1VybCI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvbnloZHZrYmtnNzVmNzNncC9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJtZXJjaGFudEFjY291bnRJZCI6ImNhZmZlYm9yYm9uZWNhZmZlYm9yYm9uZWl0IiwiZ3JhcGhRTCI6eyJ1cmwiOiJodHRwczovL3BheW1lbnRzLmJyYWludHJlZS1hcGkuY29tL2dyYXBocWwiLCJkYXRlIjoiMjAxOC0wNS0wOCIsImZlYXR1cmVzIjpbInRva2VuaXplX2NyZWRpdF9jYXJkcyJdfSwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuYnJhaW50cmVlZ2F0ZXdheS5jb206NDQzL21lcmNoYW50cy9ueWhkdmtia2c3NWY3M2dwL2NsaWVudF9hcGkiLCJlbnZpcm9ubWVudCI6InByb2R1Y3Rpb24iLCJtZXJjaGFudElkIjoibnloZHZrYmtnNzVmNzNncCIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5jb20iLCJ2ZW5tbyI6Im9mZiIsImNoYWxsZW5nZXMiOltdLCJ0aHJlZURTZWN1cmVFbmFibGVkIjp0cnVlLCJhbmFseXRpY3MiOnsidXJsIjoiaHR0cHM6Ly9jbGllbnQtYW5hbHl0aWNzLmJyYWludHJlZWdhdGV3YXkuY29tL255aGR2a2JrZzc1ZjczZ3AifSwiYXBwbGVQYXkiOnsiY291bnRyeUNvZGUiOiJJRSIsImN1cnJlbmN5Q29kZSI6IkVVUiIsIm1lcmNoYW50SWRlbnRpZmllciI6Im1lcmNoYW50LmNvbS5jYWZmZWJvcmJvbmUiLCJzdGF0dXMiOiJwcm9kdWN0aW9uIiwic3VwcG9ydGVkTmV0d29ya3MiOlsidmlzYSIsIm1hc3RlcmNhcmQiLCJhbWV4Il19LCJwYXlwYWxFbmFibGVkIjp0cnVlLCJwYXlwYWwiOnsiYmlsbGluZ0FncmVlbWVudHNFbmFibGVkIjp0cnVlLCJlbnZpcm9ubWVudE5vTmV0d29yayI6ZmFsc2UsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJhbGxvd0h0dHAiOmZhbHNlLCJkaXNwbGF5TmFtZSI6IkNhZmbDqCBCb3Jib25lIFNob3AiLCJjbGllbnRJZCI6IkFmWGg2X0QxUG5tV0hFeFVxOU84b19ldjh2UUZjRVB1SEVzNklSVWlCNjhMZ1BvdS12eFV3dXE2dGxOOThzRWprUDdFR0NxR0ZzNVJXNFZQIiwiYmFzZVVybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9jaGVja291dC5wYXlwYWwuY29tIiwiZGlyZWN0QmFzZVVybCI6bnVsbCwiZW52aXJvbm1lbnQiOiJsaXZlIiwiYnJhaW50cmVlQ2xpZW50SWQiOiJBUktyWVJEaDNBR1hEelc3c09fM2JTa3EtVTFDN0hHX3VXTkMtejU3TGpZU0ROVU9TYU90SWE5cTZWcFciLCJtZXJjaGFudEFjY291bnRJZCI6ImNhZmZlYm9yYm9uZWNhZmZlYm9yYm9uZWl0IiwiY3VycmVuY3lJc29Db2RlIjoiRVVSIn19&quot;,&quot;paymentMethodName&quot;:&quot;ApplePay&quot;,&quot;messages&quot;:{&quot;CLIENT_REQUEST_TIMEOUT&quot;:&quot;Request timed out waiting for a reply.&quot;,&quot;CLIENT_GATEWAY_NETWORK&quot;:&quot;Cannot contact the gateway at this time.&quot;,&quot;CLIENT_REQUEST_ERROR&quot;:&quot;There was a problem with your request.&quot;,&quot;CLIENT_MISSING_GATEWAY_CONFIGURATION&quot;:&quot;Missing gatewayConfiguration.&quot;},&quot;returnUrl&quot;:&quot;/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Braintree-AppleCheckoutFromCart?fromCart=true&quot;,&quot;options&quot;:{&quot;amount&quot;:12,&quot;currency&quot;:&quot;EUR&quot;,&quot;displayName&quot;:&quot;Saleforce Shop&quot;},&quot;getOrderInfoUrl&quot;:&quot;/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Braintree-GetOrderInfo&quot;}">
+                    <div class="apple-pay-button-with-text apple-pay-button-black-with-text"><span class="text"></span><span class="logo"></span></div>
+                </div>
+                <div class="braintreeApplePayLoader braintree-loader-container">
+                    <i class="braintree-loader"></i>
+                </div>
+        </div>
+        <input type="hidden" id="braintreeApplePayNonce" name="braintreeApplePayNonce"/>
+        <input type="hidden" id="braintreeApplePayBillingAddress" name="braintreeApplePayBillingAddress"/>
+    </fieldset>
+</div>
+
+            </div>
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+            <div class="payment-option">
+                <div class="payment-option__tab" data-method-id="wireTransfer">
+    <div class="custom-control custom-radio">
+        <input
+            type="radio"
+            name="payment-option"
+            id="paymentOptionWiretransfer"
+            class="custom-control-input"
+            value="#wiretransfer-content"
+            data-method-id="wireTransfer"
+        />
+        <label class="custom-control-label" for="paymentOptionWiretransfer">
+            Wire Transfer
+            
+        </label>
+    </div>
+
+    
+    
+</div>
+
+                
+<div class="payment-option__content tab-pane wiretransfer-content" id="wiretransfer-content" role="tabpanel">
+    <fieldset class="payment-form-fields">
+        
+        <input type="hidden" class="form-control"
+               name="dwfrm_billing_paymentMethod"
+               value="wireTransfer"
+        />
+    </fieldset>
+</div>
+
+            </div>
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+    
+
+    
+            
+    
+
+</div>
+
+
+            </fieldset>
+
+        </form>
+    </div>
+</div>
+
+
+                    <div class="card invoice-summary px-6 px-md-8 py-8 bg-secondary text-black mb-4 d-none">
+                        <div class="card-header clearfix bg-transparent mb-6">
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <h2 class="h5 pull-left card-header-custom">Tax data summary</h2>
+                                <button class="btn edit-button pull-right" aria-label="Edit Payment">Edit</button>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="invoice-summary">
+    
+        <div
+            class="invoice-summary__item invoice-summary__item--businessNameInvoice d-none"
+            data-field-name="businessNameInvoice"
+        >
+            <span class="invoice-summary__item__label mr-2">
+                Business name:
+            </span>
+            <span class="invoice-summary__item__value">
+                
+            </span>
+        </div>
+    
+        <div
+            class="invoice-summary__item invoice-summary__item--pecInvoice d-none"
+            data-field-name="pecInvoice"
+        >
+            <span class="invoice-summary__item__label mr-2">
+                PEC Address:
+            </span>
+            <span class="invoice-summary__item__value">
+                
+            </span>
+        </div>
+    
+        <div
+            class="invoice-summary__item invoice-summary__item--sdiInvoice d-none"
+            data-field-name="sdiInvoice"
+        >
+            <span class="invoice-summary__item__label mr-2">
+                SDI:
+            </span>
+            <span class="invoice-summary__item__value">
+                
+            </span>
+        </div>
+    
+        <div
+            class="invoice-summary__item invoice-summary__item--vatInvoice d-none"
+            data-field-name="vatInvoice"
+        >
+            <span class="invoice-summary__item__label mr-2">
+                VAT Number:
+            </span>
+            <span class="invoice-summary__item__value">
+                
+            </span>
+        </div>
+    
+</div>
+
+                        </div>
+                    </div>
+
+                    <div class="card payment-summary px-6 px-md-8 py-8 bg-secondary text-black mt-8 mb-4">
+                        <div class="card-header clearfix bg-transparent mb-6">
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <h2 class="h4 title-sans-serif pull-left card-header-custom">Payment summary</h2>
+                                <button class="btn edit-button pull-right" aria-label="Edit Payment">Edit</button>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="row">
+    <div class="col-md-6">
+        <p class="summary-section-label billing-addr-label">Billing Address:</p>
+        
+            
+        
+
+        <div class="summary-details billing">
+            <div class="address-summary mb-8">
+    <div>
+        <span class="firstName">
+            
+        </span>
+        <span class="lastName">
+            
+        </span>
+    </div>
+
+    <div class="address1">
+        
+    </div>
+
+    <div class="address2">
+        
+    </div>
+
+    <div class="place">
+        <span class="city">
+            
+        </span>
+        <span class="stateCode">
+        
+        </span>
+        <span class="postalCode">
+        
+        </span>
+    </div>
+    <div class="order-summary-email">null</div>
+</div>
+
+            
+            <span class="order-summary-phone sr-only">
+                
+                 
+            </span>
+        </div>
+    </div>
+    <div class="col-md-6">
+        
+        <div class="summary-details">
+            <p class="summary-section-label payment-info-label mt-4 mt-md-0">Payment:</p>
+            <div class="payment-details">
+    
+</div>
+
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+
+
+                    
+                    <!-- Checkout Workflow Buttons -->
+                    
+                    <div class="row">
+                        <div class="col-12 next-step-button">
+                            <div class="mb-sm-3 d-flex justify-content-center">
+                                <button class="btn btn-primary btn--large btn--sticky submit-shipping btn--checkout" type="submit" name="submit" value="submit-shipping" >
+                                    Next: Payment
+                                </button>
+                                
+                                <button class="btn btn-primary btn--large btn--sticky submit-payment btn--checkout js-submit-payment" type="submit" name="submit" value="submit-payment">
+                                    Next: Place Order
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <!-- Order Totals, Details and Summary -->
+                
+                <div class="col-lg-5 col-xl-4">
+
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="h3 mt-8 mt-md-0">Order Summary</h2>
+
+                            
+
+
+
+<div class="card order-product-summary order-product-summary--checkout pt-4">
+    <div class="product-summary-block">
+        
+            <div class="">
+                
+                    
+                    
+
+
+<div class="product-line-item product-line-item--accordion d-lg-none" data-product-line-item="91d8f7b39a688c495647e1ad81">
+    <div class="row">
+        <div class="col-3">
+            <div class="lazy__wrapper ">
+
+    
+        <img
+            class="lazy__img lazy__img--main lazyload"
+            alt=""
+            title="Borbone Coffee Cream with Baileys&reg;, "
+            data-src="https://www.caffeborbone.com/dw/image/v2/BHCB_PRD/on/demandware.static/-/Sites-master-catalog/default/dw54b21dca/accessori/crema-baileys-caffe/crema-caffe-baileys-caffe-borbone_01.jpg?sw=300&amp;sh=300"
+        />
+    
+        
+
+    
+
+    
+        <a
+            href="/gb/en/coffee-cream-baileys-borbone-CREMACAFFEBAILEYS.html"
+            rel="nofollow"
+            title="Borbone Coffee Cream with Baileys&reg;, "
+            class="lazy__link"
+        ></a>
+    
+
+    <span
+        class="lazy__uncollapser lazy__uncollapser--1-1"
+        aria-hidden="true"
+    ></span>
+</div>
+
+        </div>
+
+        <div class="col-9">
+            <button id="accordion-91d8f7b39a688c495647e1ad81" class="btn btn-product-accordion collapsed px-0 h-100" data-toggle="collapse" data-target="#target-91d8f7b39a688c495647e1ad81" aria-expanded="false">
+                <span class="text-primary product-name pr-12 align-self-start">
+                    
+                    <span>Borbone Coffee Cream with Baileys&reg;</span>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-9">
+            <div id="target-91d8f7b39a688c495647e1ad81" class="collapse" data-parent="#accordion-91d8f7b39a688c495647e1ad81">
+
+                
+                
+                    <p class="text-label text-gray-500 mb-0 text-capitalize">
+                        PRODUCTS
+                    </p>
+                
+                
+                
+
+                <p class="line-item-pricing-info text-small mb-0">
+                    <span class="line-item-total-text qty-card-quantity-label mr-2">
+                    Quantity:
+                    </span>
+
+                    <span class="pricing qty-card-quantity-count">01</span>
+                </p>
+
+
+                
+                <div class="item-total-91d8f7b39a688c495647e1ad81 price">
+                    <div class="mb-0 d-flex align-items-center">
+                        <div class="pricing mr-2 line-item-total-price-amount text-small item-total-91d8f7b39a688c495647e1ad81">&euro;6.00</div>
+                        
+                    </div>
+                </div>
+
+                
+                    <div class="product-line-item-details d-flex flex-row">
+                        <div class="item-attributes">
+                            
+
+                            <div class="item-options">
+                                
+                            </div>
+
+                            
+                                <div class="line-item-availability availability-91d8f7b39a688c495647e1ad81">
+    
+        <p class="line-item-attributes">In Stock</p>
+    
+    
+</div>
+
+                            
+                        </div>
+                    </div>
+                
+
+                
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="divider divider--horizontal"></div>
+        </div>
+    </div>
+</div>
+
+                    
+
+
+<div class="product-line-item d-none d-lg-block" data-product-line-item="91d8f7b39a688c495647e1ad81">
+    <div class="row">
+        <div class="col-5">
+            <div class="lazy__wrapper ">
+
+    
+        <img
+            class="lazy__img lazy__img--main lazyload"
+            alt=""
+            title="Borbone Coffee Cream with Baileys&reg;, "
+            data-src="https://www.caffeborbone.com/dw/image/v2/BHCB_PRD/on/demandware.static/-/Sites-master-catalog/default/dw54b21dca/accessori/crema-baileys-caffe/crema-caffe-baileys-caffe-borbone_01.jpg?sw=300&amp;sh=300"
+        />
+    
+        
+
+    
+
+    
+        <a
+            href="/gb/en/coffee-cream-baileys-borbone-CREMACAFFEBAILEYS.html"
+            rel="nofollow"
+            title="Borbone Coffee Cream with Baileys&reg;, "
+            class="lazy__link"
+        ></a>
+    
+
+    <span
+        class="lazy__uncollapser lazy__uncollapser--1-1"
+        aria-hidden="true"
+    ></span>
+</div>
+
+        </div>
+
+        <div class="col-7">
+            
+            <div class="line-item-header">
+                <div class="line-item-name">
+    
+        <p class="text-label text-gray-500 mb-2 product-category">
+            PRODUCTS
+        </p>
+    
+    <p class="text-primary mb-2">
+        <a href="/gb/en/coffee-cream-baileys-borbone-CREMACAFFEBAILEYS.html">
+            Borbone Coffee Cream with Baileys&reg;
+        </a>
+    </p>
+    <p class="text-label text-dark mb-2 product-sku ">
+        SKU: CREMACAFFEBAILEYS
+    </p>
+</div>
+
+            </div>
+
+            
+            
+                
+
+<p class="line-item-pricing-info">
+    <span class="line-item-total-text qty-card-quantity-label mr-2">
+    Quantity:
+    </span>
+
+    <span class="pricing qty-card-quantity-count">01</span>
+</p>
+
+            
+
+            
+            <div class="item-total-91d8f7b39a688c495647e1ad81 price">
+                <div class="mb-6 mt-2">
+    <div class="pricing line-item-total-price-amount item-total-91d8f7b39a688c495647e1ad81 ">
+        &euro;6.00
+    </div>
+    
+</div>
+
+            </div>
+
+            
+            
+
+            
+            <div class="minicart-sidebar__actions d-flex flex-row justify-content-between">
+    
+
+    <div class="minicart-sidebar__action minicart-sidebar__action--wishlist d-flex flex-row align-items-center">
+        <div class="d-flex flex-row align-items-center">
+    
+        
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div
+    class="add-to-wishlist text-dark cursor-pointer text-label mb-0"
+    data-wishlist-action="add"
+    data-add-url="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Wishlist-AddProduct"
+    data-remove-url="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Wishlist-RemoveProduct"
+    data-json-url="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Wishlist-GetListJson"
+    data-pid="CREMACAFFEBAILEYS"
+    aria-label="Add to wishlist"
+    role="button"
+    tabindex="0"
+>
+    <div class="add-to-wishlist__icons">
+        <i class="isicon isicon--wishlist isicon--add" style="width: 16px; height: 16px; line-height: 16px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#wishlist"></use>
+    </svg>
+</i>
+
+        <i class="isicon isicon--wishlist-filled isicon--remove" style="width: 16px; height: 16px; line-height: 16px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#wishlist-filled"></use>
+    </svg>
+</i>
+
+    </div>
+    <div class="sr-only">
+        sfra.details.button.wishlist
+    </div>
+    
+        <div class="add-to-wishlist__text add-to-wishlist__text--add">
+            <span><u>Add to wishlist</u></span>
+        </div>
+        <div class="add-to-wishlist__text d-none add-to-wishlist__text--remove">
+            <span><u>Remove from wishlist</u></span>
+        </div>
+    
+</div>
+
+</div>
+
+    </div>
+
+    
+
+    <div class="minicart-sidebar__action minicart-sidebar__action--remove d-flex flex-row align-items-center">
+
+        
+
+    </div>
+</div>
+
+
+            
+        </div>
+    </div>
+
+    
+        <div class="row">
+            <div class="col-12">
+                <div class="divider divider--horizontal"></div>
+            </div>
+        </div>
+    
+</div>
+
+
+                    
+                
+            </div>
+        
+    </div>
+</div>
+
+
+                            <div class="card">
+                                <div class="card-body order-total-summary">
+                                    
+<div class="row leading-lines subtotal-item">
+    <div class="col-6 start-lines">
+        <p class="order-receipt-label"><span>Subtotal</span></p>
+    </div>
+    <div class="col-6 end-lines">
+        <p class="text-right"><span class="sub-total">&euro;6.00</span></p>
+    </div>
+</div>
+
+
+<div class="row leading-lines order-discount hide-order-discount">
+    <div class="col-6 start-lines">
+        <p class="order-receipt-label"><span>Order Discount</span></p>
+    </div>
+    <div class="col-6 end-lines">
+        <p class="text-right"><span class="order-discount-total">- &euro;0.00</span></p>
+    </div>
+</div>
+
+
+<div class="row leading-lines shipping-item">
+    <div class="col-6 start-lines">
+        <p class="order-receipt-label"><span>Shipping</span></p>
+    </div>
+    <div class="col-6 end-lines">
+        <p class="text-right"><span class="shipping-total-cost">&euro;6.00</span></p>
+    </div>
+</div>
+
+
+<div class="row leading-lines shipping-discount hide-shipping-discount">
+    <div class="col-6 start-lines">
+        <p class="order-receipt-label"><span>Shipping Discount</span></p>
+    </div>
+    <div class="col-6 end-lines">
+        <p class="text-right"><span class="shipping-discount-total"> &euro;0.00</span></p>
+    </div>
+</div>
+
+
+<div class="row leading-lines sales-tax-item hide-sales-tax-item">
+    <div class="col-6 start-lines">
+        <p class="order-receipt-label"><span>Sales Tax</span></p>
+    </div>
+    <div class="col-6 end-lines">
+        <p class="text-right"><span class="tax-total">&euro;2.16</span></p>
+    </div>
+</div>
+
+
+<div class="row grand-total leading-lines">
+    <div class="col-6 start-lines">
+        <p class="order-receipt-label text-black font-weight-bold mb-0"><span>Total</span></p>
+    </div>
+    <div class="col-6 end-lines">
+        <p class="text-right mb-0 text-black font-weight-bold"><span class="grand-total-sum">&euro;12.00</span></p>
+    </div>
+</div>
+
+
+
+<div class="">
+    
+
+
+
+    
+        <script src="https://cdn.scalapay.com/js/scalapay-widget/webcomponents-bundle.js"></script>
+    
+        <script src="https://cdn.scalapay.com/js/scalapay-widget/scalapay-widget.js"></script>
+    
+
+
+    
+    <div class="scalapay-price d-none">
+        12.0
+    </div>
+    <div>
+        <scalapay-widget
+            class=""
+            amount="12.0"
+            min="5.0"
+            max="400.0"
+            amountSelectorArray="[&quot;.cart-page .totals .grand-total&quot;]"
+            size="100px"
+            logoSize="100%"
+            priceColor="#145ad1"
+            logoColor="#000000"
+            logoAlignment=""
+            numberOfPayments="3"
+            hideLogo="false"
+            locale="en"
+            priceBoxSelector=".cart-page .totals .grand-total"
+        >
+        </scalapay-widget>
+    </div>
+
+ 
+</div>   
+  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="divider divider--horizontal my-6 mb-md-8"></div>
+
+                    
+
+                    
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="summary-footer my-8">
+    <div class="summary-footer__payments">
+        <p class="mb-2">Payment methods accepted</p>
+        <div class="d-flex flex-row">
+            <i class="isicon isicon--visa mr-2 mr-md-4 mr-lg-8" style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#visa"></use>
+    </svg>
+</i>
+
+            <i class="isicon isicon--mastercard mr-2 mr-md-4 mr-lg-8" style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#mastercard"></use>
+    </svg>
+</i>
+
+            <i class="isicon isicon--maestro mr-2 mr-md-4 mr-lg-8" style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#maestro"></use>
+    </svg>
+</i>
+
+            <i class="isicon isicon--paypal mr-2 mr-md-4 mr-lg-8" style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#paypal"></use>
+    </svg>
+</i>
+
+            <i class="isicon isicon--applepay mr-2 mr-md-4 mr-lg-8" style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#applepay"></use>
+    </svg>
+</i>
+
+            <i class="isicon isicon--sofort " style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#sofort"></use>
+    </svg>
+</i>
+
+        </div>
+    </div>
+
+    
+    <div class="loyalty-journals-container mt-8 mb-8">
+        
+    </div>
+
+    <div class="divider divider--horizontal bg-gray-200"></div>
+    <div class="summary-footer__content">
+        
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="319f4bdd05e8d687cda0a280ac" -->
+        <div class="info-box">
+<div class="info-box__text">
+    <h2>You can pay via Bank transfer or COD (for Italy only and orders between € 40.00 and € 1,000.00) too</h2>
+</div>
+</div>
+</br>
+<div class="info-box">
+    <div class="info-box__text">
+        <h2>Do you need help?</h2>
+        <p>For Information and telephone orders call us at the toll-free <a href="tel:800.811.137">800.811.137</a> available from Italy. From abroad you can contact us at <a href="tel:003908118920046">+39 081 18 92 00 46</a>.</p>
+    </div>
+
+    <div class="divider divider--horizontal bg-gray-200"></div>
+
+    <!-- Icon and text -->
+    <div class="info-box__icon-text">
+        <div class="info-box__icon-text--icon">
+            <i class="isicon isicon--box " style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#box"></use>
+    </svg>
+</i>
+
+        </div>
+        <div class="info-box__icon-text--text">
+            <h2>We will ship in 1/2 working days</h2>
+            <p>
+               Free Shipping promotion ordering at least 40€ for Italy and 55€ for abroad
+            </p>
+        </div>
+    </div>
+
+    <!-- Icon and text -->
+    <div class="info-box__icon-text">
+        <div class="info-box__icon-text--icon">
+            <i class="isicon isicon--security " style="width: 40px; height: 40px; line-height: 40px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#security"></use>
+    </svg>
+</i>
+
+        </div>
+        <div class="info-box__icon-text--text">
+            <h2>Sure Payments</h2>
+            <p>
+                Your payments and your personal data are protected by the highest security systems.
+            </p>
+        </div>
+    </div>
+
+</div>
+    </div> <!-- End content-asset -->
+
+
+
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Template used by client to redraw shipping methods                           -->
+
+<div id="pli-shipping-summary-template" class="d-none" >
+    
+    
+    <div class="row leading-lines">
+        <p class="col-8 start-lines">
+            <span class="display-name"></span>
+            <span class="text-muted arrival-time"></span>
+        </p>
+        <p class="col-4 end-lines text-right">
+            <span class="price"></span>
+        </p>
+    </div>
+
+    <div class="summary-details gift-summary">
+        <h3>Gift Message:</h3>
+        <div class="gift-message-summary"></div>
+    </div>
+</div>
+
+
+
+</div>
+
+<footer id="footercontent">
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer-navigation bg-primary">
+    <div class="container">
+        <div class="footer-navigation--before row mb-12">
+            
+                <div class="footer-navigation--before__info col-12 col-lg-6 mt-16 mb-8 mb-lg-0 text-white">
+                    
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="019e1282cc9e973701e1f7859e" -->
+        <h5>Stay up to date</h5>
+<h6>Sign up to receive the latest news and exclusive offers from Caffè Borbone</h6>
+    </div> <!-- End content-asset -->
+
+
+
+                </div>
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-end">
+                    <form id="newsletterFooterForm" class="newsletter-form" role="form" action="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/EmailSubscribe-Subscribe" method="POST">
+                        <div class="row">
+                            <div class="col-12 col-lg-8 ">
+                                <div class="form-group mb-0 align-bottom">
+                                    <div class="position-relative">
+                                        <input
+                                            type="email"
+                                            class="form-control bg-primary border-white "
+                                            id="footer-email"
+                                            aria-describedby="emailHelp"
+                                            name="emailId"
+                                            placeholder="email"
+                                            required
+                                        />
+                                        <label id="footer-newsletter-label" class="form-label" for="footer-email">Email</label>
+                                    </div>
+                                    <div class="invalid-feedback"></div>
+                                </div>
+
+                                <div class="form-group custom-control custom-checkbox pull-left mt-2">
+                                    <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        id="newsletterAccept"
+                                        name="newsletterAccept"
+                                        required
+                                    >
+                                    <label
+                                        class="custom-control-label text-white"
+                                        for="newsletterAccept"
+                                    >
+                                        I wish to receive your updates regarding news and promotions
+                                        (read the <a href="https://sites.google.com/caffeborbone.it/gdpr/documenti/informative/newsletter">full disclosure</a>)
+
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-8 col-lg-4 mt-6 mt-lg-0">
+                                <button disabled type="submit" class="btn btn-outline-white btn-block text-uppercase subscribe-email">Subscribe</button>
+                            </div>
+                        </div>
+
+                        
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="form-group">
+    
+    
+
+    
+        
+
+        <div class="g-recaptcha" id="gRecaptchaNewsletterForm" data-sitekey="6LdKrU4gAAAAALSH0_aCWHA7ZaNKBywW9Fd4LX1u" 
+            data-size="invisible" data-theme="light" data-tabindex="0"
+            data-callback="onNewsletterSubmit" data-expired-callback=""
+            data-error-callback="onNewsletterSubmit" data-badge="bottomright"></div>
+    
+
+</div>
+                    </form>
+                </div>
+            
+        </div>
+        
+            <div class="divider divider--horizontal bg-white "></div>
+        
+        <div class="footer-navigation--body d-flex flex-column flex-lg-row mt-12 text-white">
+            <div class="d-none d-lg-flex flex-column">
+                <p class="h5 mb-4">Contacts</p>
+                
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="c0ad3258fd91cf7b335f0450d3" -->
+        <p><a href="https://www.caffeborbone.com/gb/en/borbone-world/borbone-world.html">About  Us</a></p>
+<p>from Italy <a class="contactus-header-phone" href="tel:800811137">800 811 137</a></p>
+<p>from abroad <a class="contactus-header-phone" href="tel:003908118920046">+39 081 189 200 46</a></p>
+<p><a class="contactus-header" href="https://www.caffeborbone.com/gb/en/contactus">Contact Us</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/caffe-borbone-shipping-cost/shippings.html">Shipments</a></p>
+<!-- <p><a class="contactus-header" href="mailto:shop-support@caffeborbone.com">shop-support@caffeborbone.com</a></p> -->
+<p><a href="https://www.caffeborbone.com/gb/en/work-with-us/work-with-us.html">Work with Us</a></p>
+    </div> <!-- End content-asset -->
+
+
+
+
+            </div>
+            <div class="d-none d-lg-flex flex-column ml-16">
+                <p class="h5 mb-4">Information</p>
+                
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="22fe6998efbab80acb82205350" -->
+        <!-- <p><a href="https://www.caffeborbone.com/gb/en/new-didi-borbone/new-didi-borbone.html">New Didi Borbone</a></p> -->
+<p><a href="https://www.caffeborbone.com/gb/en/general-terms-condition/terms-conditions.html">General Conditions</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/right-of-withdrawal/returnspolicy.html">Right of withdrawal</a></p>
+<!-- <p><a href="https://www.caffeborbone.com/gb/en/privacy-policy/privacypolicy.html">Privacy Policy</a></p> -->
+<p><a href="https://sites.google.com/caffeborbone.it/gdpr/documenti/informative/privacy-policy" target="_new">Privacy Policy</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/cookie-policy/cookie-policy.html">Cookie Policy</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/borbone-whistleblowing.html">Whistleblowing</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/note-legali.html">Legal notices</a></p>
+    </div> <!-- End content-asset -->
+
+
+
+
+            </div>
+            <div class="d-none d-lg-flex flex-column ml-16">
+                <p class="h5 mb-4">Assistance</p>
+                
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="b88905eeaf9f718fff9f229ccf" -->
+        <!-- <p><a href="https://www.caffeborbone.com/gb/en/how-to-make-an-order/come-ordinare.html">How to order</a></p> -->
+<p><a href="https://www.caffeborbone.com/gb/en/promozioni.html">Promo & Offers</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/new-didi-borbone/new-didi-borbone.html">New Didi Borbone</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/faqs">FAQ</a></p>
+<!-- <p><a href="https://www.caffeborbone.com/gb/en/caffe-borbone-shop-answers-you-in-napolitan/napoletano.html">Our customer care answers you in Neapolitan</a></p> -->
+<p><a href="https://www.caffeborbone.com/gb/en/pagamenti.html">Payment methods</a></p>
+<!--<p><a href="https://www.caffeborbone.com/gb/en/">Sitemap</a></p>-->
+<p><a href="https://www.caffeborbone.com/gb/en/track-my-order">Track my order</a></p>
+<p><a class="iubenda-cs-preferences-link" href="">Cookie Settings</a></p>
+    </div> <!-- End content-asset -->
+
+
+
+
+            </div>
+            <div id="footer-accordion" class="d-block d-lg-none text-primary mb-16">
+                <div class="card">
+                    <div class="card-header" id="heading-contacts">
+                        <p class="h5">
+                            <button class="btn collapsed px-0" data-toggle="collapse" data-target="#collapse-contacts" aria-expanded="true" aria-controls="contatti">Contacts</button>
+                        </p>
+                    </div>
+                    <div id="collapse-contacts" class="collapse" data-parent="#footer-accordion">
+                        <div class="card-body px-0">
+                            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="c0ad3258fd91cf7b335f0450d3" -->
+        <p><a href="https://www.caffeborbone.com/gb/en/borbone-world/borbone-world.html">About  Us</a></p>
+<p>from Italy <a class="contactus-header-phone" href="tel:800811137">800 811 137</a></p>
+<p>from abroad <a class="contactus-header-phone" href="tel:003908118920046">+39 081 189 200 46</a></p>
+<p><a class="contactus-header" href="https://www.caffeborbone.com/gb/en/contactus">Contact Us</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/caffe-borbone-shipping-cost/shippings.html">Shipments</a></p>
+<!-- <p><a class="contactus-header" href="mailto:shop-support@caffeborbone.com">shop-support@caffeborbone.com</a></p> -->
+<p><a href="https://www.caffeborbone.com/gb/en/work-with-us/work-with-us.html">Work with Us</a></p>
+    </div> <!-- End content-asset -->
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header " id="heading-info">
+                        <p class="h5">
+                            <button class="btn collapsed px-0" data-toggle="collapse" data-target="#collapse-info" aria-expanded="true" aria-controls="informazioni">Information</button>
+                        </p>
+                    </div>
+                    <div id="collapse-info" class="collapse" data-parent="#footer-accordion">
+                        <div class="card-body px-0">
+                            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="22fe6998efbab80acb82205350" -->
+        <!-- <p><a href="https://www.caffeborbone.com/gb/en/new-didi-borbone/new-didi-borbone.html">New Didi Borbone</a></p> -->
+<p><a href="https://www.caffeborbone.com/gb/en/general-terms-condition/terms-conditions.html">General Conditions</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/right-of-withdrawal/returnspolicy.html">Right of withdrawal</a></p>
+<!-- <p><a href="https://www.caffeborbone.com/gb/en/privacy-policy/privacypolicy.html">Privacy Policy</a></p> -->
+<p><a href="https://sites.google.com/caffeborbone.it/gdpr/documenti/informative/privacy-policy" target="_new">Privacy Policy</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/cookie-policy/cookie-policy.html">Cookie Policy</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/borbone-whistleblowing.html">Whistleblowing</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/note-legali.html">Legal notices</a></p>
+    </div> <!-- End content-asset -->
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header " id="heading-support">
+                        <p class="h5">
+                            <button class="btn collapsed px-0" data-toggle="collapse" data-target="#collapse-support" aria-expanded="true" aria-controls="assistenza">Assistance</button>
+                        </p>
+                    </div>
+                    <div id="collapse-support" class="collapse" data-parent="#footer-accordion">
+                        <div class="card-body px-0">
+                            
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="b88905eeaf9f718fff9f229ccf" -->
+        <!-- <p><a href="https://www.caffeborbone.com/gb/en/how-to-make-an-order/come-ordinare.html">How to order</a></p> -->
+<p><a href="https://www.caffeborbone.com/gb/en/promozioni.html">Promo & Offers</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/new-didi-borbone/new-didi-borbone.html">New Didi Borbone</a></p>
+<p><a href="https://www.caffeborbone.com/gb/en/faqs">FAQ</a></p>
+<!-- <p><a href="https://www.caffeborbone.com/gb/en/caffe-borbone-shop-answers-you-in-napolitan/napoletano.html">Our customer care answers you in Neapolitan</a></p> -->
+<p><a href="https://www.caffeborbone.com/gb/en/pagamenti.html">Payment methods</a></p>
+<!--<p><a href="https://www.caffeborbone.com/gb/en/">Sitemap</a></p>-->
+<p><a href="https://www.caffeborbone.com/gb/en/track-my-order">Track my order</a></p>
+<p><a class="iubenda-cs-preferences-link" href="">Cookie Settings</a></p>
+    </div> <!-- End content-asset -->
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-lg-auto d-flex flex-column">
+                <div class="footer-navigation__shipping text-right">
+                    <a
+                        href="#"
+                        class="country-switcher text-white"
+                        data-toggle="modal"
+                        data-target="#changeLocaleModal"
+                    >
+                        <i class="isicon isicon--globe " style="width: 12.0px; height: 12.0px; line-height: 12.0px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#globe"></use>
+    </svg>
+</i>
+
+                        <span class="footer-navigation__shipping-label">Ship to:</span>
+                        <span class="footer-navigation__shipping-countryName">United Kingdom</span>
+                        <span> / </span>
+                        <span class="footer-navigation__shipping-countryCode">en</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-navigation--after d-flex flex-column flex-lg-row mt-24 mt-lg-12">
+            <div class="footer-navigation--after__social">
+                <p class="h5 d-none d-lg-block text-white mb-6">Follow us on:</p>
+                
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="9eb7e7e0953182dfe00bf1a752" -->
+        <a href="https://www.facebook.com/caffeborboneoriginal/" class="mr-6 ml-lg-0 text-white">
+                    <i class="isicon isicon--facebook " style="width: 32px; height: 32px; line-height: 32px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#facebook"></use>
+    </svg>
+</i>
+
+                </a>
+                <a href="https://www.youtube.com/channel/UCAd4vgHnn6Mozy_mxgNG04w" class="mx-6 text-white">
+                    <i class="isicon isicon--youtube " style="width: 32px; height: 32px; line-height: 32px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#youtube"></use>
+    </svg>
+</i>
+
+                </a>
+                <a href="https://www.linkedin.com/company/caff%C3%A8-borbone" class="mx-6 text-white">
+                    <i class="isicon isicon--linkedin " style="width: 32px; height: 32px; line-height: 32px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#linkedin"></use>
+    </svg>
+</i>
+
+                </a>
+                <a href="https://www.instagram.com/caffeborbone/" class="ml-6 text-white">
+                    <i class="isicon isicon--instagram " style="width: 32px; height: 32px; line-height: 32px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#instagram"></use>
+    </svg>
+</i>
+
+                </a>
+    </div> <!-- End content-asset -->
+
+
+
+
+            </div>
+            <div class="footer-navigation--after__logo text-center text-white ml-lg-auto mb-16">
+                <i class="isicon isicon--logo-2024 " style="width: 200px; height: 150px; line-height: 150px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#logo-2024"></use>
+    </svg>
+</i>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="footer-legal container">
+    
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="ab842ea24f7f2ee488f258c783" -->
+        <div class="row justify-content-center">
+<div class="col-md-5">
+<div class="row text-center">
+<div class="col-6 col-md-3" title="Pay by Visa credit card"><i class="isicon isicon--visa m-12" style="width: 32px; height: 32px; line-height: 32px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#visa"></use>
+    </svg>
+</i>
+</div>
+<div class="col-6 col-md-3" title="Pay by MasterCard credit card"><i class="isicon isicon--mastercard m-12" style="width: 32px; height: 32px; line-height: 32px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#mastercard"></use>
+    </svg>
+</i>
+</div>
+<div class="col-6 col-md-3" title="Pay with Maestro circuit card"><i class="isicon isicon--maestro m-12" style="width: 32px; height: 32px; line-height: 32px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#maestro"></use>
+    </svg>
+</i>
+</div>
+<div class="col-6 col-md-3">
+<i class="isicon isicon--paypal m-12" style="width: 32px; height: 32px; line-height: 32px;">
+<img alt="Pay with American Express card" src="https://www.caffeborbone.com/on/demandware.static/-/Library-Sites-CaffeBorboneSharedLibrary/default/dwe2e0aca5/icone-pagamenti/Icon-american-express-borbone.png" title="Pay with American Express card" width="32px" height="32px"/>
+</i>
+</div>
+<div class="col-6 col-md-3" title="Pay with Paypal"><i class="isicon isicon--paypal m-12" style="width: 32px; height: 32px; line-height: 32px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#paypal"></use>
+    </svg>
+</i>
+</div>
+<div class="col-6 col-md-3">
+<i class="isicon isicon--paypal m-12" style="width: 32px; height: 32px; line-height: 32px;">
+<img alt="Pay with Apple Pay" src="https://www.caffeborbone.com/on/demandware.static/-/Library-Sites-CaffeBorboneSharedLibrary/default/dw49e80b95/icone-pagamenti/Icon-apple-pay-borbone.png" title="Pay with Apple Pay" width="32px" height="32px"/>
+</i>
+</div>
+<div class="col-6 col-md-3">
+<i class="isicon isicon--paypal m-12" style="width: 32px; height: 32px; line-height: 32px;">
+<img alt="Pay cash to the courier (Italy only)" src="https://www.caffeborbone.com/on/demandware.static/-/Library-Sites-CaffeBorboneSharedLibrary/default/dw46ca10c5/icone-pagamenti/Icon-contrassegno-borbone.png" title="Pay cash to the courier (Italy only)" width="32px" height="32px"/>
+</i>
+</div>
+<div class="col-6 col-md-3">
+<i class="isicon isicon--paypal m-12" style="width: 32px; height: 32px; line-height: 32px;">
+<img alt="Pay in installments with Scalapay" src="https://www.caffeborbone.com/on/demandware.static/-/Library-Sites-CaffeBorboneSharedLibrary/default/dwad171f3d/scalapay.png" title="Pay in installments with Scalapay" width="32px" height="32px"/>
+</i>
+</div>
+</div>
+</div>
+</div>
+    </div> <!-- End content-asset -->
+
+
+
+    
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="1a6e85a22f0c578bb5d4eca508" -->
+        <div class="row">
+<div class="col-12 col-lg-6 text-center text-lg-right">
+<p><a href="#">All rights reserved &copy; 2025 Caff&egrave; Borbone Srl</a>&nbsp;VAT Number : 07097160639</p>
+</div>
+
+<div class="col-12 col-lg-6 text-center text-lg-left">
+<p>Company subject to the management and coordination of Italmobiliare SPA<!-- <a href="https://www.caffeborbone.com/gb/en/privacy-policy/privacypolicy.html">Privacy Policy</a> | <a href="https://www.caffeborbone.com/gb/en/general-terms-condition-caffe-borbone/tc.html">General Conditions</a> --></p>
+
+<div class="row">
+<div class="col-12 col-lg-6 text-center text-lg-right">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+    </div> <!-- End content-asset -->
+
+
+
+    <div class="divider divider--horizontal bg-black"></div>
+    <div class="footer-legal--info d-flex flex-column justify-content-center text-left text-lg-center mt-12 mb-16">
+        
+    
+    <div class="content-asset"><!-- dwMarker="content" dwContentID="c1b97a16024c0d0d3281f97a85" -->
+        <div align="left"><p>*Nespresso &reg; and *Nescaf&eacute; &reg; *Dolce Gusto &reg; are registered names by Societ&egrave; des Produits Nestl&egrave; &reg; S.A. Caff&egrave; Borbone Srl is an independent producer not connected to the Societ&egrave; des Produits Nestl&egrave; &reg; S.A. The compatibility of these capsules are for the functional use with home coffee machines by Nespresso &reg; - Nescaf&eacute; &reg; Dolce Gusto &reg; brands.</p>
+
+<p>*Lavazza &reg;, *A Modo Mio &reg;, *Lavazza A Modo Mio &reg;, *Espresso Point &reg; and *Lavazza Espresso Point &reg; are brands owned by Luigi Lavazza S.p.A. &reg;. Caff&egrave; Borbone Srl is an independent producer not connected to Luigi Lavazza S.p.A. &reg;. The compatibility of these capsules are for the functional use with home coffee machines by Lavazza &reg; Espresso Point &reg; - Lavazza &reg; A Modo Mio &reg; brands.</p>
+
+<p>* Bialetti&reg; is a registered trademark of Bialetti Industrie S.p.A.. Caffè Borbone S.r.l. is an independent producer and is not connected with Bialetti Industrie S.p.A.. Caffè Borbone capsules are functionally compatible for use with Bialetti&reg; machines.</p>
+
+<p>**The coffee machines are used only as an example, to show the compatibility of the capsules produced by Caff&egrave; Borbone. All trademarks and brands mentioned for this purpose belong to their legitimate owners and have been used for explanatory purposes only.</p>
+
+</div>
+    </div> <!-- End content-asset -->
+
+
+
+    </div>
+</div>
+
+    
+</footer>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="changeLocaleModal" tabindex="-1" role="dialog" aria-labelledby="changeLocaleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="isicon isicon--close " style="width: 32px; height: 32px; line-height: 32px;">
+    <svg role="img" class="">
+        <use xlink:href="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/images/sprite.svg#close"></use>
+    </svg>
+</i>
+
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <p class="h3 text-primary modal-title mb-6 text-uppercase" id="changeLocaleModalLabel">
+                                    Select your country
+                                </p>
+                                <p class="mb-8">We remind you that the catalog, services and prices may change according to the selected country. Any products in the cart will be removed.</p>
+                                <form
+    action="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Page-SetLocale"
+    id="change-locale-form"
+>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-12 col-md-6">
+
+                
+                <div class="position-relative">
+                    <select
+                        class="form-control custom-select select2"
+                        name="change-locale-country"
+                        id="change-locale-country"
+                        data-action="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/Locale-GetLanguagesForLocale"
+                    >
+                        
+                            
+                                <option
+                                    value="it_AT"
+                                    
+                                >Austria</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_BE"
+                                    
+                                >Belgium</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_CZ"
+                                    
+                                >Czech Republic</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_DK"
+                                    
+                                >Denmark</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_FR"
+                                    
+                                >France</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_DE"
+                                    
+                                >German</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_GR"
+                                    
+                                >Greece</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_IE"
+                                    
+                                >Ireland</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_IT"
+                                    
+                                >Italy</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_LU"
+                                    
+                                >Luxembourg</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_NL"
+                                    
+                                >Netherlands</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_PL"
+                                    
+                                >Poland</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_PT"
+                                    
+                                >Portugal</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_RO"
+                                    
+                                >Romania</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_SK"
+                                    
+                                >Slovakia</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_SI"
+                                    
+                                >Slovenia</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_ES"
+                                    
+                                >Spain</option>
+                            
+                        
+                            
+                                <option
+                                    value="it_GB"
+                                    selected
+                                >United Kingdom</option>
+                            
+                        
+                    </select>
+                    <label
+                        for="change-locale-country"
+                        class="custom-label floating-label"
+                    >
+                        Select country
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 mt-4 mt-md-0">
+                <div class="position-relative">
+                    <select
+                        class="form-control custom-select select2"
+                        name="change-locale-language"
+                        id="change-locale-language"
+                    >
+                        
+                            <option
+                                value="it_GB"
+                                data-currency-code="EUR"
+                                
+                            >Italian</option>
+                        
+                            <option
+                                value="en_GB"
+                                data-currency-code="EUR"
+                                selected
+                            >English</option>
+                        
+                    </select>
+                    <label
+                        for="change-locale-language"
+                        class="custom-label floating-label"
+                    >
+                        Select language
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center py-8">
+        <input
+            type="submit"
+            class="btn btn-primary text-uppercase"
+            value="Submit"
+        />
+    </div>
+</form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--[if lt IE 10]>
+<script>//common/scripts.isml</script>
+    
+<script defer type="text/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/js/vendor.js"></script>
+<script defer type="text/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/js/main.js"></script>
+
+    <script defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJPhcklmLT9aOVHfXSLnnDwlg6-pB8CLc&amp;libraries=places,marker"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/js/checkout.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/client.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/data-collector.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/hosted-fields.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/three-d-secure.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/paypal.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/paypal-checkout.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/venmo.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/apple-pay.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/local-payment.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://pay.google.com/gp/p/js/pay.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="https://js.braintreegateway.com/web/3.69.0/js/google-payment.min.js"
+        
+        >
+    </script>
+
+    <script defer type="text/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/js/int_braintree.js"
+        
+        >
+    </script>
+
+
+<![endif]-->
+
+<template
+    id="toastNotificationTemplate"
+    data-js-selector="cstagesToastTemplate"
+>
+
+    <div
+        class="cstages-toast__notification"
+        data-classname-success="cstages-toast__notification--success"
+        data-classname-error="cstages-toast__notification--error"
+        data-dismiss-timeout="20000"
+        data-js-selector="cstagesToastNotification"
+    >
+
+        <div class="cstages-toast__heading">
+            <h3
+                class="cstages-toast__title"
+                data-js-selector="cstagesToastTitle"
+            ></h3>
+            <button
+                class="cstages-toast__dismiss"
+                data-js-selector="cstagesToastDismiss"
+            ></button>
+        </div>
+
+        <div class="cstages-toast__body">
+            <p
+                class="cstages-toast__message"
+                data-js-selector="cstagesToastMessage"
+            ></p>
+        </div>
+
+    </div>
+
+</template>
+
+<div
+    class="cstages-toast"
+    data-js-selector="cstagesToastWrapper"
+></div>
+<template
+    id="loadingScreenTemplate"
+    data-js-selector="cstagesLoadingScreenTemplate"
+>
+
+    <div
+        class="cstages-loading__screen"
+        data-classname-visible="cstages-loading__screen--visible"
+        data-js-selector="cstagesLoadingScreen"
+    >
+        <div class="cstages-loading__text">
+            Please wait for the order to be processed
+        </div>
+        <div class="cstages-loading__icon">
+        </div>
+    </div>
+
+</template>
+
+<div
+    class="cstages-loading"
+    data-js-selector="cstagesLoadingScreenWrapper"
+></div>
+<!-- Marketing Cloud Analytics - cached -->
+<script type="text/javascript">
+try {
+	_etmc.push(['setOrgId', "510004515" ]);
+} catch (e) { console.error(e); }
+function mccEventLoader() {
+	try {
+		$( document ).ajaxSuccess(function(event, request, settings, data) {
+			if (settings.dataTypes.indexOf('json') > -1) {
+				if (data && '__mccEvents' in data && Array.isArray(data.__mccEvents) && typeof _etmc !== 'undefined') {
+					data.__mccEvents.forEach(function mccEvent(mccEvent){_etmc.push(mccEvent);});
+				}
+			}
+		});
+		document.removeEventListener('DOMContentLoaded', mccEventLoader);
+	} catch (e) { console.error(e); }
+};
+if (document.readyState === 'complete') {
+	mccEventLoader();
+} else {
+	document.addEventListener('DOMContentLoaded', mccEventLoader);
+}
+</script>
+<!-- End Marketing Cloud Analytics - cached -->
+<!-- Marketing Cloud Analytics - noncached -->
+<script type="text/javascript">
+try {
+} catch (e) { console.error(e); }
+</script>
+<!-- End Marketing Cloud Analytics - noncached -->
+<!-- Marketing Cloud Analytics - noncached -->
+<script type="text/javascript">
+try {
+	_etmc.push(["setUserInfo",{"email":"aegeC3ArIanJIAd8ylv3X0TcbL","details":{"unique_id":"2b2f966b21157f68c0563ac821","siteID":"caffeborbone-eu","currency":"EUR","cartStatus":"new","country":"United Kingdom","language":"English"}}]);
+	_etmc.push(["trackCart",{"cart":[{"item":"CREMACAFFEBAILEYS","unique_id":"CREMACAFFEBAILEYS","name":"Borbone Coffee Cream with Baileys®","url":"https://www.caffeborbone.com/gb/en/coffee-cream-baileys-borbone-CREMACAFFEBAILEYS.html","onlineAvailability":true,"price":6,"sale_price":6,"item_type":"product","variant":"","Num_Cart_Item":1,"category":"To better enjoy your coffee","quantity":1}]}]);
+	_etmc.push(["trackPageView"]);
+} catch (e) { console.error(e); }
+</script>
+<!-- End Marketing Cloud Analytics - noncached -->
+
+<span class="api-true  tracking-consent"
+    data-caOnline="false"
+    data-url="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/ConsentTracking-GetContent?cid=tracking_hint"
+    data-reject="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/ConsentTracking-SetSession?consent=false"
+    data-accept="/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/ConsentTracking-SetSession?consent=true"
+    data-acceptText="Yes"
+    data-rejectText="No"
+    data-heading="Tracking Consent"
+    ></span>
+<!-- Demandware Analytics code 1.0 (body_end-analytics-tracking-asynch.js) -->
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+function trackPage() {
+    try{
+        var trackingUrl = "https://www.caffeborbone.com/on/demandware.store/Sites-caffeborbone-eu-Site/en_GB/__Analytics-Start";
+        var dwAnalytics = dw.__dwAnalytics.getTracker(trackingUrl);
+        if (typeof dw.ac == "undefined") {
+            dwAnalytics.trackPageView();
+        } else {
+            dw.ac.setDWAnalytics(dwAnalytics);
+        }
+    }catch(err) {};
+}
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript" src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/internal/jscript/dwanalytics-22.2.js" async="async" onload="trackPage()"></script>
+<!-- Demandware Active Data (body_end-active_data.js) -->
+<script src="/on/demandware.static/Sites-caffeborbone-eu-Site/-/en_GB/v1737597683015/internal/jscript/dwac-21.7.js" type="text/javascript" async="async"></script><!-- CQuotient Activity Tracking (body_end-cquotient.js) -->
+<script src="https://cdn.cquotient.com/js/v2/gretel.min.js" type="text/javascript" async="async"></script>
+</body>
+</html>
+

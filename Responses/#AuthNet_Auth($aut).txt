@@ -1,0 +1,1 @@
+Error, OpenSSL SSL_read: error:0A0003FC:SSL routines::sslv3 alert bad record mac, errno 0

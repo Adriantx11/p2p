@@ -1,0 +1,20 @@
+
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+	<html>
+	<head>
+		<title>Processing...</title>
+		<link rel="stylesheet" type="text/css" href="https://libs.na.bambora.com/checkouttheme/0.1.0/ui.bambora/ui.bambora.1.1.0.css">
+		<link rel="stylesheet" type="text/css" href="https://libs.na.bambora.com/checkouttheme/0.1.0/style.css">
+	</head>
+	<body>
+	   <div class="spinner">
+			<div class="spinner-left"></div>
+			<div class="spinner-right"></div>
+		</div>
+	   <form id="frmRedirect" name="frmRedirect" method="POST" action="https://www.beanstream.com/scripts/process_transaction.asp">
+			<input type="hidden" name="payFormParams" id="payFormParams" value="payment_type=PaymentForm&amp;merchant_id=319870000&amp;trnType=P&amp;errorPage=https://www.beanstream.com%2Fscripts%2Fpayment%2Fpayment%2Easp&amp;approvedPage=https%3A%2F%2Fpcc%2Eglobalcitizen%2Eca%2FPlugins%2FPaymentBambora%2FResultHandler&amp;declinedPage=https%3A%2F%2Fpcc%2Eglobalcitizen%2Eca%2FPlugins%2FPaymentBambora%2FResultHandler&amp;epe_client_found=false&amp;trnLanguage=eng&amp;shipping_method=&amp;deviceChannel=02&amp;ref1=&amp;ref2=&amp;ref3=&amp;ref4=&amp;ref5=&amp;shippingMethod=&amp;deliveryEstimate=&amp;ordTax1Price=&amp;ordTax2Price=&amp;ordItemPrice=0&amp;ordShippingPrice=0&amp;trnAmount=39%2E80&amp;ordAddress1=1148+Nicholas+Street&amp;hashExpiry=202501200915&amp;trnOrderNumber=2033%2DPCC&amp;ordName=alex+frick&amp;ordEmailAddress=bruce%2Ecarter65582913%40hotmail%2Ecom&amp;ordPhoneCountryCode=1&amp;ordPhoneNumber=+17585118183&amp;ordPhoneType=m&amp;ordCity=Topeka&amp;ordProvince=KS&amp;ordPostalCode=66604&amp;ordCountry=US&amp;paymentMethod=CC&amp;trnCardOwner=alec+torres&amp;trnCardCvd=417&amp;cavBirthMonth=&amp;cavBirthDay=&amp;cavBirthYear=&amp;cavSin=&amp;paymentAction=&amp;previousSessionToken=58FA3863-45AD-4ABE-902506277C753B86&amp;trnCardNumber=5175461040790802&amp;trnExpMonth=06&amp;trnExpYear=28&amp;aDFinancingType=&amp;aDPlanNumber=&amp;aDGracePeriod=&amp;aDTerm=&amp;hashValue=72c76ee0747800185a119434fc479b62">
+	   </form>
+	   <script language="JavaScript">document.frmRedirect.submit();</script>
+	</body>
+	</html>
+	

@@ -1,0 +1,1 @@
+{"status":{"reason":"Bad Request","code":400},"message":"Recaptcha verification failed, the score generated is less than the threshold value"}

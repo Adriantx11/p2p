@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v24.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>My account - Webtron Credit Card Forms</title>
+	<link rel="canonical" href="https://webtronusa.com/my-account/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="My account - Webtron Credit Card Forms" />
+	<meta property="og:url" content="https://webtronusa.com/my-account/" />
+	<meta property="og:site_name" content="Webtron Credit Card Forms" />
+	<meta property="article:modified_time" content="2024-08-12T08:24:53+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://webtronusa.com/my-account/","url":"https://webtronusa.com/my-account/","name":"My account - Webtron Credit Card Forms","isPartOf":{"@id":"https://webtronusa.com/#website"},"datePublished":"2024-08-07T11:34:31+00:00","dateModified":"2024-08-12T08:24:53+00:00","breadcrumb":{"@id":"https://webtronusa.com/my-account/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://webtronusa.com/my-account/"]}]},{"@type":"BreadcrumbList","@id":"https://webtronusa.com/my-account/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://webtronusa.com/"},{"@type":"ListItem","position":2,"name":"My account"}]},{"@type":"WebSite","@id":"https://webtronusa.com/#website","url":"https://webtronusa.com/","name":"Webtron Credit Card Forms","description":"A small company with Big results!","publisher":{"@id":"https://webtronusa.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://webtronusa.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://webtronusa.com/#organization","name":"Webtron Credit Card Forms","url":"https://webtronusa.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://webtronusa.com/#/schema/logo/image/","url":"https://webtronusa.com/wp-content/uploads/2024/08/Webtron-Logo-Rounded-Border.png","contentUrl":"https://webtronusa.com/wp-content/uploads/2024/08/Webtron-Logo-Rounded-Border.png","width":398,"height":103,"caption":"Webtron Credit Card Forms"},"image":{"@id":"https://webtronusa.com/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Webtron Credit Card Forms &raquo; Feed" href="https://webtronusa.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Webtron Credit Card Forms &raquo; Comments Feed" href="https://webtronusa.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/webtronusa.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='admin_outofstock_css-css' href='https://webtronusa.com/wp-content/plugins/woo-out-of-stock-products/admin/inc/admin-outofstock.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='outofstock_css-css' href='https://webtronusa.com/wp-content/plugins/woo-out-of-stock-products/inc/outofstock.css?ver=6.7.1' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://webtronusa.com/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='select2-css' href='https://webtronusa.com/wp-content/plugins/woocommerce/assets/css/select2.css?ver=9.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://webtronusa.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://webtronusa.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.6.0' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://webtronusa.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.6.0' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='megamenu-css' href='https://webtronusa.com/wp-content/uploads/maxmegamenu/style.css?ver=e1add4' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://webtronusa.com/wp-includes/css/dashicons.min.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='brands-styles-css' href='https://webtronusa.com/wp-content/plugins/woocommerce/assets/css/brands.css?ver=9.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='newsup-fonts-css' href='//fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C700%2C800%7CWork%2BSans%3A300%2C400%2C500%2C600%2C700%2C800%2C900%26display%3Dswap&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://webtronusa.com/wp-content/themes/_.newsup/css/bootstrap.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='newsup-style-css' href='https://webtronusa.com/wp-content/themes/_.newsup/style.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='newsup-default-css' href='https://webtronusa.com/wp-content/themes/_.newsup/css/colors/default.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='https://webtronusa.com/wp-content/themes/_.newsup/css/font-awesome/css/all.min.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://webtronusa.com/wp-content/themes/_.newsup/css/font-awesome/css/v4-shims.min.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css' href='https://webtronusa.com/wp-content/themes/_.newsup/css/owl.carousel.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='smartmenus-css' href='https://webtronusa.com/wp-content/themes/_.newsup/css/jquery.smartmenus.bootstrap.css?ver=6.7.1' type='text/css' media='all' />
+<script type="text/javascript" src="https://webtronusa.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/recaptcha-woo/js/rcfwc.js?ver=1.0" id="rcfwc-js-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?explicit&amp;hl=en_US" id="recaptcha-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.6.0" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/webtronusa.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=9.6.0" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9-wc.9.6.0" id="selectWoo-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woocommerce/assets/js/frontend/account-i18n.min.js?ver=9.6.0" id="wc-account-i18n-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.6.0" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.6.0" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woocommerce/assets/js/frontend/add-payment-method.min.js?ver=9.6.0" id="wc-add-payment-method-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/themes/_.newsup/js/navigation.js?ver=6.7.1" id="newsup-navigation-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/themes/_.newsup/js/bootstrap.js?ver=6.7.1" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/themes/_.newsup/js/owl.carousel.min.js?ver=6.7.1" id="owl-carousel-min-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/themes/_.newsup/js/jquery.smartmenus.js?ver=6.7.1" id="smartmenus-js-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/themes/_.newsup/js/jquery.smartmenus.bootstrap.js?ver=6.7.1" id="bootstrap-smartmenus-js-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/themes/_.newsup/js/jquery.marquee.js?ver=6.7.1" id="newsup-marquee-js-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/themes/_.newsup/js/main.js?ver=6.7.1" id="newsup-main-js-js"></script>
+<link rel="https://api.w.org/" href="https://webtronusa.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://webtronusa.com/wp-json/wp/v2/pages/130" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://webtronusa.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.1" />
+<meta name="generator" content="WooCommerce 9.6.0" />
+<link rel='shortlink' href='https://webtronusa.com/?p=130' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://webtronusa.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwebtronusa.com%2Fmy-account%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://webtronusa.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwebtronusa.com%2Fmy-account%2F&#038;format=xml" />
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-4TGSFHRVM0"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-4TGSFHRVM0');
+		</script>
+
+	<style type="text/css" id="custom-background-css">
+    .wrapper { background-color: #eee; }
+</style>
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	    <style type="text/css">
+            body .site-title a,
+        body .site-description {
+            color: #fff;
+        }
+
+        .site-branding-text .site-title a {
+                font-size: px;
+            }
+
+            @media only screen and (max-width: 640px) {
+                .site-branding-text .site-title a {
+                    font-size: 40px;
+
+                }
+            }
+
+            @media only screen and (max-width: 375px) {
+                .site-branding-text .site-title a {
+                    font-size: 32px;
+
+                }
+            }
+
+        </style>
+    <style class='wp-fonts-local' type='text/css'>
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('https://webtronusa.com/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('https://webtronusa.com/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}
+</style>
+<style type="text/css">/** Mega Menu CSS: fs **/</style>
+</head>
+<body class="page-template-default page page-id-130 logged-in wp-custom-logo wp-embed-responsive theme-_.newsup woocommerce-account woocommerce-page woocommerce-demo-store woocommerce-add-payment-method woocommerce-no-js wc-braintree-body mega-menu-max-mega-menu-1  ta-hide-date-author-in-list" >
+<div id="page" class="site">
+<a class="skip-link screen-reader-text" href="#content">
+Skip to content</a>
+    <div class="wrapper" id="custom-background-css">
+        <header class="mg-headwidget">
+            <!--==================== TOP BAR ====================-->
+
+            <div class="mg-head-detail hidden-xs">
+    <div class="container-fluid">
+        <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                <ul class="info-left">
+                            <li>        </li>
+
+
+                   </ul>
+            </div>
+                    </div>
+    </div>
+</div>
+            <div class="clearfix"></div>
+                        <div class="mg-nav-widget-area-back" style='background-image: url("https://webtronusa.com/wp-content/themes/_.newsup/images/head-back.jpg" );'>
+                        <div class="overlay">
+              <div class="inner"  style="background-color:rgba(32,47,91,0.4);" > 
+                <div class="container-fluid">
+                    <div class="mg-nav-widget-area">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-sm-4 text-center-xs">
+                                <div class="navbar-header">
+                                <a href="https://webtronusa.com/" class="navbar-brand" rel="home"><img width="398" height="103" src="https://webtronusa.com/wp-content/uploads/2024/08/Webtron-Logo-Rounded-Border.png" class="custom-logo" alt="Webtron Credit Card Forms" decoding="async" srcset="https://webtronusa.com/wp-content/uploads/2024/08/Webtron-Logo-Rounded-Border.png 398w, https://webtronusa.com/wp-content/uploads/2024/08/Webtron-Logo-Rounded-Border-300x78.png 300w" sizes="(max-width: 398px) 100vw, 398px" /></a>                                <div class="site-branding-text">
+                                <h1 class="site-title"> <a href="https://webtronusa.com/" rel="home">Webtron Credit Card Forms</a></h1>
+                                <p class="site-description">A small company with Big results!</p>
+                                </div>
+                                                              </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+          </div>
+    <div class="mg-menu-full">
+      <nav class="navbar navbar-expand-lg navbar-wp">
+        <div class="container-fluid flex-row-reverse">
+          <!-- Right nav -->
+                    <div class="m-header d-flex pl-3 ml-auto my-2 my-lg-0 position-relative align-items-center">
+                                                <a class="mobilehomebtn" href="https://webtronusa.com"><span class="fas fa-home"></span></a>
+                        <!-- navbar-toggle -->
+                        <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbar-wp" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <i class="fas fa-bars"></i>
+                        </button>
+                        <!-- /navbar-toggle -->
+                                                
+                    </div>
+                    <!-- /Right nav -->
+         
+          
+                  <div class="collapse navbar-collapse" id="navbar-wp">
+                  	<div class="d-md-block">
+                  <ul id="menu-main-menu" class="nav navbar-nav mr-auto"><li class="active home"><a class="homebtn" href="https://webtronusa.com"><span class='fas fa-home'></span></a></li><li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-16"><a class="nav-link" title="Home" href="https://webtronusa.com/">Home</a></li>
+<li id="menu-item-223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223"><a class="nav-link" title="Authorize.net" href="https://webtronusa.com/authorize-net-developer/">Authorize.net</a></li>
+<li id="menu-item-219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-219"><a class="nav-link" title="PayPal" href="https://webtronusa.com/paypal/">PayPal</a></li>
+<li id="menu-item-299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-299 dropdown"><a class="nav-link" title="APIs" href="#" data-toggle="dropdown" class="dropdown-toggle">APIs </a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220"><a class="dropdown-item" title="OSCommerce CIM" href="https://webtronusa.com/oscommerce-cim-authorize-net/">OSCommerce CIM</a></li>
+	<li id="menu-item-222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222"><a class="dropdown-item" title="Batch Uploader" href="https://webtronusa.com/cim-authorize-net-batch-uploader-profiles-payments/">Batch Uploader</a></li>
+	<li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-218"><a class="dropdown-item" title="Plugin ARB" href="https://webtronusa.com/wordpress-plugin-arb-authorize-net/">Plugin ARB</a></li>
+</ul>
+</li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a class="nav-link" title="Shop" href="https://webtronusa.com/shop/">Shop</a></li>
+<li id="menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127"><a class="nav-link" title="Cart" href="https://webtronusa.com/cart/">Cart</a></li>
+<li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a class="nav-link" title="Checkout" href="https://webtronusa.com/checkout/">Checkout</a></li>
+<li id="menu-item-221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221"><a class="nav-link" title="Contact Us" href="https://webtronusa.com/contact/">Contact Us</a></li>
+<li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-130 current_page_item menu-item-131 active"><a class="nav-link" title="My account" href="https://webtronusa.com/my-account/">My account</a></li>
+</ul>        				</div>		
+              		</div>
+          </div>
+      </nav> <!-- /Navigation -->
+    </div>
+</header>
+<div class="clearfix"></div>
+ <!--==================== Newsup breadcrumb section ====================-->
+<div class="mg-breadcrumb-section" style='background: url("https://webtronusa.com/wp-content/themes/_.newsup/images/head-back.jpg" ) repeat scroll center 0 #143745;'>
+  <div class="overlay">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+			    <div class="mg-breadcrumb-title">
+                      <h1>My account</h1>
+                   </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+<div class="clearfix"></div><!--==================== main content section ====================-->
+<main id="content">
+    <div class="container-fluid">
+      <div class="row">
+		<!-- Blog Area -->
+						<div class="col-md-12 mg-card-box padding-20">
+						<div class="woocommerce">
+<nav class="woocommerce-MyAccount-navigation" aria-label="Account pages">
+	<ul>
+					<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--dashboard">
+				<a href="https://webtronusa.com/my-account/" >
+					Dashboard				</a>
+			</li>
+					<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--orders">
+				<a href="https://webtronusa.com/my-account/orders/" >
+					Orders				</a>
+			</li>
+					<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--downloads">
+				<a href="https://webtronusa.com/my-account/downloads/" >
+					Downloads				</a>
+			</li>
+					<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-address">
+				<a href="https://webtronusa.com/my-account/edit-address/" >
+					Addresses				</a>
+			</li>
+					<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--payment-methods is-active">
+				<a href="https://webtronusa.com/my-account/payment-methods/" aria-current="page">
+					Payment methods				</a>
+			</li>
+					<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--edit-account">
+				<a href="https://webtronusa.com/my-account/edit-account/" >
+					Account details				</a>
+			</li>
+					<li class="woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--customer-logout">
+				<a href="https://webtronusa.com/my-account/customer-logout/?_wpnonce=cd1748cca6" >
+					Log out				</a>
+			</li>
+			</ul>
+</nav>
+
+
+<div class="woocommerce-MyAccount-content">
+	<div class="woocommerce-notices-wrapper">
+<ul class="woocommerce-error" role="alert">
+			<li>
+			There was an error saving your payment method. Reason: Processor Declined		</li>
+	</ul>
+</div>	<form id="add_payment_method" method="post">
+		<div id="payment" class="woocommerce-Payment">
+			<ul class="woocommerce-PaymentMethods payment_methods methods">
+									<li class="woocommerce-PaymentMethod woocommerce-PaymentMethod--braintree_cc payment_method_braintree_cc">
+						<input id="payment_method_braintree_cc" type="radio" class="input-radio" name="payment_method" value="braintree_cc"  checked='checked' />
+						<label for="payment_method_braintree_cc">Credit Cards (Braintree) <span class="wc-braintree-card-icons-container">
+	<img decoding="async" alt="Amex" class="wc-braintree-card-icon closed amex" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/img/payment-methods/closed/amex.svg" />	<img decoding="async" alt="Discover" class="wc-braintree-card-icon closed discover" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/img/payment-methods/closed/discover.svg" />	<img decoding="async" alt="Visa" class="wc-braintree-card-icon closed visa" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/img/payment-methods/closed/visa.svg" />	<img decoding="async" alt="MasterCard" class="wc-braintree-card-icon closed master_card" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/img/payment-methods/closed/master_card.svg" /></span></label>
+						<div class="woocommerce-PaymentBox woocommerce-PaymentBox--braintree_cc payment_box payment_method_braintree_cc" style="display: none;"><input type="hidden" class="woocommerce_braintree_cc_data" data-gateway="{&quot;currency&quot;:&quot;USD&quot;,&quot;price_label&quot;:&quot;Total&quot;,&quot;merchant_account&quot;:&quot;JeffQuadeNetLLC_instant&quot;,&quot;shipping_options&quot;:[],&quot;total&quot;:0,&quot;order_total&quot;:0,&quot;needs_shipping&quot;:false,&quot;items&quot;:[],&quot;_3ds&quot;:{&quot;enabled&quot;:false,&quot;active&quot;:false}}"/><div class="wc-braintree-payment-gateway ">
+	<input type="hidden" id="braintree_cc_nonce_key" name="braintree_cc_nonce_key" class="wc-braintree-payment-nonce"/><input type="hidden" id="braintree_cc_device_data" name="braintree_cc_device_data" class="wc-braintree-device-data"/>		    <div class="wc-braintree-new-payment-method-container" style="">
+		<input type="hidden" id="braintree_cc_3ds_nonce_key" name="braintree_cc_3ds_nonce_key" class="wc-braintree-3ds-vaulted-nonce"/><input type="hidden" id="braintree_cc_config_data" name="braintree_cc_config_data" class=""/><div class="wc-braintree-cc-container closed-icons">
+			<div class="wc-braintree-payment-loader" style="display: none">
+			<div class="loader"></div>
+
+<style>
+body.wc-braintree-body .wc-braintree-new-payment-method-container .wc-braintree-payment-loader{
+	background: rgba(0,0,0,.65);
+	display: flex;
+	display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+body.wc-braintree-body .wc-braintree-new-payment-method-container .wc-braintree-payment-loader .loader,
+body.wc-braintree-body .wc-braintree-new-payment-method-container .wc-braintree-payment-loader .loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+body.wc-braintree-body .wc-braintree-new-payment-method-container .wc-braintree-payment-loader .loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid #ffffff;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: circular-animation 1.1s infinite linear;
+  animation: circular-animation 1.1s infinite linear;
+}
+@-webkit-keyframes circular-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes circular-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+</style>		</div>
+	
+    <div class="row">
+        <div class="form-group col-xs-8">
+            <label class="control-label">Card Number</label>
+            <!--  Hosted Fields div container -->
+            <div class="form-control" id="wc-braintree-card-number">
+                <span class="wc-braintree-card-type"></span>
+            </div>
+        </div>
+        <div class="form-group col-xs-4">
+            <label class="control-label">Exp Date</label>
+            <div class="form-control" id="wc-braintree-expiration-date"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-xs-6 cvv-container">
+            <label class="control-label">CVV</label>
+            <div class="form-control" id="wc-braintree-cvv"></div>
+        </div>
+		            <div class="form-group col-xs-6 postalCode-container">
+                <label class="control-label">Postal Code</label>
+                <div class="form-control" id="wc-braintree-postal-code"></div>
+            </div>
+		    </div>
+</div>    </div>
+	</div></div>					</li>
+								</ul>
+
+			
+			<div class="form-row">
+				<input type="hidden" id="woocommerce-add-payment-method-nonce" name="woocommerce-add-payment-method-nonce" value="1e9d33378f" /><input type="hidden" name="_wp_http_referer" value="/my-account/add-payment-method/" />				<button type="submit" class="woocommerce-Button woocommerce-Button--alt button alt" id="place_order" value="Add payment method">Add payment method</button>
+				<input type="hidden" name="woocommerce_add_payment_method" id="woocommerce_add_payment_method" value="1" />
+			</div>
+		</div>
+	</form>
+</div>
+</div>			<!--Sidebar Area-->
+		</div>
+	</div>
+</main>
+<!--==================== FOOTER AREA ====================-->
+        <footer> 
+            <div class="overlay" style="background-color: ;">
+                <!--Start mg-footer-widget-area-->
+                                 <!--End mg-footer-widget-area-->
+                <!--Start mg-footer-widget-area-->
+                <div class="mg-footer-bottom-area">
+                    <div class="container-fluid">
+                        <div class="divide-line"></div>
+                        <div class="row align-items-center">
+                            <!--col-md-4-->
+                            <div class="col-md-6">
+                               <a href="https://webtronusa.com/" class="navbar-brand" rel="home"><img width="398" height="103" src="https://webtronusa.com/wp-content/uploads/2024/08/Webtron-Logo-Rounded-Border.png" class="custom-logo" alt="Webtron Credit Card Forms" decoding="async" srcset="https://webtronusa.com/wp-content/uploads/2024/08/Webtron-Logo-Rounded-Border.png 398w, https://webtronusa.com/wp-content/uploads/2024/08/Webtron-Logo-Rounded-Border-300x78.png 300w" sizes="(max-width: 398px) 100vw, 398px" /></a>                              <div class="site-branding-text">
+                              <h1 class="site-title"> <a href="https://webtronusa.com/" rel="home">Webtron Credit Card Forms</a></h1>
+                              <p class="site-description">A small company with Big results!</p>
+                              </div>
+                                                          </div>
+
+                             
+                            <div class="col-md-6 text-right text-xs">
+                                
+                            <ul class="mg-social">
+                                    
+                                                                        
+                                     
+                                    
+                                                                        
+                                    
+                                                                 </ul>
+
+
+                            </div>
+                            <!--/col-md-4-->  
+                             
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/container-->
+                </div>
+                <!--End mg-footer-widget-area-->
+
+                <div class="mg-footer-copyright">
+                    <div class="container-fluid">
+                        <div class="row">
+                                                      <div class="col-md-6 text-xs">
+                                                            <p>
+                                <a href="https://wordpress.org/">
+																</a>
+								<!--span class="sep"> | </span -->
+
+
+			<div id="footer3" class="inner_footer" style="color:white;">
+				
+<a href="#top" title="php: 8.2.27 | Brea, California - Dreamhost 198.54.116.78 | 198.54.114.78 "> <img src="https://webtronusa.com/wp-content/themes/_.newsup/assets/images/flags/US.gif" width="21" height="15" alt="US Flag" style="max-width: 21px; width: 100%;" /></a>
+Copyright &copy;2017-2025 Webtron Credit Card Forms       </div><!-- footer3 -->
+
+
+
+
+
+
+
+																</p>
+                            </div>
+
+
+                                                        <div class="col-md-6 text-right text-xs">
+                                <ul class="info-right"><li class="nav-item menu-item "><a class="nav-link " href="https://webtronusa.com/" title="Home">Home</a></li><li class="nav-item menu-item page_item dropdown page-item-26"><a class="nav-link" href="https://webtronusa.com/cim-authorize-net-batch-uploader-profiles-payments/">Authorize.net Batch Uploader</a></li><li class="nav-item menu-item page_item dropdown page-item-22"><a class="nav-link" href="https://webtronusa.com/authorize-net-developer/">Authorize.net Developer</a></li><li class="nav-item menu-item page_item dropdown page-item-126"><a class="nav-link" href="https://webtronusa.com/cart/">Cart</a></li><li class="nav-item menu-item page_item dropdown page-item-137"><a class="nav-link" href="https://webtronusa.com/categories/">Categories</a></li><li class="nav-item menu-item page_item dropdown page-item-128"><a class="nav-link" href="https://webtronusa.com/checkout/">Checkout</a></li><li class="nav-item menu-item page_item dropdown page-item-29"><a class="nav-link" href="https://webtronusa.com/contact/">Contact Us</a></li><li class="nav-item menu-item page_item dropdown page-item-130 nav-item active"><a class="nav-link" href="https://webtronusa.com/my-account/">My account</a></li><li class="nav-item menu-item page_item dropdown page-item-32"><a class="nav-link" href="https://webtronusa.com/oscommerce-cim-authorize-net/">OSCommerce-CIM-Authorize.net</a></li><li class="nav-item menu-item page_item dropdown page-item-35"><a class="nav-link" href="https://webtronusa.com/paypal/">PayPal</a></li><li class="nav-item menu-item page_item dropdown page-item-280"><a class="nav-link" href="https://webtronusa.com/posts/">Posts</a></li><li class="nav-item menu-item page_item dropdown page-item-124"><a class="nav-link" href="https://webtronusa.com/shop/">Shop</a></li><li class="nav-item menu-item page_item dropdown page-item-38"><a class="nav-link" href="https://webtronusa.com/wordpress-plugin-arb-authorize-net/">WordPress Plugin ARB Authorize.net</a></li></ul>
+                            </div>
+                                                  </div>
+                    </div>
+                </div>
+            </div>
+            <!--/overlay-->
+        </footer>
+        <!--/footer-->
+    </div>
+  </div>
+    <!--/wrapper-->
+    <!--Scroll To Top-->
+    <a href="#" class="ta_upscr bounceInup animated"><i class="fas fa-angle-up"></i></a>
+    <!--/Scroll To Top-->
+<!-- /Scroll To Top -->
+<p class="woocommerce-store-notice demo_store" data-notice-id="d4ddc9b5b0b918f001a130194a90ffce" style="display:none;">All of our products require custom installation per site. Please contact us for service and support. <span><a href="mailto:Jeff@WebtronUSA.com" target="_blank">Jeff@WebtronUSA.com</a></span> <a href="#" class="woocommerce-store-notice__dismiss-link">Dismiss</a></p>
+	
+	
+			<style type="text/css">
+
+			
+				.outofstock .images a:before {
+				background-image: url(https://webtronusa.com/wp-content/plugins/woo-out-of-stock-products/assets/sign-pin.png);				/*background-color: rgba(255,255,255,.3);*/
+				background-repeat: no-repeat;
+				background-position: center top;
+				display: inherit !important; 
+    			opacity: .8;
+    			z-index: 1 !important;
+			}
+
+			.products .outofstock a:before {
+				background-image: url(https://webtronusa.com/wp-content/plugins/woo-out-of-stock-products/assets/sign-pin.png);				/*background-color: rgba(255,255,255,.3);*/
+				background-repeat: no-repeat;
+				background-position: center top;
+				display: inherit !important;
+    			opacity: .8;
+    			z-index: 1 !important;
+			}
+			.products .outofstock .button:before {
+				background:none !important;
+				display: inherit !important;
+				}
+			.outofstock .images .thumbnails a:before {
+				background:none !important;
+				display: inherit !important;
+			}
+
+			</style>
+			<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='wc-braintree-blocks-style-css' href='https://webtronusa.com/wp-content/plugins/woo-payment-gateway/packages/blocks/build/style.css?ver=3.2.59' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-braintree-blocks-credit-card-styles-css' href='https://webtronusa.com/wp-content/plugins/woo-payment-gateway/packages/blocks/build/credit-card/bootstrap.css?ver=3.2.59' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-braintree-styles-css' href='https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/css/braintree.min.css?ver=3.2.59' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://webtronusa.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-braintree-bootstrap_form-css' href='https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/css/custom-forms/bootstrap-form.css?ver=3.2.59' type='text/css' media='all' />
+<script type="text/javascript" src="https://webtronusa.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.6.0" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/webtronusa.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.6.0" id="wc-order-attribution-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.4.1" id="megamenu-js"></script>
+<script type="text/javascript" id="wc-braintree-payment-method-icons-js-extra">
+/* <![CDATA[ */
+var wc_braintree_payment_method_icons_params = {"tokens":[],"icons":{"Visa":"<img class=\"wc-braintree-method-icon closed visa\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/visa.svg\"\/>","MasterCard":"<img class=\"wc-braintree-method-icon closed mastercard\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/master_card.svg\"\/>","AmericanExpress":"<img class=\"wc-braintree-method-icon closed amex\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/amex.svg\"\/>","Discover":"<img class=\"wc-braintree-method-icon closed discover\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/discover.svg\"\/>","DinersClub":"<img class=\"wc-braintree-method-icon closed diners\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/diners_club_international.svg\"\/>","JCB":"<img class=\"wc-braintree-method-icon closed jcb\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/jcb.svg\"\/>","Maestro":"<img class=\"wc-braintree-method-icon closed maestro\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/maestro.svg\"\/>","PayPal":"<img class=\"wc-braintree-method-icon paypal\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/paypal.svg\"\/>","GooglePay":"<img class=\"wc-braintree-method-icon googlepay\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/googlepay\/google_pay_standard.svg\"\/>","UnionPay":"<img class=\"wc-braintree-method-icon closed unionpay\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/china_union_pay.svg\"\/>","ApplePay":"<img class=\"wc-braintree-method-icon applepay\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/applepay\/apple_pay_mark.svg\"\/>","Venmo":"<img class=\"wc-braintree-method-icon venmo\" src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/venmo.svg\"\/>"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/js/frontend/payment-method-icons.js?ver=3.2.59" id="wc-braintree-payment-method-icons-js"></script>
+<script type="text/javascript" src="https://js.braintreegateway.com/web/3.106.0/js/client.min.js" id="wc-braintree-client-v3-js"></script>
+<script type="text/javascript" id="wc-braintree-message-handler-js-extra">
+/* <![CDATA[ */
+var wc_braintree_message_handler_params = {"messages":{"INSTANTIATION_OPTION_REQUIRED":"Error initiating Braintree client. This error occurs when you haven't finished configuring your API keys.","INVALID_CLIENT_TOKEN":"Invalid client token supplied. Please check your API keys.","HOSTED_FIELDS_FIELDS_EMPTY":"Please fill out the payment form.","HOSTED_FIELDS_FIELDS_INVALID":"Some of your payment fields are invalid.","HOSTED_FIELDS_FAILED_TOKENIZATION":"Please check that your credit card is valid.","HOSTED_FIELDS_TOKENIZATION_NETWORK_ERROR":"There was a network error. Please try again.","VALIDATION":"Please check your payment method fields.","THREEDS_LOOKUP_VALIDATION_ERROR":"The address data passed to the 3D Secure provider was in an invalid format.","THREEDS_HTTPS_REQUIRED":"3D Secure requires HTTPS.","THREEDS_NOT_ENABLED":"3D Secure is not enabled for this merchant.","PAYPAL_INVALID_ADDRESS":"Provided shipping address failed PayPal validation. Please check your entries.","PAYPAL_INVALID_CLIENT":"Check your PayPal client ID and client secret in your Braintree Control Panel settings.","PAYPAL_TOKENIZATION_REQUEST_ACTIVE":"There is already a PayPal window open.","PAYPAL_FLOW_OPTION_REQUIRED":"PayPal vault flow is required.","PAYPAL_INVALID_PAYMENT_OPTION_ADDRESS":"PayPal validation of address failed. Please verify your shipping address.","PAYPAL_INVALID_PAYMENT_OPTION_CITY":"Invalid city entered for your shipping address.","PAYPAL_INVALID_PAYMENT_OPTION_STATE":"Invalid state entered for your shipping address.","PAYPAL_INVALID_PAYMENT_OPTION_ZIP":"Invalid zip code entered for shipping address.","PAYPAL_LINKED_ACCOUNT_PRODUCTION":"Please link your PayPal account in the Braintree control panel in order to use PayPal.","PAYPAL_LINKED_ACCOUNT_SANDBOX":"Please link your PayPal account in the Braintree control panel in order to use PayPal. <a href=\"https:\/\/developers.braintreepayments.com\/guides\/paypal\/testing-go-live\/php#linked-paypal-testing\" target=\"_blank\">How to link a sandbox PayPal account.<\/a>","DATA_COLLECTOR_KOUNT_NOT_ENABLED":"Please enable fraud tools within your Braintree Control Panel if you have enabled Advanced Fraud in the plugin settings. This setting can take several minutes to take affect.","LOCAL_GATEWAY_INVALID_MERCHANT_ACCOUNT":"No merchant account found for the requested currency.","NO_MERCHANT_ACCOUNT":"No merchant account found for the requested currency.","GOOGLE_PAYMENT_NOT_ENABLED":"Google Pay is not enabled for this merchant. Please enable Google Pay within your Braintree control panel.","DEVELOPER_ERROR_WHITELIST":"You have not been whitelisted by Google to use the paymentDataRequest.callbackIntent. Please contact Google's API team to request that your merchant ID be whitelisted. You can disable the plugin's dynamc price setting which will allow you to accept payments while you wait for Google to whitelist you.","PAYPAL_INVALID_LOCALE":"Please enter a locale that PayPal supports. You can change the locale in your Wordpress settings.","PAYPAL_MERCHANT_ACCOUNT_EMPTY":"PayPal requires that you configure your merchant accounts. Navigate to the Braintree Plugin's Advanced Settings &#62; <a target=\"_blank\" href=\"https:\/\/webtronusa.com\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=braintree_advanced\">Merchant Accounts<\/a> page and click <strong>Import Accounts<\/strong>.","LOCAL_PAYMENT_WINDOW_OPEN_FAILED":"LocalPayment window failed to open; please allow pop-ups for this site.","DropinError":"Please fill out the payment form.","avsPostalCodeResponseCode_N":"Postal code does not match.","avsStreetAddressResponseCode_N":"Street address does not match.","cvvResponseCode_N":"Card security code does not match.","avsPostalCodeResponseCode_U":"Postal code not verified.","avsStreetAddressResponseCode_U":"Street address not verified.","cvvResponseCode_U":"Card security code not verified.","avsPostalCodeResponseCode_I":"Postal code not provided.","avsStreetAddressResponseCode_I":"Street address not provided.","cvvResponseCode_I":"Card security code not provided.","gatewayRejectionReason_three_d_secure":"Your payment method was rejected due to 3D Secure.","2000":"Do Not Honor","2001":"Insufficient Funds","2002":"Limit Exceeded","2003":"Cardholder's Activity Limit Exceeded","2004":"Expired Card","2005":"Invalid Credit Card Number","2006":"Invalid Expiration Date","2007":"No Account","2008":"Card Account Length Error","2009":"No Such Issuer","2010":"Card Issuer Declined CVV","2011":"Voice Authorization Required","2012":"Processor Declined Possible Lost Card","2013":"Processor Declined - Possible Stolen Card","2014":"Processor Declined - Fraud Suspected","2015":"Transaction Not Allowed","2016":"Duplicate Transaction","2017":"Cardholder Stopped Billing","2018":"Cardholder Stopped All Billing","2019":"Invalid Transaction","2020":"Violation","2021":"Security Violation","2022":"Declined - Updated Cardholder Available","2023":"Processor Does Not Support This Feature","2024":"Card Type Not Enabled","2025":"Set Up Error - Merchant","2026":"Invalid Merchant ID","2027":"Set Up Error - Amount","2028":"Set Up Error - Hierarchy","2029":"Set Up Error - Card","2030":"Set Up Error - Terminal","2031":"Encryption Error","2032":"Surcharge Not Permitted","2033":"Inconsistent Data","2034":"No Action Taken","2035":"Partial Approval For Amount In Group III Version","2036":"Authorization could not be found to reverse","2037":"Already Reversed","2038":"Processor Declined","2039":"Invalid Authorization Code","2040":"Invalid Store","2041":"Declined - Call For Approval","2042":"Invalid Client ID","2043":"Error - Do Not Retry, Call Issuer","2044":"Declined - Call Issuer","2045":"Invalid Merchant Number","2046":"Declined","2047":"Call Issuer. Pick Up Card","2048":"Invalid Amount","2049":"Invalid SKU Number","2050":"Invalid Credit Plan","2051":"Credit Card Number does not match method of payment","2053":"Card reported as lost or stolen","2054":"Reversal amount does not match authorization amount","2055":"Invalid Transaction Division Number","2056":"Transaction amount exceeds the transaction division limit","2057":"Issuer or Cardholder has put a restriction on the card","2058":"Merchant not Mastercard SecureCode enabled","2059":"Address Verification Failed","2060":"Address Verification and Card Security Code Failed","2061":"Invalid Transaction Data","2062":"Invalid Tax Amount","2063":"PayPal Business Account preference resulted in the transaction failing","2064":"Invalid Currency Code","2065":"Refund Time Limit Exceeded","2066":"PayPal Business Account Restricted","2067":"Authorization Expired","2068":"PayPal Business Account Locked or Closed","2069":"PayPal Blocking Duplicate Order IDs","2070":"PayPal Buyer Revoked Future Payment Authorization","2071":"PayPal Payee Account Invalid Or Does Not Have a Confirmed Email","2072":"PayPal Payee Email Incorrectly Formatted","2073":"PayPal Validation Error","2074":"Funding Instrument In The PayPal Account Was Declined By The Processor Or Bank, Or It Can't Be Used For This Payment","2075":"Payer Account Is Locked Or Closed","2076":"Payer Cannot Pay For This Transaction With PayPal","2077":"Transaction Refused Due To PayPal Risk Model","2079":"PayPal Merchant Account Configuration Error","2081":"PayPal pending payments are not supported","2082":"PayPal Domestic Transaction Required","2083":"PayPal Phone Number Required","2084":"PayPal Tax Info Required","2085":"PayPal Payee Blocked Transaction","2086":"PayPal Transaction Limit Exceeded","2087":"PayPal reference transactions not enabled for your account","2088":"Currency not enabled for your PayPal seller account","2089":"PayPal payee email permission denied for this request","2090":"PayPal account not configured to refund more than settled amount","2091":"Currency of this transaction must match currency of your PayPal account","3000":"Processor Network Unavailable - Try Again","Braintree\\Exception\\NotFound":"Object was not found.","Braintree\\Exception\\Authentication":"Authentication failed, check your API key configuration.","Braintree\\Exception\\Authorization":"API Authorization check failed. Ensure you have entered your API keys correctly and the user associated with your API keys has the proper permissions.","81801":"Addresses must have at least one field filled in.","81802":"Company is too long.","81804":"Extended address is too long.","81805":"First name is too long.","81806":"Last name is too long.","81807":"Locality is too long.","81813":"Postal code can only contain letters, numbers, spaces, and hyphens.","81808":"Postal code is required.","81809":"Postal code may contain no more than 9 letter or number characters.","81810":"Region is too long.","81811":"Street address is required.","81812":"Street address is too long.","81827":"US state codes must be two characters to meet PayPal Seller Protection requirements.","91803":"Country name is not an accepted country.","91815":"Provided country information is inconsistent.","91816":"Country code (alpha3) is not an accepted country.","91817":"Country code (numeric) is not an accepted country.","91814":"Country code (alpha2) is not an accepted country.","91818":"Customer has already reached the maximum of 50 addresses.","91819":"First name must be a string.","91820":"Last name must be a string.","91821":"Company must be a string.","91822":"Street address must be a string.","91823":"Extended address must be a string.","91824":"Locality must be a string.","91825":"Region must be a string.","91826":"Postal code must be a string.","91828":"Address is invalid.","82602":"Applicant merchant id is too long.","82603":"Applicant merchant id format is invalid.","82604":"Applicant merchant id is in use.","82605":"Applicant merchant id is not allowed.","82606":"Master merchant account ID is required.","82607":"Master merchant account ID is invalid.","82608":"Master merchant account must be active.","82610":"Terms Of Service needs to be accepted. Applicant tos_accepted required.","82675":"Merchant account id can not be updated.","82676":"Master merchant account id can not be updated.","82674":"Merchant accounts with a status of pending or suspended cannot be updated.","82609":"Applicant first name is required.","82637":"Individual first name is required.","82611":"Applicant last name is required.","82638":"Individual last name is required.","82612":"Applicant date of birth is required.","82639":"Individual date of birth is required.","82613":"Applicant routing number is required.","82640":"Funding routing number is required.","82614":"Applicant account number is required.","82641":"Funding account number is required.","82615":"Applicant SSN must be blank, last 4 digits, or full 9 digits.","82642":"Individual SSN must be blank, last 4 digits, or full 9 digits.","82616":"Applicant email is invalid.","82643":"Individual email is invalid.","82627":"Applicant first name is invalid.","82644":"Individual first name is invalid.","82628":"Applicant last name is invalid.","82645":"Individual last name is invalid.","82631":"Applicant company name is invalid.","82632":"Applicant tax ID is invalid.","82688":"Business params provided in an invalid format.","82647":"Business tax ID is invalid.","82633":"Applicant company name is required with tax ID.","82634":"Applicant tax ID is required with company name.","82635":"Applicant routing number is invalid.","82649":"Funding routing number is invalid.","82650":"An unexpected error occurred trying to save the merchant account; support has been notified and is looking into the issue. You may safely retry this request","82621":"Applicant declined due to OFAC.","82622":"Applicant declined due to MasterCard MATCH.","82623":"Applicant declined due to failed KYC.","82624":"Applicant declined due to invalid SSN.","82625":"Applicant declined due to SSN matching that of a deceased person.","82626":"Applicant declined after review.","82617":"Applicant street address is required.","82657":"Individual street address is required.","82618":"Applicant locality is required.","82658":"Individual locality is required.","82619":"Applicant postal code is required.","82659":"Individual postal code is required.","82620":"Applicant region is required.","82660":"Individual region is required.","82629":"Applicant street address is invalid.","82661":"Individual street address is invalid.","82664":"Applicant region is invalid.","82668":"Individual region is invalid.","82630":"Applicant postal code is invalid.","82662":"Individual postal code is invalid.","82636":"Applicant phone is invalid.","82656":"Individual phone is invalid.","82663":"Applicant date of birth is invalid","82666":"Individual date of birth is invalid.","82670":"Applicant account number is invalid.","82671":"Funding account number is invalid.","82665":"Applicant email is required.","82667":"Individual email is required.","82672":"Business tax ID must be blank unless business legal name is present.","82673":"Applicant tax ID must be blank unless company name present.","82646":"Business DBA name is invalid.","82677":"Business legal name is invalid.","82669":"Business legal name is required with tax ID.","82648":"Business tax ID is required with business legal name.","82685":"Business street address is invalid.","82686":"Business postal code is invalid.","82684":"Business region is invalid.","82679":"Funding destination is invalid.","82678":"Funding destination is required.","82681":"Funding email is invalid.","82680":"Funding email is required when destination is email.","82683":"Funding mobile phone is invalid.","82682":"Funding mobile phone is required when destination is mobile phone.","82687":"Individual params provided in an invalid format.","82689":"Business locality is invalid.","82690":"Individual locality is invalid.","82691":"Applicant locality is invalid.","92801":"Cannot specify make_default without a customer_id","92802":"Cannot specify verify_card without a customer_id","92803":"Cannot specify fail_on_duplicate_payment_method without a customer_id","92804":"Customer specified by customer_id does not exist","92806":"Unsupported client token version","92807":"Merchant Account specified by merchant_account_id does not exist","91602":"Custom field is invalid:","91609":"Customer ID has already been taken.","91610":"Customer ID is invalid (use only letters, numbers, '-', and '_').","91611":"Customer ID is not an allowed ID.","91612":"Customer ID is too long.","91613":"Customer ID is required.","91617":"Nonce references a vaulted payment instrument - cannot be transferred between customers","91618":"Customer attribute must be a map of keys and values representing a customer.","91619":"Ambiguous usage of default payment method token.","81601":"Company is too long.","81603":"Custom field is too long:","81604":"Email is an invalid format.","81605":"Email is too long.","81606":"Email is required if sending a receipt.","81607":"Fax is too long.","81608":"First name is too long.","81613":"Last name is too long.","81614":"Phone is too long.","81615":"Website is too long.","81616":"Website is an invalid format.","93101":"Payment method params are required.","93102":"Nonce is invalid.","93103":"Nonce is required.","93104":"Customer ID is required.","93105":"Customer ID is invalid.","93106":"Cannot forward a payment method of this type.","93107":"Cannot use a payment_method_nonce more than once.","93108":"Unknown or expired payment_method_nonce.","93109":"Nonce is not vaultable.","83501":"Apple Pay cards are not accepted by this merchant account.","83502":"A customer ID is required to vault an Apple Pay Card.","93503":"Apple Pay token is taken.","93504":"Cannot use a payment_method_nonce more than once.","93505":"Unknown or expired payment_method_nonce.","93506":"Payment method nonce locked.","83518":"Credit card type is not accepted by this merchant account.","93507":"Payment method nonces cannot be used to update an existing Apple Pay Card.","93508":"Number is required for Apple Pay Card","93509":"Expiration Month is required for Apple Pay Card","93510":"Expiration Year is required for Apple Pay Card","93511":"Cryptogram is required for Apple Pay Card","83512":"Apple Pay payment data decryption failed","93513":"Apple Pay is disabled for this merchant","93514":"Apple Pay certificate, private key or merchant ID not configured","93517":"Certificate provided is not valid","93519":"Public key used to sign payment data does not match stored certificate","83520":"Payment data is malformed","93521":"Private key stored does not match private key used to encrypt payment data","93522":"Certificate does not match stored key pair","91701":"Cannot provide both a billing address and a billing address ID.","91702":"Billing address ID is invalid.","91704":"Customer ID is required.","91705":"Customer ID is invalid.","91708":"Cannot provide expirationdate if you are also providing expiration_month and expiration_year.","91718":"Token is invalid (use only letters, numbers, \" - \", and '').","91719":"Credit card token is taken.","91720":"Credit card token is too long.","91721":"Token is not an allowed token.","91722":"Payment Method token is required.","91744":"Billing address format is invalid.","81723":"Cardholder name is too long.","81703":"Credit card type is not accepted by this merchant account.","81718":"Credit card number cannot be updated to an unsupported card type when it is associated to subscriptions.","81706":"CVV is required.","81707":"CVV must be 4 digits for American Express and 3 digits for other card types.","81709":"Expiration date is required.","81710":"Expiration date is invalid.","81711":"Expiration date year is invalid. It must be between 1975 and 2200.","81712":"Expiration month is invalid.","81713":"Expiration year is invalid.","81714":"Credit card number is required.","81715":"Credit card number is invalid.","81716":"Credit card number must be 12-19 digits.","81717":"Credit card number is not an accepted test number.","91723":"Update Existing Token is invalid.","81724":"Duplicate card exists in the vault.","81725":"Credit card must include number, payment_method_nonce, or venmo_sdk_payment_method_code.","91726":"Credit card type is not accepted by this merchant account.","91727":"Invalid VenmoSDK payment method code","91728":"Verification Merchant Account ID is invalid.","91729":"Update Existing Token is not allowed when creating a customer.","91730":"Verifications are not supported on this merchant account","91731":"Cannot use a payment_method_nonce more than once.","91732":"Unknown or expired payment_method_nonce.","91733":"Payment method nonce locked.","91734":"Credit card type is not accepted by this merchant account.","91735":"Payment method nonces cannot be used to update an existing card.","91738":"Payment method is not a credit card payment method.","91742":"Verification Merchant Account is suspended.","91743":"The current user does not have access to the specified verification_merchant_account_id","81736":"CVV verification failed.","81737":"Postal code verification failed.","91739":"Verification amount cannot be negative.","91740":"Verification amount is invalid.","91741":"Verification amount not supported by processor.","91745":"Payment method params supplied are not valid for updating a credit card.","81750":"Credit card number is prohibited.","91752":"Verification amount is too large.","91755":"Verification Merchant Account ID cannot be a sub-merchant account.","93401":"Industry type is invalid.","93402":"Lodging data is empty.","93403":"Folio number is invalid.","93404":"Check in date is invalid.","93405":"Check out date is invalid.","93406":"Check out date must occur during or after the check in date.","93407":"Data fields are unknown.","93408":"Travel and Cruise data is empty.","93409":"Data fields are unknown.","93410":"Travel Package is invalid.","93411":"Departure date is invalid.","93412":"Lodging check in date is invalid.","93413":"Lodging check out date is invalid.","82901":"Incomplete PayPal account information.","82902":"Pre-Approved Payment enabled PayPal account required for vaulting.","82903":"Invalid PayPal account information.","82904":"PayPal Accounts are not accepted by this merchant account.","82905":"A customer ID is required to vault a PayPal Account.","92906":"PayPal Account token is taken.","92907":"Cannot use a payment_method_nonce more than once.","92908":"Unknown or expired payment_method_nonce.","92909":"Payment method nonce locked.","92910":"Error communicating with PayPal.","92911":"PayPal authentication expired.","92912":"Funding source selection was given without an access token.","92913":"Funding source object is invalid or missing required fields.","92914":"Payment method nonces cannot be used to update an existing PayPal account.","92915":"Payment method params supplied are not valid for updating a PayPal account.","84101":"Common ID is required.","84102":"Username is required.","84103":"Venmo user ID is required.","84104":"Customer ID is required.","84105":"Venmo accounts are not accepted by this merchant account.","84106":"Customer ID is invalid.","92001":"Quantity is invalid.","92002":"Amount is invalid.","92003":"Amount cannot be blank.","92004":"Quantity cannot be blank.","92005":"Number of billing cycles is invalid.","92010":"Quantity must be greater than zero.","92011":"Existing ID is invalid.","92012":"Existing ID is required.","92013":"Inherited From ID is invalid.","92014":"Inherited From ID is required.","92015":"Cannot update a removed add-on or discount.","92016":"Cannot remove add-on or discount if not already associated with subscription.","92017":"Number of billing cycles cannot be blank.","92018":"Cannot specify both number of billing cycles and never expires as true.","92019":"Number of billing cycles must be greater than zero.","92020":"Existing ID is not of the correct kind.","92021":"ID to remove is incorrect kind.","92022":"Cannot edit add-on or discount on a past due subscription.","92023":"Amount is too large.","92024":"Cannot pass null modification.","92025":"ID to remove is invalid.","81901":"Cannot edit a canceled subscription.","81902":"ID has already been taken.","81903":"Price cannot be blank.","81904":"Price is an invalid format.","81905":"Subscription has already been canceled.","81906":"ID is invalid (use only letters, numbers, '-', and '').","81907":"Trial Duration is an invalid format.","81908":"Trial Duration is required.","81909":"Trial Duration Unit is invalid.","81910":"Cannot edit an expired subscription.","81923":"Price is too large.","91901":"Merchant Account ID is invalid.","91902":"Payment method token payment instrument type is not accepted by this merchant account.","91903":"Payment method token is invalid.","91904":"Plan ID is invalid.","91905":"Payment method token does not belong to the subscription's customer.","91906":"Number Of Billing Cycles must be numeric.","91907":"Number Of Billing Cycles must be greater than zero.","91908":"Cannot specify both number of billing cycles and never expires as true.","91909":"Number Of Billing Cycles is less than the current billing cycle.","91911":"Cannot add duplicate add-on or discount.","91912":"Number Of Billing Cycles cannot be blank if the subscription expires.","91913":"Billing Day of Month must be numeric.","91914":"Billing Day of Month must be between 1 and 28, or 31.","91915":"First Billing Date is invalid.","91916":"First Billing Date cannot be in the past.","91917":"Cannot specify more than one type of start date.","91918":"Billing Day of Month cannot be updated.","91919":"First Billing Date cannot be updated.","91920":"Can only edit id, merchant account id, payment method token, and descriptor on a past due subscription.","91921":"Invalid request format.","91922":"Cannot update subscription to a plan with a different billing frequency.","91923":"Subscription Plan currency must be the same as the merchant account's currency.","91924":"Payment method nonce payment instrument type is not accepted by this merchant account.","91925":"Payment method nonce is invalid.","91926":"Payment method nonce does not belong to the subscription's customer.","91927":"Payment method nonce represents an un-vaulted payment instrument.","91928":"Payment instrument type is not valid for subscriptions.","91929":"Payment instrument type is not valid for subscriptions.","91930":"Merchant Account does not support the given payment instrument type.","82301":"Settlement Date is required","82302":"Settlement Date is invalid","82303":"Group By Custom Field is not a valid custom field","81501":"Amount cannot be negative.","81502":"Amount is required.","81503":"Amount is an invalid format.","81528":"Amount is too large.","81509":"Credit card type is not accepted by this merchant account.","81527":"Custom field is too long:","91501":"Order ID is too long.","91530":"Cannot provide a billing address unless also providing a credit card.","91504":"Transaction can only be voided if status is authorized or submitted_for_settlement.","91505":"Credit transactions cannot be refunded.","91506":"Cannot refund a transaction unless it is settled.","91507":"Cannot submit for settlement unless status is authorized.","91508":"Cannot determine payment method.","91526":"Custom field is invalid:","91510":"Customer ID is invalid.","91511":"Customer does not have any credit cards.","91512":"Transaction has already been completely refunded.","91513":"Merchant account ID is invalid.","91514":"Merchant account is suspended.","91515":"Cannot provide both payment_method_token and credit_card attributes.","91516":"Cannot provide both payment_method_token and customer_id unless the payment_method belongs to the customer.","91527":"Cannot provide both payment_method_token and subscription_id unless the payment_method belongs to the subscription.","91517":"Payment instrument type is not accepted by this merchant account.","91518":"Payment method token is invalid.","91519":"Processor authorization code cannot be set unless for a voice authorization.","91521":"Refund amount is too large.","91538":"Cannot refund a transaction with a suspended merchant account.","91522":"Settlement amount is too large.","91529":"Cannot provide both subscription_id and customer_id unless the subscription belongs to the customer.","91528":"Subscription ID is invalid.","91523":"Transaction type is invalid.","91524":"Transaction type is required.","91525":"Vault is disabled.","91531":"Subscription status must be Past Due in order to retry.","91547":"Merchant account does not support refunds.","81531":"Amount must be greater than zero.","81534":"Tax amount cannot be negative.","81535":"Tax amount is an invalid format.","81536":"Tax amount is too large.","81571":"Failed to authenticate, please try a different form of payment.","91537":"Purchase order number is too long.","91539":"Voice Authorization is not allowed for this card type","91540":"Transaction cannot be cloned if payment method is stored in vault.","91541":"Cannot clone voice authorization transactions.","91542":"Unsuccessful transaction cannot be cloned.","91543":"Credits cannot be cloned.","91544":"Cannot clone transaction without submit_for_settlement flag.","91545":"Voice Authorizations are not supported for this processor.","91546":"Credits are not supported by this processor.","91548":"Purchase order number is invalid.","81520":"Processor authorization code must be 6 characters.","91549":"Cannot provide more than one of payment_method_token, payment_method_nonce, credit_card, and venmo_sdk_payment_method_code attributes.","91550":"Channel is too long.","91551":"Settlement amount cannot be less than the service fee amount.","91552":"Credits not allowed with service fee.","91553":"Sub-merchant account requires a service fee.","91554":"Amount cannot be negative.","91555":"Amount is an invalid format.","91556":"Service fee amount is larger than transaction amount.","91557":"Service fee not supported on master merchant account.","91558":"Merchant account does not support MOTO transactions unless configured by processor.","91559":"Cannot refund a transaction with a pending merchant account.","91560":"Transaction could not be held in escrow.","91561":"Cannot release a transaction that is not escrowed.","91562":"Release can only be cancelled if the transaction is submitted for release.","91563":"Escrowed transactions cannot be partially refunded.","91564":"Cannot use a payment_method_nonce more than once.","91565":"Unknown or expired payment_method_nonce.","91567":"Payment instrument type is not accepted by this merchant account.","91568":"Three D Secure Token is invalid.","91569":"payment_method_nonce does not contain a valid payment instrument type.","91572":"Current payment method does not support use_billing_for_shipping flag.","91575":"Cannot transition transaction to settled, settlement_confirmed, or settlement_declined","91576":"PayPal is not enabled for your merchant account.","91577":"Merchant account does not support payment instrument.","91570":"Transaction data does not match data from Three D Secure verify call.","91573":"Transaction cannot be cloned if payment method is a PayPal account.","91574":"Cannot refund a transaction transaction in settling status on this merchant account. Try again after the transaction has settled.","91578":"Service fee can not be applied on PayPal transactions.","91580":"PayPal custom fields must be less than 256 characters in length.","91581":"Shipping address customer does not match customer in request.","91582":"PayPal unilateral transactions must also be submitted for settlement.","91583":"This PayPal account was not vaulted with the required data","91584":"Merchant account must match the 3D Secure authorization merchant account.","91585":"Amount must match the 3D Secure authorization amount.","91586":"Shared billing address ID cannot be used in the same call as a standard billing address ID","91587":"Shared customer ID cannot be used in the same call as a standard customer ID","91588":"Shared payment method token cannot be used in the same call as a standard payment method token","91589":"Shared payment method token cannot be used in the same call as a non-shared identifier param","91590":"Shared identifier param cannot be used with non-shared payment method token","91591":"Shared shipping address ID cannot be used in the same call as a standard shipping address ID","91592":"Shared payment methods cannot be vaulted","91593":"Shared payment methods cannot be vaulted","91594":"Shared shipping addresses cannot be vaulted","91595":"Shared payment methods cannot be updated","91597":"Cannot provide both shared_payment_method_token and shared_customer_id unless the payment_method belongs to the customer.","91598":"Payment instrument type is not accepted by this merchant account.","91599":"Shared Shipping address customer does not match customer in request.","91596":"Shared payment method token is invalid.","915100":"Shared Customer ID is invalid.","915103":"Cannot submit for partial settlement.","915101":"Payment instrument type is not accepted.","915102":"Partial settlements are not supported by this processor.","915104":"Delayed settlements are not supported for this processor. The submit for settlement option is required.","915105":"Merchant account does not support Amex rewards.","915106":"Points amount is too large.","915107":"Updating order_id on submit_for_settlement is not supported by this processor.","915108":"Updating descriptor on submit_for_settlement is not supported by this processor.","915109":"PayPal supplementary data fields must be less than 4001 characters in length:","915110":"Cannot clone facilitated transactions.","915111":"PayPal supplementary data field count must be less than 101.","915112":"Shared payment method token originated from another merchant and is not allowed to be shared","915113":"EciFlag is required.","915114":"EciFlag is invalid.","915115":"Xid is required for specified EciFlag.","915116":"Cavv is required for specified EciFlag.","915131":"Merchant account does not support 3D Secure transactions for card type.","915133":"Transaction source must be either 'moto' or 'recurring'.","915134":"submit_for_settlement is required and must be true.","915135":"shared_payment_method_nonce does not contain valid payment instrument type.","915136":"Payment instrument type is not accepted by this merchant.","915137":"Cannot clone Braintree Marketplace transactions via the API.","92201":"Company name\/DBA section is invalid.","92202":"Phone number is invalid.","92203":"Dynamic descriptors have not been enabled for this account. Please contact support@braintreepayments.com.","92204":"Descriptor format is invalid.","92205":"International phone number is invalid.","92206":"URL must be 13 characters or shorter.","94201":"Verification amount cannot be negative.","94202":"Verification amount is invalid.","94203":"Verification amount not supported by processor.","94204":"Verification Merchant Account ID is invalid.","94205":"Verification Merchant Account is suspended.","94206":"The current user does not have access to the specified merchant_account_id","94207":"Verification amount is too large.","94208":"Verification Merchant Account ID cannot be a sub-merchant account.","95817":"Product unit amount is in an invalid format.","95820":"Unit amount for transaction line item must be greater than zero. If this error continues, please disable the line items option in the plugin settings.","gateway_rejected:_avs":"Invalid postal code or street address.","gateway_rejected:_postal_code":"Postal code.","gateway_rejected:_cvv":"CVV.","gateway_rejected:_avs_and_cvv":"Invalid postal code and cvv","gateway_rejected:_three_d_secure":"Your payment method was rejected due to 3D Secure."}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/js/frontend/message-handler.min.js?ver=3.2.59" id="wc-braintree-message-handler-js"></script>
+<script type="text/javascript" id="wc-braintree-payment-methods-js-extra">
+/* <![CDATA[ */
+var wc_braintree_payment_methods_params = {"cards":["Visa","MasterCard","AmericanExpress","Discover","DinersClub","JCB","Maestro","PayPal","GooglePay","UnionPay","ApplePay","Venmo"],"no_results":"Not matches found"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/js/frontend/payment-methods.min.js?ver=3.2.59" id="wc-braintree-payment-methods-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/js/frontend/form-handler.min.js?ver=3.2.59" id="wc-braintree-form-handler-js"></script>
+<script type="text/javascript" id="wc-braintree-global-js-extra">
+/* <![CDATA[ */
+var wc_braintree_global_params = {"page":"add_payment_method"};
+var wc_braintree_checkout_fields = {"billing_first_name":{"label":"First name","required":true,"class":["form-row-first"],"autocomplete":"given-name","priority":10,"value":"Angel"},"billing_last_name":{"label":"Last name","required":true,"class":["form-row-last"],"autocomplete":"family-name","priority":20,"value":"Lopes"},"billing_country":{"type":"country","label":"Country \/ Region","required":true,"class":["form-row-wide","address-field","update_totals_on_change"],"autocomplete":"country","priority":40,"value":"AU"},"billing_address_1":{"label":"Street address","placeholder":"House number and street name","required":true,"class":["form-row-wide","address-field"],"autocomplete":"address-line1","priority":50,"value":"Street Avenue 3xxx"},"billing_address_2":{"label":"Apartment, suite, unit, etc.","label_class":["screen-reader-text"],"placeholder":"Apartment, suite, unit, etc. (optional)","class":["form-row-wide","address-field"],"autocomplete":"address-line2","priority":60,"required":false,"value":null},"billing_city":{"label":"Suburb","required":true,"class":["form-row-wide","address-field"],"autocomplete":"address-level2","priority":70,"value":"BELCONNEN DC"},"billing_state":{"type":"state","label":"State","required":true,"class":["form-row-wide","address-field"],"validate":["state"],"autocomplete":"address-level1","priority":80,"country_field":"billing_country","country":"AU","value":"ACT"},"billing_postcode":{"label":"Postcode","required":true,"class":["form-row-wide","address-field"],"validate":["postcode"],"autocomplete":"postal-code","priority":90,"value":"2617"},"billing_phone":{"label":"Phone","required":false,"type":"tel","class":["form-row-wide"],"validate":["phone"],"autocomplete":"tel","priority":100,"value":"+614241585"},"billing_email":{"label":"Email address","required":true,"type":"email","class":["form-row-wide"],"validate":["email"],"autocomplete":"email","priority":110,"value":"frangelotorrez1@gmail.com"},"shipping_first_name":{"label":"First name","required":true,"class":["form-row-first"],"autocomplete":"given-name","priority":10,"value":null},"shipping_last_name":{"label":"Last name","required":true,"class":["form-row-last"],"autocomplete":"family-name","priority":20,"value":null},"shipping_country":{"type":"country","label":"Country \/ Region","required":true,"class":["form-row-wide","address-field","update_totals_on_change"],"autocomplete":"country","priority":40,"value":"AU"},"shipping_address_1":{"label":"Street address","placeholder":"House number and street name","required":true,"class":["form-row-wide","address-field"],"autocomplete":"address-line1","priority":50,"value":null},"shipping_address_2":{"label":"Apartment, suite, unit, etc.","label_class":["screen-reader-text"],"placeholder":"Apartment, suite, unit, etc. (optional)","class":["form-row-wide","address-field"],"autocomplete":"address-line2","priority":60,"required":false,"value":null},"shipping_city":{"label":"Suburb","required":true,"class":["form-row-wide","address-field"],"autocomplete":"address-level2","priority":70,"value":null},"shipping_state":{"type":"state","label":"State","required":true,"class":["form-row-wide","address-field"],"validate":["state"],"autocomplete":"address-level1","priority":80,"country_field":"shipping_country","country":"AU","value":"ACT"},"shipping_postcode":{"label":"Postcode","required":true,"class":["form-row-wide","address-field"],"validate":["postcode"],"autocomplete":"postal-code","priority":90,"value":null}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/js/frontend/wc-braintree.min.js?ver=3.2.59" id="wc-braintree-global-js"></script>
+<script type="text/javascript" id="wc-braintree-client-manager-js-extra">
+/* <![CDATA[ */
+var wc_braintree_client_manager_params = {"url":"\/?wc-ajax=wc_braintree_frontend_request&path=\/wc-braintree\/v1\/client-token\/create","_wpnonce":"aacfc2ccbf","page_id":"add_payment_method","currency":"USD","merchant_account":"JeffQuadeNetLLC_instant","version":"3.2.59"};
+var wc_braintree_client_token = ["eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpGVXpJMU5pSXNJbXRwWkNJNklqSXdNVGd3TkRJMk1UWXRjSEp2WkhWamRHbHZiaUlzSW1semN5STZJbWgwZEhCek9pOHZZWEJwTG1KeVlXbHVkSEpsWldkaGRHVjNZWGt1WTI5dEluMC5leUpsZUhBaU9qRTNNemMzTlRRMU5EVXNJbXAwYVNJNklqZzNZemswTldNNExUWTJNMlF0TkRJek15MWhOamd4TFRVNU1UbGlaakF4TWpoaU9DSXNJbk4xWWlJNkltYzRNek00WkhjME0ySm9ibTQ0TWpjaUxDSnBjM01pT2lKb2RIUndjem92TDJGd2FTNWljbUZwYm5SeVpXVm5ZWFJsZDJGNUxtTnZiU0lzSW0xbGNtTm9ZVzUwSWpwN0luQjFZbXhwWTE5cFpDSTZJbWM0TXpNNFpIYzBNMkpvYm00NE1qY2lMQ0oyWlhKcFpubGZZMkZ5WkY5aWVWOWtaV1poZFd4MElqcDBjblZsZlN3aWNtbG5hSFJ6SWpwYkltMWhibUZuWlY5MllYVnNkQ0pkTENKelkyOXdaU0k2V3lKQ2NtRnBiblJ5WldVNlZtRjFiSFFpWFN3aWIzQjBhVzl1Y3lJNmV5SnRaWEpqYUdGdWRGOWhZMk52ZFc1MFgybGtJam9pU21WbVpsRjFZV1JsVG1WMFRFeERYMmx1YzNSaGJuUWlmWDAuNkM0RGdEOWlTLXN6TUxBczB6SWZSTkxFWGd5YmJyWWsyMkhya0lNYy1jRW5xLUhNRXdBWTVFb1BBcW1fcUxtQktULXNpaVVsZk1IYUJjSk5KbmxUVmciLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL2c4MzM4ZHc0M2Jobm44MjcvY2xpZW50X2FwaS92MS9jb25maWd1cmF0aW9uIiwibWVyY2hhbnRBY2NvdW50SWQiOiJKZWZmUXVhZGVOZXRMTENfaW5zdGFudCIsImdyYXBoUUwiOnsidXJsIjoiaHR0cHM6Ly9wYXltZW50cy5icmFpbnRyZWUtYXBpLmNvbS9ncmFwaHFsIiwiZGF0ZSI6IjIwMTgtMDUtMDgiLCJmZWF0dXJlcyI6WyJ0b2tlbml6ZV9jcmVkaXRfY2FyZHMiXX0sImNsaWVudEFwaVVybCI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvZzgzMzhkdzQzYmhubjgyNy9jbGllbnRfYXBpIiwiZW52aXJvbm1lbnQiOiJwcm9kdWN0aW9uIiwibWVyY2hhbnRJZCI6Imc4MzM4ZHc0M2Jobm44MjciLCJhc3NldHNVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImF1dGhVcmwiOiJodHRwczovL2F1dGgudmVubW8uY29tIiwidmVubW8iOiJvZmYiLCJjaGFsbGVuZ2VzIjpbImN2diJdLCJ0aHJlZURTZWN1cmVFbmFibGVkIjpmYWxzZSwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5icmFpbnRyZWVnYXRld2F5LmNvbS9nODMzOGR3NDNiaG5uODI3In0sInBheXBhbEVuYWJsZWQiOnRydWUsInBheXBhbCI6eyJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsImVudmlyb25tZW50Tm9OZXR3b3JrIjpmYWxzZSwidW52ZXR0ZWRNZXJjaGFudCI6ZmFsc2UsImFsbG93SHR0cCI6ZmFsc2UsImRpc3BsYXlOYW1lIjoiSmVmZiBRdWFkZSAuTmV0LCBMTEMiLCJjbGllbnRJZCI6IkFYWWttU3RtejBPV0lvRmNTcmUyV0VwOVEzVjVDdk13ZklXMHdXUGVxb1lDQVNzaVlBTkJyRV9Ka285Zi1sWktwRzlKZk1Jc1RnOGMwY0pKIiwiYmFzZVVybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9jaGVja291dC5wYXlwYWwuY29tIiwiZGlyZWN0QmFzZVVybCI6bnVsbCwiZW52aXJvbm1lbnQiOiJsaXZlIiwiYnJhaW50cmVlQ2xpZW50SWQiOiJBUktyWVJEaDNBR1hEelc3c09fM2JTa3EtVTFDN0hHX3VXTkMtejU3TGpZU0ROVU9TYU90SWE5cTZWcFciLCJtZXJjaGFudEFjY291bnRJZCI6IkplZmZRdWFkZU5ldExMQ19pbnN0YW50IiwiY3VycmVuY3lJc29Db2RlIjoiVVNEIn19"];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/js/frontend/client-manager.min.js?ver=3.2.59" id="wc-braintree-client-manager-js"></script>
+<script type="text/javascript" src="https://js.braintreegateway.com/web/3.106.0/js/hosted-fields.min.js" id="wc-braintree-hosted-fields-v3-js"></script>
+<script type="text/javascript" src="https://js.braintreegateway.com/web/3.106.0/js/data-collector.min.js" id="wc-braintree-data-collector-v3-js"></script>
+<script type="text/javascript" src="https://js.braintreegateway.com/web/3.106.0/js/three-d-secure.min.js" id="wc-braintree-3ds-v3-js"></script>
+<script type="text/javascript" id="wc-braintree-hosted-fields-js-extra">
+/* <![CDATA[ */
+var wc_braintree_hosted_fields_params = {"gateway":"braintree_cc","environment":"production","advanced_fraud":{"enabled":true},"token_selector":"braintree_cc_token_key","nonce_selector":"braintree_cc_nonce_key","device_data_selector":"braintree_cc_device_data","payment_type_selector":"braintree_cc_payment_type","tokenized_response_selector":"braintree_cc_tokenized_response","ipAddress":"113.23.74.114","roles":{"admin":false},"_wp_rest_nonce":"aacfc2ccbf","user_id":"5178","messages":{"terms":"Please read and accept the terms and conditions to proceed with your order.","required_field":"Please fill out all required fields."},"locale":"en_US","routes":{"checkout":"\/?wc-ajax=wc_braintree_frontend_request&path=\/wc-braintree\/v1\/checkout","add_to_cart":"\/?wc-ajax=wc_braintree_frontend_request&path=\/wc-braintree\/v1\/cart","shipping":"\/?wc-ajax=wc_braintree_frontend_request&path=\/wc-braintree\/v1\/cart\/shipping","shipping_address":"\/?wc-ajax=wc_braintree_frontend_request&path=\/wc-braintree\/v1\/cart\/shipping-address","shipping_method":"\/?wc-ajax=wc_braintree_frontend_request&path=\/wc-braintree\/v1\/cart\/shipping-method"},"_3ds":{"verify_vault":false,"challengeRequested":false},"custom_fields":{"number":{"label":"Card Number","placeholder":"Card Number","id":"wc-braintree-card-number","type":"number"},"exp_date":{"label":"Exp Date","placeholder":"MM \/ YY","id":"wc-braintree-expiration-date","type":"expirationDate"},"exp_month":{"label":"Exp Month","placeholder":"MM","id":"wc-braintree-expiration-month","type":"expirationMonth"},"exp_year":{"label":"Exp Year","placeholder":"YY","id":"wc-braintree-expiration-year","type":"expirationYear"},"cvv":{"label":"CVV","placeholder":"CVV","id":"wc-braintree-cvv","type":"cvv"},"postal_code":{"label":"Postal Code","placeholder":"Postal Code","id":"wc-braintree-postal-code","type":"postalCode"},"save":{"label":"Save Card"},"street":{"label":"Street Address"}},"dynamic_card_display":{"enabled":true},"form_styles":{"input":{"font-size":"16px","font-family":"helvetica, tahoma, calibri, sans-serif","color":"#3a3a3a"}},"loader":{"enabled":true},"icon_style":"closed","html":{"cards":{"visa":"<img src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/visa.svg\"\/>","master-card":"<img src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/master_card.svg\"\/>","american-express":"<img src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/amex.svg\"\/>","discover":"<img src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/discover.svg\"\/>","diners-club":"<img src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/diners_club_international.svg\"\/>","jcb":"<img src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/jcb.svg\"\/>","maestro":"<img src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/maestro.svg\"\/>","unionpay":"<img src=\"https:\/\/webtronusa.com\/wp-content\/plugins\/woo-payment-gateway\/assets\/img\/payment-methods\/closed\/china_union_pay.svg\"\/>"}},"config_selector":"braintree_cc_config_data","_3ds_vaulted_nonce_selector":"braintree_cc_3ds_nonce_key","urls":{"_3ds":{"vaulted_nonce":"https:\/\/webtronusa.com\/wp-json\/wc-braintree\/v1\/3ds\/vaulted_nonce","client_token":"https:\/\/webtronusa.com\/wp-json\/wc-braintree\/v1\/3ds\/client_token"}}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/js/frontend/credit-cards.js?ver=3.2.59" id="wc-braintree-hosted-fields-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/plugins/woo-payment-gateway/assets/js/frontend/custom-forms/bootstrap-form.js?ver=3.2.59" id="wc-braintree-bootstrap_form-js"></script>
+<script type="text/javascript" src="https://webtronusa.com/wp-content/themes/_.newsup/js/custom.js?ver=6.7.1" id="newsup-custom-js"></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+	</body>
+</html>

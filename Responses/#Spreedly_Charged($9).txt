@@ -1,0 +1,179 @@
+<!DOCTYPE html><html lang="en-US"><head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=Edge"/><meta name="robots" content="NOODP"><meta name="msvalidate.01" content="2738CE8494759B0AB88B2F5BE9F11E88" />
+<meta http-equiv="Cache-control" content="public">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T9W2RN5');</script>
+<!-- End Google Tag Manager -->
+
+<title>bottles.com home page, Plastic Bottles Glass Bottles & Jars - bottles.com Buy by the Case Wholesale 561-203-2779</title>
+
+<meta name="description" content="bottles.com home page, Plastic Bottles, Glass Bottles, Jars, Tins. Buy by the Case Online at Wholesale Prices Call ">
+   <meta name="keywords" content="CBD, cannabis, plastic bottles, bottles, glass bottles, jars, message in a bottle, wholesale plastic bottle, glass bottle, eliquid, ejuice,ecig,weed,bud,marijuana,tins, spice bottles, tin containers, ebottles, specialty bottles">
+
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+ <!--[if IE 9]>
+  <link rel="stylesheet" type="text/css" href="/css/ie9.css" />
+ <![endif]-->
+ <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+ <![endif]-->
+ <!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="/css/ie7.css" />
+ <![endif]-->
+<link rel="icon" type="image/png" href="images/favicon.ico"><link rel="apple-touch-icon" href="/images/appleicon.png">
+<link rel="stylesheet" href="index_videolb/videolightbox.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="index_videolb/overlay-minimal.css"/>
+
+<!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16458819939"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-16458819939');
+</script>
+
+<script>
+  gtag('config', 'AW-16458819939/F2G3CLTVga4ZEOPSlqg9', {
+    'phone_conversion_number': '561-203-2779'
+  });
+</script>
+
+
+
+<script src="index_videolb/jquery.js" type="text/javascript"></script>
+<script src="index_videolb/swfobject.js" type="text/javascript"></script>
+<script type="text/javascript" src="/topbar.js"></script>
+
+<!--<script>gtag('config', 'AW-1072697050/oe9yCMjRk5YBENqdwP8D', {'phone_conversion_number': '561-203-2779'  });</script>-->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9W2RN5"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<span id="logoflower"></span><div id="container"><div id="header"><div id="logo">
+<a href="/index-bottles-Y.htm" title="home"><img src="/images/bottles-com-logo.png" alt="Plastic Bottles Glass Bottles & Jars - bottles.com Buy by the Case Wholesale" /></a>
+</div><!--<div id="celebrating"><img src="/images/ebottles-celebrating-10-years-sm.png" alt="20 years selling bottles" /></div>-->
+<span id="contact"><h4 class="green">Call Us</h4><h2 class="blue"></h2>
+<h5>Mon-Fri 9-5 EST / Hablamos Español</h5><h4 class="lblue">- No Minimum Order -</h4>561-203-2779</span>
+<!--
+
+<span id="notimeleft";><div><br>Orders placed by<br> 12pm EST Mon - Fri<br>ship the same day.</div></span>            
+
+--><span id="socialmedialinks" ><g:plusone annotation="none"></g:plusone><a href="/socialmedia.htm" style="text-decoration:none" title="Social Media"><span id="pinterest"></span><span id="blog"></span><span id="twitter"></span><span id="facebook"></span></a></span><ul id="cartlogin">
+<li><a href="/redishoppingcart.htm" title="View Cart">View Cart <span id="cartimg"></span></a></li>
+
+<li><a href="/killcookie.htm" title="Sign Out">| Sign Out</a></li>
+</ul>
+<div id="navigation"><ul id="nav" style="font-family:Muli">
+<li>
+
+<span style="display:block;padding:10px;color:#fff;text-decoration:none;font-size:14px;text-transform:uppercase">Home</span>
+
+</li>
+<li ><a href="/showbottlefamilys-mat-all-type-2.htm" style="font-family:muli">BOTTLES<span class="expandarrow"></span></a>
+<ul><li><a href="/showbottlefamilys-mat-plastic_bottles-type-2.htm" title="Plastic Bottles" style="font-family:muli">Plastic Bottles</a></li>
+<li><a href="/showbottlefamilys-mat-glass_bottles-type-2.htm" title="Glass Bottles" style="font-family:muli">Glass Bottles</a></li>
+<li><a href="/showbottlefamilys-mat-metal_bottles-type-2.htm" title="ALUMINUM  Bottles" style="font-family:muli">Aluminum  Bottles</a></li>
+<li><a href="/allbottlesbysize.htm" title="Search for bottles by size" style="font-family:muli">Search by size</a></li>
+</ul></li><li><a href="/all_jars/all_jars-catid-1010-type-1.htm" title="All Jars" style="font-family:muli">JARS<span class="expandarrow"></span></a>
+<ul><li><a href="/plastic_jars/plastic_jars-catid-115-type-1.htm" title="Plastic Jars" style="font-family:muli">Plastic Jars</a></li>
+<li><a href="/glass_jars/glass_jars-catid-116-type-1.htm" title="Glass Jars" style="font-family:muli">Glass Jars</a></li>
+</ul></li>
+
+<li><a href="/bottlecaps-mat-closures-type-2.htm"  style="font-family:muli">CLOSURES<span class="expandarrow"></span></a><ul>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Screw Caps" style="font-family:muli">Screw Caps</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Sprayers and Pumps" style="font-family:muli">Sprayers and Pumps</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Dispensing Caps" style="font-family:muli">Dispensing Caps</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Child Resistant - PE LINED"style="font-family:muli">Child Resistant - PE LINED</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Child Resistant Closures for Concentrates - FOIL LINED" style="font-family:muli">Child Resistant Closures for Concentrates - FOIL LINED</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Child Resistant Closures for Concentrates - TEFLON LINED" style="font-family:muli">Child Resistant Closures for Concentrates - TEFLON LINED</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Child Resistant Closures - INDUCTION HEAT SEAL FOIL LINED" style="font-family:muli">Child Resistant Closures - INDUCTION HEAT SEAL FOIL LINED</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Child Resistant Closures - PRESSURE SENSITIVE INNER SEAL" style="font-family:muli">Child Resistant Closures - PRESSURE SENSITIVE INNER SEAL</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Child Resistant Closures - Special Lined Caps" style="font-family:muli">Child Resistant Closures - Special Lined Caps</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Droppers" style="font-family:muli">Droppers</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Beverage Bottle Closures" style="font-family:muli">Beverage Bottle Closures</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Message Bottle Supplies" style="font-family:muli">Message Bottle Supplies</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Fitments" style="font-family:muli">Fitments</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Misc" style="font-family:muli">PET Misc</a></li>
+
+<li><a href="https://www.bottles.com/bottlecaps-mat-closures-type-2.htm#Shrink Bands" style="font-family:muli">Shrink Bands</a></li>
+
+<li><a href="https://www.bottles.com/allcapsbysize.htm" style="font-family:muli">Search Caps by size</a></li>
+
+
+</ul></li>
+
+
+<li><a href="/faqs.htm" title="General FAQ" style="font-family:muli">FAQ<span class="expandarrow"></span></a>
+<ul><li><a href="/faqs.htm" title="General FAQ" style="font-family:muli">General FAQ</a></li>
+<li><a href="/ShippingPol.htm" title="Shipping Policy" style="font-family:muli">Shipping Policy</a></li>
+<li><a href="/faqs.htm#3" title="Return Policy" style="font-family:muli">Return Policy</a></li>
+<li><a href="/privacypol.htm" title="Privacy Policy" style="font-family:muli">Privacy Policy</a></li>
+<li><a href="/resins.htm" title="Plastic Bottle Materials" style="font-family:muli">Plastic Bottle Materials</a></li>
+<li><a href="/cap-size-guide.htm" title="Cap size chart" style="font-family:muli">Cap Size Guide</a></li>
+<li><a href="/measurementchart.htm" title="Metric Conversions" style="font-family:muli">Metric Conversions</a></li>
+<li><a href="/terms.htm" title="Terms and Conditions" style="font-family:muli">Terms and Conditions</a></li>
+<li><a href="/aboutus.htm" title="About Us" class="last" style="font-family:muli">About Us</a></li>
+</ul></li><li><a style="font-family:muli">Wholesale Pricing<span class="expandarrow"></span></a>
+<ul><li><a href="/Wholesale.htm" title="Wholesale Pricing" style="font-family:muli">Wholesale Pricing</a></li>
+<li><a href="/faqs.htm#8" title="Wholesale Pricing" style="font-family:muli">Volume Discounts</a></li>
+</ul></li><li><a href="/contactus.htm" title="Contact Us" style="font-family:muli">Contact Us</a></li></ul></div></div> <div id="content">
+<table cellspacing="0" cellpadding="0" width="100%" border="0"><tr><td valign="top">
+<div id="main"><br><h1 style="font-family: BNTimesGothic">Closing Sale - until 12/31<br />100% off All Bottles & Jars</h1><br>
+<h2>Enter 100OFF Promo Code at Checkout</h2>
+
+<span class="prodgroup">
+<div class="prodimg">
+<a href="/showbottlefamilys-catid-11-type-1.htm" title="Pharmaceutical/Nutraceutical Packaging"><img src="images/pharmaceutical-plastic-bottles-220x200.jpg" alt="Pharmaceutical/Nutraceutical Packaging" /></a>
+</div>
+<a href="/showbottlefamilys-catid-11-type-1.htm" title="Pharmaceutical/Nutraceutical Packaging">
+<div class="prodtitle">
+Pharmaceutical and <br>
+Child Resistant Jars </div>
+</a>
+</span>
+
+<span class="prodgroup"><div class="prodimg"><a href="/showbottlefamilys-catid-6-type-1.htm" title="Personal Care Plastic Bottles and Glass Bottles"><img src="images/cosmetic-plastic-bottles-220x200.jpg" alt="Personal Care Plastic Bottles and Glass Bottles" /></a></div>
+
+<a href="/showbottlefamilys-catid-6-type-1.htm" title="Personal Care Plastic Bottles and Glass Bottles"><div class="prodtitle">Personal Care Plastic Bottles and Glass Bottles</div></a></span>
+
+<span class="prodgroup"><div class="prodimg"><a href="/showbottlefamilys-catid-10-sale-Y-type-1.htm" title="Overstock Sale"><!--<img src="images/overstock-sale-330x300.jpg" width="220" alt="Overstock Sale" />--></a></div>
+ <!--<div class="prodtitle"><a href="/showbottlefamilys-catid-10-sale-Y-type-1.htm" title="Overstock Sale">Overstock Sale</a></div>--></span>
+
+<span class="prodgroup"><div class="prodimg"><a href="/Message_In_A_Bottle_invitations/Message_In_A_Bottle_invitations-catid-18-type-1.htm" title="Message in a Bottle"><img src="images/message-in-bottle-220x200.jpg" alt="Message in a Bottle" /></a></div><a href="/Message_In_A_Bottle_invitations/Message_In_A_Bottle_invitations-catid-18-type-1.htm" title="Message in a Bottle"><div class="prodtitle">Bottles with Corks<br>Message in a Bottle Package</div></a></span><span class="prodgroup"><div class="prodimg"><a href="/cbd_dropper_bottles/cbd_dropper_bottles-catid-122-type-1.htm" title="Tinctures"><img src="images/aroma-therapy-bottles-220x200.jpg" alt="CBD" /></a></div><a href="/cbd_dropper_bottles/cbd_dropper_bottles-catid-122-type-1.htm" title="Tinctures">
+<div class="prodtitle">Tinctures</div></a></span>
+
+<span class="prodgroup"><div class="prodimg"><a href="/showbottlefamilys-catid-1-type-1.htm" title="Food Glass Bottles Plastic Bottles and Jars"><img src="images/food-glass-bottles2-220x200.jpg" alt="Food Glass Bottles," /></a></div><a href="/showbottlefamilys-catid-1-type-1.htm" title="Food Glass Bottles Plastic Bottles and Jars"><div class="prodtitle">Food Glass Bottles,<br /> Plastic Bottles and Jars</div></a>
+
+</span><span class="prodgroup"><div class="prodimg"><a href="/showbottlefamilys-catid-16-type-1.htm" title="Fancy Imported Bottles"><img src="images/fancy-imported-glass-bottles-220x200.jpg" alt="Fancy Imported Bottles" /></a></div>
+
+<a href="/showbottlefamilys-catid-16-type-1.htm" title="Fancy Imported Bottles">
+<div class="prodtitle">Specialty<br />Glass Bottles</div></a>
+
+</span><span class="prodgroup"><div class="prodimg"><a href="/showbottlefamilys-catid-13-type-1.htm" title="Water Bottles"><img src="images/water-bottles-220x200.jpg" alt="Water Bottles" /></a></div><a href="/showbottlefamilys-catid-13-type-1.htm" title="Water Bottles">
+<div class="prodtitle">Beverage Bottles</div></a></span><span class="prodgroup"><div class="prodimg"><a href="/showbottlefamilys-catid-19-type-1.htm" title="Most Affordable Packaging"><img src="https://www.bottles.com/bottlefamilyimages/thumb/CYLINDER_ROUND_PLASTIC_BOTTLES_PET.jpg" alt="Lowest Priced Packaging" /></a></div><a href="/showbottlefamilys-catid-19-type-1.htm" title="Pharmaceutical Bottles">
+<div class="prodtitle">Most Affordable Packaging</div></a></span></div><span style="clear:both;"></span><div style=" padding-left:20px; padding-top:30px; padding-bottom:20px"></div></td><td valign="top"><div id="rightcol"><form name="form1" method="get" action="showbottles.htm"><b>Go To Item Code Number:</b><br /><input type="text" name="familyid" size="5" maxlength="5"><input type="submit" name="Submit" value="Submit"></form>					<div class="sectionbreaksm"></div><form name="form2" method="post" action="/trackstat.htm"><b>Track Your Order:</b><br /><div align="right" style="width:150px; font-size:12px; line-height:24px;">Invoice # <input type="text" name="invnum" size="6"><br />Zip Code <input type="text" name="shipzip" size="6"></div><input type="submit" name="Submit" value="Submit"></form>					<div class="sectionbreaksm"></div>
+
+<a href="/logmein-show-h.htm" title="Order History"><h4>Order History</h4></a>
+
+<div class="sectionbreaksm"></div><div id="dropcontentsubject"></div><div id="quotebox"> <div class="style2 dropcontent style10 style2" id="dropmsg0" subject=""><div id="quoteprod"><a href="https://www.bottles.com/showbottles.asp?bottle=1315&kw=SWING_TOP_FLASK_GLASS" title="Swing Top Flasks"><img src="/bottlefamilyimages/thumb/SWING_TOP_FLASK_GLASS_BOTTLES.jpg" width="155" border="0" /> </a></div><div id="quote">&#8220;Perfect size for limoncello.  Makes a very attractive presentation for gift giving.&#8221;&nbsp;</div> <div id="quotename">- Carolyn D.</div><div id="quoteprodname">Swing Top Flasks</div><div id="writequote"><a href="/reviewbottles.htm" title="Write a  review of our bottles">Write a Review</a> &ensp; <a href="/readallreviews.htm" title="read our bottle reviews">Read Reviews</a></div></div></div> <div id="quotebox"> <div class="style2 dropcontent style10 style2" id="dropmsg1" subject=""><div id="quoteprod"><a href="https://www.bottles.com/showbottles.asp?bottle=831&kw=SPICE_OBLONGS_PET_(size_in_fluid_ounces)" title="PET Spice Oblongs"><img src="/bottlefamilyimages/thumb/SPICE_OBLONGS_PET_BOTTLES.jpg" width="155" border="0" /> </a></div><div id="quote">&#8220;BEST PRICES !!! FAST SERVICE !!&#8221;&nbsp; </div><div id="quotename">- Don N.</div> <div id="quoteprodname">PET Spice Oblongs</div><div id="writequote"><a href="/reviewbottles.htm" title="Write a  review of our bottles">Write a Review</a> &ensp; <a href="/readallreviews.htm" title="read our bottle reviews">Read Reviews</a></div></div></div> <div id="quotebox"> <div class="style2 dropcontent style10 style2" id="dropmsg2" subject=""><div id="quoteprod"><a href="https://www.bottles.com/showbottles.asp?bottle=1422&kw=PHARMACEUTICAL_ROUND_JARS_HDPE" title="HDPE - PHARMACEUTICAL ROUND JARS"><img src="/bottlefamilyimages/thumb/PHARMACEUTICAL_ROUNDS_HDPE_BOTTLES.jpg" width="155" border="0" /></a></div><div id="quote">&#8220;Shipping was fast, the price was good and the product was excellent. Thanks a lot.&#8221;&nbsp;</div><div id="quotename">-  George S.</div> <div id="quoteprodname">HDPE - PHARMACEUTICAL ROUND JARS</div><div id="writequote"><a href="/reviewbottles.htm" title="Write a  review of our bottles">Write a Review</a> &ensp; <a href="/readallreviews.htm" title="read our bottle reviews">Read Reviews</a></div></div></div><div id="quotebox"> <div class="style2 dropcontent style10 style2" id="dropmsg3" subject=""><div id="quoteprod"><a href="https://www.bottles.com/showbottles.asp?bottle=1472&kw=GLASS_DROPPER_BOSTON_ROUNDS_AMBER" title="Mini Liquor Bottle"><img src="/bottlefamilyimages/thumb/Dopper-Bottles-Amber-sm.jpg" width="155" border="0" /> </a></div><div id="quote">&#8220;As always, good product, fast service!&#8221;&nbsp; </div><div id="quotename">- Loren H.</div> <div id="quoteprodname">Glass Dropper Boston Rounds Amber</div><div id="writequote"><a href="/reviewbottles.htm" title="Write a  review of our bottles">Write a Review</a> &ensp; <a href="/readallreviews.htm" title="read our bottle reviews">Read Reviews</a></div></div></div><div id="quotebox"> <div class="style2 dropcontent style10 style2" id="dropmsg4" subject=""><div id="quoteprod"><a href="https://www.bottles.com/showbottles.asp?bottle=1365&kw=MESSAGE_IN_A_BOTTLE_WITH_TAPERED_CORKS_GLASS" title="Glass Message Bottles"><img src="/bottlefamilyimages/thumb/MESSAGE_IN_A_BOTTLE_WITH_TAPERED_CORKS_GLASS.jpg" width="155" border="0" /> </a></div><div id="quote">&#8220;This company was absolutely trustworthy and not only delivered well ahead of time but kept me updated on the delivery process throughout.&#8221;&nbsp; </div> <div id="quotename">- Archie T.</div> <div id="quoteprodname">Glass Message Bottles</div><div id="writequote"><a href="/reviewbottles.htm" title="Write a  review of our bottles">Write a Review</a> &ensp; <a href="/readallreviews.htm" title="read our bottle reviews">Read Reviews</a>/div></div></div><div class="sectionbreaksm"></div><div id="guarantee">Our Guarantee<ul><li><a href="/Guarantee.htm" title="Premium Quality Products">Premium Quality Products</a></li><li><a href="/Guarantee.htm" title="Large Selection">Large Selection</a></li><li><a href="/Guarantee.htm" title="Volume Discounts">Volume Discounts</a></li><li><a href="/Guarantee.htm" title="No Minimums">No Minimums</a></li><li><a href="/Guarantee.htm" title="Low Price Guarantee">Low Price Guarantee</a></li><br></ul><div class="sectionbreaksm"></div></div></td></tr></table><div style=""><br><center><a href="http://www.resellerratings.com/store/ebottles_com" target="_new"><img src="images/reviewstrusted.jpg"></a><br></center></div><div id="subfooter"><div id="subfooterNav"><ul><li>Shop By Categories<ul><li><a href="/showbottlefamilys-mat-glass_bottles-type-2.htm" title="Glass Bottles">Glass Bottles</a></li><li><a href="/showbottlefamilys-mat-plastic_bottles-type-2.htm" title="Plastic Bottles">Plastic Bottles</a></li><li><a href="/showbottlefamilys-mat-metal_bottles-type-2.htm" title="Metal">Metal</a></li><li><a href="/showbottlefamilys-mat-closures-type-2.htm" title="Closures">Closures</a></li><li><a href="/plastic_jars/plastic_jars-catid-115-type-1.htm" title="Plastic Jars">Plastic Jars</a></li><li><a href="/glass_jars/glass_jars-catid-116-type-1.htm" title="Glass Jars">Glass Jars</a></li><li><a href="/canning_jars/canning_jars-catid-20-type-1.htm" title="canning Jars">Canning Jars</a></li><li><a href="/all_jars/all_jars-catid-1010-type-1.htm" title="All Jars">All Jars</a></li><li><a href="/SampleSizeBottlesandJars.htm" title="Sample Size Bottles and Jars">Sample Size Bottles and Jars </a></li><li><a href="#" title="Shipping Supplies">Shipping Supplies</a><br><br></li></ul></li><li>Shop By Item<ul><li><a href="/eLiquid_dropper_bottles/eLiquid_dropper_bottles-catid-122-type-1.htm" title="eLiquid dropper bottles">eLiquid Dropper Bottles</a></li><li><a href="/Spice_Jars/Spice_Jars-catid-100-type-1.htm" title="Spice Jars">Spice Jars</a></li><li><a href="/Water_Bottles/Water_Bottles-catid-101-type-1.htm" title="Water Bottles">Water Bottles</a></li><li><a href="/BBQ_Sauce_Bottles/BBQ_Sauce_Bottles-catid-102-type-1.htm" title="BBQ Sauce Bottles">BBQ Sauce Bottles</a></li><li><a href="/Salad_dressing_bottles/Salad_dressing_bottles-catid-105-type-1.htm" title="Salad Dressing Bottles">Salad Dressing Bottles</a></li><li><a href="/Swing_Top_Wire_Bail_Bottles/Swing_Top_Wire_Bail_Bottles-catid-103-type-1.htm" title="Swing Top Wire Bail Bottles">Swing Top Wire Bail Bottles</a></li><li><a href="/Essential_Oil_Bottles/Essential_Oil_Bottles-catid-118-type-1.htm" title="Essential Oil Bottles">Essential Oil Bottles</a> </li><li><a href="/Olive_Oil_Bottles/Olive_Oil_Bottles-catid-108-type-1.htm" title="Olive Oil Bottles">Olive Oil Bottles</a></li><li><a href="/Limoncello_Bottles/Limoncello_Bottles-catid-109-type-1.htm" title="Limoncello Bottles">Limoncello Bottles</a></li><li><a href="/Lip_Balm_Tubes/Lip_Balm_Tubes-catid-104-type-1.htm" title="Lip Balm Tubes">Lip Balm Tubes</a></li><li><a href="/Bulk_Bottles/Bulk_Bottles-catid-107-type-1.htm" title="Bulk Bottles">Bulk Bottles</a></li><li><a href="/Storage_Containers/Storage_Containers-catid-106-type-1.htm" title="Storage Containers">Storage Containers</a></li><li><a href="/Supplement_Bottles_and_Pill_Bottles/Supplement_Bottles_and_Pill_Bottles-catid-117-type-1.htm" title="Supplement Bottles and Pill Bottles">Supplement and Pill Bottles</a></li><li><a href="/showbottlefamilys-catid-9-type-1.htm" title="New Bottles">New Items</a></li></ul></li><li>Frequently Asked Questions<ul><li><a href="/faqs.htm" title="General FAQ">General FAQ</a></li><li><a href="/ShippingPol.htm" title="Shipping Policy">Shipping Policy</a></li><li><a href="/faqs.htm#3" title="Return Policy">Return Policy</a></li><li><a href="/resins.htm" title="Plastic Bottle Materials">Plastic Bottle Materials</a></li><li><a href="/measurementchart.htm" title="Metric Conversions">Metric Conversions</a></li><li><a href="/aboutus.htm" class="last" title="About Us">About Us</a></li></ul></li><li class="subfooterNavSpace">&nbsp;</li><li>Knowledge Center<ul><li><a href="/showbottlefamilys-mat-closures-type-2.htm#liners" title="Closure Liners Explained">Closure Liners Explained</a></li><li><a href="/resins.htm" title="Plastic Bottle Materials Explained">Plastic Bottle Materials Explained</a></li><li><a href="/articles/tamprec.htm" title="Tamper Resistant Packaging Requirements">Tamper Resistant Packaging Requirements</a></li><li><a href="/articles/childres.htm" title="Child Resistant Packaging Regulations">Child Resistant Packaging Regulations</a></li><li><a href="/articles/bottlesafety.htm" title="Plastic Bottles and Safety">Plastic Bottles and Safety</a></li><li><a href="/FoodLabelingGuide.pdf" title="Food Labeling Guide" target="_new">Food Labeling Guide</a></li><li><a href="http://nchfp.uga.edu/publications/publications_usda.html" target="_new">Complete Guide to Home Canning</a></li><li><a href="/eliquid.htm">eLiquid Packaging Regulations</a><br><a href="/Child_Resistant_Requirement_for_Retail_Marijuana_packaging.htm">Retail Marijuana Packaging Regulations</a></li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></ul></li></ul></div></div> 
+</div></div><div id="footercontainer"><div id="footer"><div class="col1"><a href="https://www.ebottles.com" title="Home"><h4>Home</h4></a><a href="/faqs.htm#8" title="Volume Discounts"><h4>Volume Discounts</h4></a><a href="/custprodbottles.htm" title="Our Customers"><h4>Our Customers</h4></a><ul><li><h4>Contact Us</h4><ul><li><a href="/contactus.htm" title="Contact Info">Contact Info</a></li><li><a href="/forms/feedback.htm" title="Feedback">Feedback</a></li><li><a href="/forms/feedback.htm" title="Help">Help</a></li><li><a href="/aboutus.htm" title="About Us">About Us</a></li></ul></li></ul></div><div class="col2"><ul><li><h4>Materials</h4><ul><li><a href="/showbottlefamilys-mat-glass_bottles-type-2.htm" title="Plastic Bottles">Plastic Bottles</a></li><li><a href="/showbottlefamilys-mat-glass_bottles-type-2.htm" title="Glass Bottles">Glass Bottles</a></li><li><a href="/plastic_jars/plastic_jars-catid-115-type-1.htm" title="Plastic Jars">Plastic Jars</a></li><li><a href="/glass_jars/glass_jars-catid-116-type-1.htm" title="Glass Jars">Glass Jars</a></li><li><a href="/all_jars/all_jars-catid-1010-type-1.htm" title="All Jars">All Jars</a></li><li><a href="/showbottlefamilys-mat-metal_bottles-type-2.htm" title="Metal Containers">Metal Containers</a></li><li><a href="/bottlecaps-mat-closures-type-2.htm" title="Closures">Closures</a></li></ul></li></ul><ul><li><h4>Reviews</h4><ul><li><a href="/reviewbottles.htm" title="Write a Review">Write a Review</a></li><li><a href="/readallreviews.htm" title="Read Reviews">Read Reviews<br /></a></ul><ul></ul></li></ul></div><div class="col2"><ul><li><h4>Other Containers</h4><ul><li><a href="/Spice_Jars/Spice_Jars-catid-100-type-1.htm" title="Spice Jars">Spice Jars</a></li><li><a href="/Water_Bottles/Water_Bottles-catid-101-type-1.htm" title="Water Bottles">Water Bottles</a></li><li><a href="/BBQ_Sauce_Bottles/BBQ_Sauce_Bottles-catid-102-type-1.htm" title="BBQ Sauce Bottles">BBQ Sauce Bottles</a></li><li><a href="/Olive_Oil_Bottles/Olive_Oil_Bottles-catid-108-type-1.htm" title="Olive Oil Bottles">Olive Oil Bottles</a></li><li><a href="/Holy_Water_Bottles/Holy_Water_Bottles-catid-119-type-1.htm" title="Olive Oil Bottles">Holy Water Bottles</a></li><li><a href="/Limoncello_Bottles/Limoncello_Bottles-catid-109-type-1.htm" title="Limoncello Bottles">Limoncello Bottles</a></li><li><a href="/Salad_dressing_bottles/Salad_dressing_bottles-catid-105-type-1.htm" title="Salad Dressing Bottles">Salad Dressing Bottles</a></li><li><a href="/Swing_Top_Wire_Bail_Bottles/Swing_Top_Wire_Bail_Bottles-catid-103-type-1.htm" title="Swing Top Wire Bail Bottles">Swing Top Wire Bail Bottles</a></li><li><a href="/Essential_Oil_Bottles/Essential_Oil_Bottles-catid-118-type-1.htm" title="Essential Oil Bottles">Essential Oil Bottles</a></li></li><li><a href="/Supplement_Bottles_and_Pill_Bottles/Supplement_Bottles_and_Pill_Bottles-catid-117-type-1.htm" title="Supplement Bottles and Pill Bottles">Supplement and Pill Bottles</a></li><li><a href="/Bulk_Bottles/Bulk_Bottles-catid-107-type-1.htm"title="Bulk Bottles">Bulk Bottles</a></li><li><a href="/Storage_Containers/Storage_Containers-catid-106-type-1.htm" title="Storage Containers">Storage Containers</a></li><li><a href="/Flasks/Flasks-catid-130-type-1.htm" title="Flasks">Flasks</a><br /></li><li><a title="eLiquid dropper bottles" href="https://www.ebottles.com/eLiquid_dropper_bottles/eLiquid_dropper_bottles-catid-122-type-1.htm">eLiquid Dropper Bottles</a></li><li><a href="/showbottlefamilys-catid-9-type-1.htm" title="New Items">New Items</a></li></ul><h4>Frequently Asked Questions</h4><ul><li><a href="/faqs.htm" title="General FAQ">General FAQ</a></li><li><a href="/ShippingPol.htm" title="Shipping Policy">Shipping Policy</a></li><li><a href="/faqs.htm#3" title="Return Policy">Return Policy</a></li><li><a href="/resins.htm" title="Plastic Bottle Materials">Plastic Bottle Materials</a></li><li><a href="/glass_materials.htm" title="Glass Bottle Materials">Glass Bottle Materials</a></li><li><a href="/measurementchart.htm" title="Metric Conversions">Metric Conversions</a></li><li><a href="/sitemap.htm" class="last" title="Site Map">Site Map</a></li><li><a href="/patent.htm">Patents</a></li><li><a href="/aboutus.htm" class="last" title="About Us">About Us</a></li><li><a href="/careers.htm" class="last" title="careers">Careers</a></li><li><a href="/salesrep.htm" class="last" title="Be A Sales Rep">Be A Sales Rep</a></li></ul></li></ul><ul><li></li></ul></div><div class="col1"><ul><li><h4>Our Guarantee</h4><ul><li><a href="/Guarantee.htm" title="Premium Quality Products">Premium Quality Products</a></li><li><a href="/Guarantee.htm" title="Next Day Shipping">Next Day Shipping</a></li><li><a href="/Guarantee.htm" title="Large Selection">Large Selection</a></li><li><a href="/Guarantee.htm" title="Volume Discounts">Volume Discounts</a></li><li><a href="/Guarantee.htm" title="No Minimums">No Minimums</a></li><li><a href="/Guarantee.htm" title="Low Price Guarantee">Low Price Guarantee</a></li></ul></li></ul><ul><li><h4>Plastic Bottle Materials</h4><ul><li><a href="/HDPE_Bottles/HDPE_Bottles-catid-111-type-1.htm" title="HDPE Bottles">HDPE Bottles</a></li><li><a href="/PET_Bottles/PET_Bottles-catid-110-type-1.htm" title="PET Bottles">PET Bottles</a></li><li><a href="/Polypropylene_Jars/Polypropylene_Jars-catid-112-type-1.htm" title="Polypropylene Jars">Polypropylene Jars</a></li><li><a href="/Polystyrene_Jars/Polystyrene_Jars-catid-113-type-1.htm" title="Polystyrene Jars">Polystyrene Jars</a></li><li><a href="/Aluminum_Bottles/Aluminum_Bottles-catid-114-type-1.htm" title="Aluminum Bottles">Aluminum Bottles</a></li><br /><br /><a href="/allbottlesbysize.htm" title="Search for bottles by size">Search by size</a><br /><a href="/allcapsbysize.htm" title="Search for caps by size">Search Caps by size</a><br /><a href="/bottlesbystate.htm" title="our mot popular bottles by state">Bottles by State</a></ul></li></ul><br /><br /><br /></div><div ><span></li></ul><br /><a href="https://www.trustpilot.com/review/ebottles.com" title="See reviews on trustpilot.com"><img src="/images/readreviews.png" width="124" /></a><br /><div align="right" style=" padding-right:25px"><a href="https://www.resellerratings.com" onclick="window.open('https://seals.resellerratings.com/landing.php?seller=162903','name','height=760,width=780,scrollbars=1'); return false;"><img style='border:none;' src='//seals.resellerratings.com/seal.php?seller=162903' oncontextmenu="alert('Copying Prohibited by Law - ResellerRatings seal is a Trademark of All Enthusiast, Inc.'); return false;" /></a></div><br /></span><span style="float:right">Corporate Office eBottles.com<br />4286 West Main St, <br />Jupiter, FL 33458.<br /> Phone: 561-203-2779</span><div align="left" style=" padding-top:40px"><br />Copyright &copy; 2024 eBottles.com, Inc. All rights reserved.<br />
+EBOTTLES.COM is a registered trademark of Lerman Container Corporation<br />Last updated on Monday, December 2, 2024</div><div align="left" style=" height:20px"></div></div>
+	
+</body></html>
