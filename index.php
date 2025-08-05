@@ -723,3 +723,24 @@ if (preg_match('/^account_info/', $callback_data)) {
         ]);
     }
 }
+
+// Cargar dinámicamente archivos de Tools cuando sea necesario
+if (isset($message) && !empty($message)) {
+    foreach (glob("Tools/*.php") as $filename) {
+        require_once $filename;
+    }
+}
+
+// Cargar dinámicamente archivos de Gates cuando sea necesario
+if (isset($callback_data) && !empty($callback_data)) {
+    foreach (glob("Gates/*.php") as $filename) {
+        require_once $filename;
+    }
+}
+
+// Cargar dinámicamente archivos de Admins cuando sea necesario
+if (isset($callback_data) && !empty($callback_data)) {
+    foreach (glob("Admins/*.php") as $filename) {
+        require_once $filename;
+    }
+}
